@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-048
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-048
+Display Name    : PT-048
+Age             : 63 years
+Gender          : Male
+Date of Study   : 22-Jul-2025
+Hospital No     : [REDACTED]
+Account         : TSP-TCN
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are multi-focal sub-centimeter areas of T1 hypo-intense and T2-FLAIR hyperintense sub- centimeter lesions seen within the pons, both thalami and lentiform nucleus, peri-ventricular and deep parietal white matter bilaterally. The lesion shows restriction on DWI. The largest in the right thalamus measures 7.2mm x 7.8mm in axial dimensions. No significant mass effect seen. 2. There is generalized reduction in the volume of the gyri and widening of the sulci with ex-vacuo dilatation of the lateral ventricles and peri-ventricular sippage noted. 3. The remaining cerebral and cerebellar hemisphere are within normal limits. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6.There is mild collection seen within the right maxillary sinus and ethmoidal air cells mucosal thickening noted. There is also engorgement of the nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Multifocal lacunar infarcts involving the pons, both thalami and lentiform nucleus, peri- ventricular and deep parietal white matter on background brain atrophy -Chronic rhino-sinusitis BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

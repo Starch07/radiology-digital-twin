@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-041
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-041
+Display Name    : PT-041
+Age             : 44 years
+Gender          : Female
+Date of Study   : 29-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. The cerebral and cerebellar hemisphere are within normal limits. 2. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 3. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 4. There is engorgement of the inferior nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal brain study (No intra-cranial lesion seen) - Bilateral rhinitis DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

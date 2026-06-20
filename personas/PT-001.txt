@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-001
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-001
+Display Name    : PT-001
+Age             : Not specified
+Gender          : Male
+Date of Study   : 09-May-2025
+Hospital No     : [REDACTED]
+Account         : Not specified
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+Subtle non-enhancing T2/FLAIR hyperintense foci are noted in the deep subcortical white matter regions of both frontal lobes and mildly extending towards the parietal lobes. The remaining cerebral hemispheres are normal in morphology and signal intensities, with normal grey/white matter differentiation. No extra axial lesions are seen. Midline symmetry is maintained The lateral and 3rd ventricles are not dilated. Nil intraventricular lesions seen The cerebellar hemispheres and brain stem are normal in morphology and signal intensity. Nil lesions seen in the cerebellopontine angle. The 4th ventricle and CSF cisterns appear within normal limits. The vascular system demonstrates normal flow void without any demonstrable vascular lesions. The pituitary gland, orbital contents, paranasal sinuses and mastoid air cells show normal appearance. Inferior nasal turbinates are engorged suggestive of allergic rhinitis. There are no abnormalities in the calvarium
+
+[ RADIOLOGICAL IMPRESSION ]
+White matter T2/FLAIR hyperintense foci consistent with early cerebral microangiopathy (Fazekas Grade 1)
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

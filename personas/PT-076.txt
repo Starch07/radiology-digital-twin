@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-076
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-076
+Display Name    : PT-076
+Age             : 44 years
+Gender          : Male
+Date of Study   : 29-May-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is 4.5mm and 8.3mm thick curvilinear extra-axial lesion overlying both frontal, pareietal and occipital lobes. Theselesions are hypointense on T1 and hyperintense on T2. there is significant effecement of the cerebral sulci and effacement of the fourth ventricle with herniation of the cerebellar tonsil through the foramen magnum by about 6mm. The cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The basal cisterns have normal calibre and outline. The orbital structures and the paranasal sinuses are normal. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+bilateral fronto-parietal-occipital subdural fluid collection with mass effect and herniation of the cerebellar tonsil (coning) DR LAWAL L Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

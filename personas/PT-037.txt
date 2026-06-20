@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-037
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-037
+Display Name    : PT-037
+Age             : 6 years
+Gender          : Female
+Date of Study   : 23-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : ADENOIDS (POSTNASAL SPACE) XRAY
+
+[ IMAGING FINDINGS ]
+See original report.
+
+[ RADIOLOGICAL IMPRESSION ]
+Adenoidal hypertrophy Dr BALA I. Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

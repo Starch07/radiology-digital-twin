@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-065
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-065
+Display Name    : PT-065
+Age             : 57 years
+Gender          : Female
+Date of Study   : 19-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is a focal area of T1W hypointense area in the right ocipital lobe close to the midline and brilioanty enhanced following iv contrast administration.It measxure 2.69cm x 2.59cm i cross section. The remaining part of the ceebral hemispheres are normal in morphology and siignal intensity. 2. The cerebellar hemisphere are within normal limits. 3. The brainstem, ventricles and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 4. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. s. The paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Features are in keeping with Parafalcine meniogioma. Dr Afiku C. A. Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : NORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

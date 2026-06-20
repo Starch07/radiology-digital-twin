@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-034
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-034
+Display Name    : PT-034
+Age             : 78 years
+Gender          : Female
+Date of Study   : 05-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI CERVICAL SPINE (C-SPNE)
+
+[ IMAGING FINDINGS ]
+There is straightening of the normal cervical curvature. The cranio-cervical and cervico-medullary junctions are preserved. There is relative reduction in heights of C5, C6 and C7 vertebral bodies. End plate irregularity and MODIC II changes noted at C6/7. Nil sinister marrow signal changes observed. There are anterior and lateral osteophytes seen on C3 - C7. Nil paravertebral collection seen. There is reduction in the normal signal intensity on T2W sequence of all the cervical disc elements in keeping with degenerative disc disease. C2/3: Normal disc heights. Nil herniation. Exit foramen are patent. C3/4, C4/5, C5/6, C6/7 and C7/T1: Disc heights are reduced. Posterior disc bulges are noted with resultant thecal sac impingements. Bilateral exit foraminal narrowing noted with exit nerve root impingements. Early degenerative changes of the corresponding facet joints also noted. Mild anterior disc bulges also noted at this levels. Cervical cord is normal in calibre and signal intensity. Ligamentum flavum hypertrophy also noted at C3 to C7. Nil significant spinal canal stenosis. Para and prevertebral tissues are preserved
+
+[ RADIOLOGICAL IMPRESSION ]
+Cervical spondylodegenerative disease with multilevel disc protrusions and exit nerve root impingements. Dr Eric P. T. Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

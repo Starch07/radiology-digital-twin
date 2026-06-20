@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-026
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-026
+Display Name    : PT-026
+Age             : 66 years
+Gender          : Male
+Date of Study   : 17-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is generalized prominence of the cerebral sulci, ventricles, sylvian fissures and other basal cisterns. Persistent cavum septum pellucidum et vergae noted. Mild peri-ventricular CSF seepage also noted. Subtle FLAIR/T2 hyper-intense foci seen in the periventricular regions bilaterally; predominantly in the fronto-parietal regions. Prominent peri-vascular spaces noted in both frontal lobes extending towards the basal ganglia. The pituitary gland, cerebellum and brain stem have normal morphology and signal intensities. No extra-axial mass or collection seen. Mid-line symmetry is maintained. Mucosal thickening of the ethmoidal and maxillary sinuses noted with bilateral engorgement of nasal turbinates. The orbital structures and remaining paranasal sinuses are normal. Outlined intracranial arteries are within normal limits.
+
+[ RADIOLOGICAL IMPRESSION ]
+Cerebral atrophy -Incipient cerebral microangiopathy (Fazekas grade 1) -Background rhinosinusitis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

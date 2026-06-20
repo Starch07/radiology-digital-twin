@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-028
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-028
+Display Name    : PT-028
+Age             : 32 years
+Gender          : Male
+Date of Study   : 12-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are subcentimeter T1 hypointense and T2/FLAIR hyperintense lesion seen within the lateral segments of the thalamus bilaterally. These lesions show restricted diffusion on DWI shows reduced intensity on ADC. 2. There is also similar but diffuse non-enhancing T1 hypointense and T2/FLAIR hyperintense signal changes seen involving the deep parietal white matter symmetrically and bilaterally. These regions also show restricted diffusion on DWI and reduced intensity on ADC. No associated intra- parenchymal mass seen. 3. The remaining cerebral and cerebellar hemisphere are within normal limits. No meningeal thickening, mass or abnormal enhancement noted. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. The Sella and Para-Sella structures are preserved. 7. There is engorgement of the nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Bilateral symmetrical lesions in the lateral thalami and deep parietal white matter restricted diffusion with corresponding ADC hypointensity, indicating true restricted diffusion. No mass, hemorrhage, or abnormal enhancement is seen. Conclusion: Imaging features suggest acute or subacute cytotoxic injury, most likely due to Paraneoplastic encephalopathy (given the known history of colon cancer). Differentials: - Toxic-metabolic encephalopathy. - Less likely ischemia due to symmetric distribution. BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

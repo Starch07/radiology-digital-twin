@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-057
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-057
+Display Name    : PT-057
+Age             : 72 years
+Gender          : Male
+Date of Study   : 30-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There are multi-focal sub-centimeter areas of T1 hypointense and T2-FLAIR hyperintense small lesions seen involving the periventricular and deep parietal white matter bilaterally. There is generalized mild reduction in the volume of the gyri and widening of the sulci with associated ex- vacuo-dilatation of the lateral ventricles and mild periventricular sippage noted. The remaining cerebral and cerebellar hemisphere are within normal limits. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. There is engorgement of the inferior nasal turbinates in keeping with rhinitis. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Features are those of bilateral periventricular and deep parietal white matter changes in keeping with chronic small vessel ischemic disease on background mild cerebral atrophy. DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

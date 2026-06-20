@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-081
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-081
+Display Name    : PT-081
+Age             : 50 years
+Gender          : Female
+Date of Study   : 15-May-2025
+Hospital No     : [REDACTED]
+Account         : TRANSCORP HILTON
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is a fairly well defined lobulated avidly enhancing extra-axial mass lesion seen in the right cerebello-pontine angle with intracannicular extension giving the ice-cream on cone appearance. It appears predominantly isointense on T1 and hyper intense T2/FLAIR sequences. No intralesional signal voids to suggest calcification. It measures about 1.7cm x 1.5cm x 1.6cm in AP, transverse and cranio- caudal dimensions respectively. No significant widening of the right internal auditory meatus. The left cerebellopontine angle is preserved. There is promience of the cerebral sulci, ventricular system, sylvian fissue and the basal cisterns in keeping with cerebral atrophy. The cerebellum and brain stem have normal morphology and signal intensities. The orbital structures and the paranasal sinuses are normal. Engorgement of the inferior nasal turbinates noted suggestive of allergic rhinitis. The outlined intracranial arteries are normal Background degenerative changes of the visualized cervical spine incidentally noted.
+
+[ RADIOLOGICAL IMPRESSION ]
+Right cerebello-pontine angle mass lesion likely Acoustic schwannoma with background cerebral atrophy Differentials. Meningioma DR LAWAL Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-019
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-019
+Display Name    : PT-019
+Age             : 48 years
+Gender          : Male
+Date of Study   : 26-Aug-2025
+Hospital No     : [REDACTED]
+Account         : United Health Care
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is a wedge-shaped lesion involving the left parietal cortex and subcortical white matter, measuring approximately 3.64 cm × 3.05 cm. The lesion is hypointense on T1-weighted images and hyperintense on T2/FLAIR sequences, with evidence of restricted diffusion on DWI and corresponding hypointensity on ADC, consistent with an acute infarct. 2. Multiple small, T1 isointense and T2/FLAIR hyperintense lesions are noted in the deep parietal white matter bilaterally. These lesions also demonstrate restricted diffusion, suggestive of acute or subacute ischemic changes. No significant mass effect is observed. 3. The remaining cerebral and cerebellar hemispheres appear within normal limits. 4. The brainstem and basal cisterns maintain normal outline and signal intensity, with no evidence of dural collection. 5. The globes, extra-ocular muscles, optic nerves, and extra-conal structures are all unremarkable. 6. There is mucosal engorgement of the inferior nasal turbinate's in keeping with rhinitis. The remaining nasal cavity and paranasal sinuses appear normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+Acute infarct in the left parietal cortex and subcortical white matter. - Bilateral deep parietal white matter chronic small vessel ischemic changes - Incidental bilateral rhinitis DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

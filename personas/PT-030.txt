@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-030
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-030
+Display Name    : PT-030
+Age             : 78 years
+Gender          : Male
+Date of Study   : 09-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is generalized prominence of the cerebral and cerebellar cortical sulci and gyri, sylvian fissures and basal cisterns with reduction in volume of the brain mantle. Resultant mild-to-moderate dilatation of both lateral, third and fourth ventricles are noted. Mild transependymal seepage of CSF noted. No intracranial mass lesion seen or collection seen. The orbital structures are preserved. Mucosal thickening of the ethmoidal sinuses noted with engorged nasal turbinates suggestive of background rhinosinusitis. Pituitary gland and remaining paranasal sinuses are grossly preserved. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+MRI features of Brain atrophy (likely Senile)
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

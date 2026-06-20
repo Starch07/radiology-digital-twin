@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-036
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-036
+Display Name    : PT-036
+Age             : 69 years
+Gender          : Male
+Date of Study   : 01-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are multi-focal areas of T1 isointense and T2-FLAIR hyperintense lesions seen within the deep parietal white matter. The largest measure 1.2cm x 1.6cm in dimension. The lesions show restriction on DWI. There are also widespread prominent perivascular spaces seen involving the cerebellum, periventricular and deep parietal white matter. 2. There is generalized reduction in the volume of the gyri and widening of the sulci with ex-vacuo dilatation of the lateral and third ventricles and marked peri-ventricular seepage noted. No intra- ventricular mass noted. 3. The remaining cerebral and cerebellar hemisphere are within normal limits. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. There is mucosal thickening of the ethmoidal sinuses with engorgement of the inferior nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Multifocal deep white matter lesions with diffusion restriction are suggestive of either ischemic infarcts or a demyelinating process, seen in the background of chronic small vessel ischemic changes. - Generalized severe cerebral atrophy with ex-vacuo dilatation of the ventricles and marked periventricular seepage. - Bilateral rhino-sinusitis BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

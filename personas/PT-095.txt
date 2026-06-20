@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-095
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-095
+Display Name    : PT-095
+Age             : 49 years
+Gender          : Female
+Date of Study   : 15-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is a large multilobulated extra-axial mass seen in the right frontal lobe and crossing the mid-line to the left. It appears isointense on T1, heterogeneously hyperintense on T2 with brilliant enhancement post contrast. Subtle intralesional cystic areas noted with prominent intralesional vascular flow voids. It measures about 7.3 x 7.4 x 5.4cm (AP x T x CC). It is closely abutting the adjacent dura in the floor and convex margin with a focal erosion of the frontal calvarium at the midline. There is compression of the adjacent brain parenchyma with perilesional edema and midline shift to the left. Generalized effacement of the cerebral sulci, basal cisterns and frontal horns of both lateral centricles noted due to mass effect. The cerebellum, brain stem and remaining ventricles have normal morphology and signal intensities. Mucosal thickening and collections noted in the ethmoidal sinuses with engorged nasal turbinates indicative of background rhinosinusitis. The orbital structures and the remaining paranasal sinuses are normal. The outlined intracranial arteries are normal in calibre with deviation of the anterior cerebral arteries to the left due to mass effect.
+
+[ RADIOLOGICAL IMPRESSION ]
+Findings most consistent with a large right frontal meningioma with associated mass effect
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

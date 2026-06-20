@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-018
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-018
+Display Name    : PT-018
+Age             : 28 years
+Gender          : Female
+Date of Study   : 26-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. The pituitary gland is normal in size and outline, measuring 9.96 mm in AP diameter. The gland enhances homogeneously following contrast administration, with no evidence of focal nodularity, mass lesion, or abnormal hypo-/hyperenhancing area. 2. The pituitary stalk is midline, normal in thickness, and enhances normally. 3. The optic chiasm and optic nerves appear normal in morphology and signal intensity, with no compression or displacement. 4. The cavernous sinuses are symmetric with normal flow voids; no abnormal enhancing lesion is seen. 5. The hypothalamus and suprasellar cistern are preserved; no mass lesion identified. 6. The rest of the brain parenchyma demonstrates normal signal intensity on T1, T2, FLAIR, and DWI sequences, with no evidence of mass, hemorrhage, infarct, or demyelination. 7. The ventricles, sulci, and basal cisterns are normal in size and configuration; no midline shift or extra-axial collection is seen. 8. The posterior fossa structures (cerebellum, brainstem) are normal. 9. There is engorgement of the nasal turbinates in keeping with rhinitis. The remaining visualized paranasal sinuses and mastoid air cells are clear.
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal brain MRI with pituitary gland measuring 9.96 mm in AP diameter, showing homogeneous contrast enhancement and no focal lesion. DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

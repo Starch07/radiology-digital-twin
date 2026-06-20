@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-066
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-066
+Display Name    : PT-066
+Age             : 40 years
+Gender          : Male
+Date of Study   : 18-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is a wedge shaped T1 hypointense and T2 hyperintense lesion seen within the right parietal white matter measuring 1.8cm x 5.7cm in dimension. The lesion shows restricted diffusion on DWI and is hyperintense of ADC. There are also multi-focal T2/Flair hyperintense lesions seen within the frontal white matter, both external capsule, left internal capsule, both cerebellum and periventricular and deep parietal white matter. They also restrict on DWI. No enhancing component is seen on contrast administration There is generalized prominence of the cerebral cortical sulci and gyri with excovacuo dilatation of the ventricles and peri-ventricular sippage noted. The remaining brain stem and cerebellum have normal morphology and intensity. No intracranial mass lesion seen or collection seen. The orbital structures and the paranasal sinuses are normal. Inferior nasal turbinates are engorged bilaterally suggestive of allergic rhinitis. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Large subacute right parietal infarct with co-existing multifocal cerebral, basal ganglia and cerebellar lacunar infarcts on background severe brain atrophy
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

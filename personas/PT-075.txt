@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-075
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-075
+Display Name    : PT-075
+Age             : 27 years
+Gender          : Female
+Date of Study   : 29-May-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The orbital structures are normal. There is a T1 isointense and T2 hyperintense left maxillary polyp seen 1.6cm x 1.3cm in axial dimension. There is also engorgement of the nasal turbinates bilaterally. The remaining paranasal sinuses are unremarkable. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal Brain MRI - Left maxillary polyp with co-existing bilateral rhinitis DR BALA I. Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

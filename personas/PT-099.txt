@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-099
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-099
+Display Name    : PT-099
+Age             : 62 years
+Gender          : Female
+Date of Study   : 06-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The demonstrated cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial space occupying lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The orbital structures and the paranasal sinuses are normal. The outlined intracranial arteries are also normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal study
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

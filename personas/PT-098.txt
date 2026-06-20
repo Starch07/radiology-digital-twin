@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-098
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-098
+Display Name    : PT-098
+Age             : 52 years
+Gender          : Female
+Date of Study   : 09-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is widening of the sphenoid sinus without internal soft tissue mass, measuring approximately 2.96 cm × 2.94 cm, extending into the left sphenopalatine region, with no involvement of the pterygoid muscles. 2. A mildly enhancing, T1 isointense and T2 heterogeneous soft tissue mass is noted within the posterior ethmoidal sinus, measuring approximately 1.45 cm × 1.09 cm, without evidence of adjacent bony erosion or destruction. There is mucosal engorgement of the nasal turbinate's. 3. The brain parenchyma demonstrates normal signal characteristics, with no abnormal areas of signal intensity, restricted diffusion, or pathologic contrast enhancement. 4. The ventricular system is normal in size and morphology, with no evidence of hydrocephalus, mass effect, or midline shift. 5. The sulci, basal cisterns, and subarachnoid spaces are preserved and age-appropriate. 6. The corpus callosum, brainstem, and cerebellum are structurally intact, and the visualized intracranial vasculature shows no signs of aneurysm, thrombosis, or vascular malformation.
+
+[ RADIOLOGICAL IMPRESSION ]
+Expansile widening of the sphenoid sinus without internal mass or bony destruction, extending into the left sphenopalatine region, likely secondary to previous chronic obstruction or post-surgical changes. -Mildly enhancing soft tissue lesion within the posterior ethmoidal sinus, without associated bony changes, is suspicious for inflammatory or infectious etiology Differential considerations include chronic allergic fungal sinusitis. -Additional mucosal thickening of the nasal turbinate's in keeping with rhinitis. -Normal brain study
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

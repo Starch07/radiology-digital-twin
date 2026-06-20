@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-017
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-017
+Display Name    : PT-017
+Age             : 39 years
+Gender          : Female
+Date of Study   : 27-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There are multiple complex intra-axial masses with mixed solid and cystic components in the right cerebral hemisphere. The largest is located in the parietal lobe measuring 4.6 x 4.8cm in axial dimension. The solid component appears T1 isointense, T2 hypointense with significant post contrast enhancement. The walls also show significant post contrast enhancement. The cystic areas shows hyperintensity on FLAIR. There is remarkable perilesional edema. Similar lesion is seen in the right temporal lobe measuring 2.6 x 3.4cm. Another similar mass is noted in the right cerebellar hemisphere extending to the right cerebellar peduncle, it measures about 3.3 x 3.4cm in dimension. The masses are closely abutting the adjacent dura. There is mass effect on the ipsilateral right lateral ventricle and the fourth ventricle with subtle midline shift to the left by about 6mm. Effacement of the cerebral sulci, sylvian fissures and some basal cisterns also noted. The orbital structures and paranasal sinuses are grossly preserved. The outlined intracranial arteries show subtle signs of neovascularization at the right parietal region.
+
+[ RADIOLOGICAL IMPRESSION ]
+Multiple complex brain lesions most consistent with metastasis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

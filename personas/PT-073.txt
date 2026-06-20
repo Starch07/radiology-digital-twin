@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-073
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-073
+Display Name    : PT-073
+Age             : 56 years
+Gender          : Female
+Date of Study   : 03-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+Focal sub-centimeter non-enhancing T2/FLAIR hyper intense lesions are noted each in the right and left peri-ventricular regions and deep parietal white matter, larger right measuring about 4.5mm in diameter. The brain stem and cerebellum are normal in morphology and signal intensity. The sylvian fissure, basal cisterns and ventricles are within normal limits. There is engorgement of the nasal turbinate's bilaterally in keeping with rhinitis. The orbital structures and the remaining paranasal sinuses are normal. No dura or scalp lesion seen
+
+[ RADIOLOGICAL IMPRESSION ]
+Features suggests cerebral microvascular ischemic foci (No metastatic lesion seen)
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

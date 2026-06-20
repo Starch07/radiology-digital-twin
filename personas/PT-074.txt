@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-074
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-074
+Display Name    : PT-074
+Age             : 35 years
+Gender          : Male
+Date of Study   : 02-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is evidence of volume loss predominantly involving the right frontal lobe grey matter, with associated T1 hypointense and T2/FLAIR hyperintense signal changes seen in the adjacent frontal white matter. These areas demonstrate restricted diffusion on DWI and are hyperintense on ADC, suggesting chronic gliotic changes with possible encephalomalacia. The lesion measures approximately 3.2 x 1.3 cm (axial) and 1.3 x 2.3 cm (sagittal). 2. There is also irregularity of the overlying right frontal skull bone region, consistent with prior trauma. Additionally, there is mucosal thickening in the right frontal sinus, likely reactive. 3. The remaining cerebral and cerebellar hemisphere are within normal limits. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. There is engorgement of the inferior nasal turbinates in keeping with rhinitis. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Right frontal lobe volume loss with associated gliotic and encephalomalacic changes, demonstrating T1 hypointensity, T2/FLAIR hyperintensity, and restricted diffusion-likely chronic post-traumatic sequelae, correlating with the patient's history of traumatic brain injury and post-traumatic seizures. - Irregularity of the overlying right frontal skull and reactive mucosal thickening of the right frontal sinus, consistent with prior cranial trauma. - No acute intracranial hemorrhage, mass effect, or hydrocephalus identified.
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

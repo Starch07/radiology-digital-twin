@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-002
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-002
+Display Name    : PT-002
+Age             : Not specified
+Gender          : Male
+Date of Study   : 22-May-2025
+Hospital No     : [REDACTED]
+Account         : Not specified
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is prominence of the cerebral sulci of both frontal lobes with gyral atrophy. Atrophy of the body of the corpus callosum also noted. Exvacuo dilatation and elevation of the body of both lateral ventricles also observed. Similar but mild symmetrical atrophy of the parieto-occipital lobes also noted. A non-enhancing extra-axial cystic lesion with imperceptible wall noted in the left temporal region. It shows similar intensity to CSF on all sequences including FLAIR and DWI. It measures about 3.1cm x 1.8cm x 2.5cm (AP x T x CC). There is compression of the adjacent temporal lobe. No surrounding edema. No mid line shift however. The cerebellum and brain stem have normal morphology and signal intensities. The remaining ventricles, sylvian fissures and basal cisterns are within normal limits. Engorged nasal turbinates with minimal ethmoidal sinus mucosal thickening indicative of background rhino-sinusitis. The orbital structures and the remaining paranasal sinuses are preserved. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+i. Cerebral atrophy ii. Left temporal Arachnoid cyst
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

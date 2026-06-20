@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-039
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-039
+Display Name    : PT-039
+Age             : 37 years
+Gender          : Female
+Date of Study   : 29-Jul-2025
+Hospital No     : [REDACTED]
+Account         : United Health Care
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. Generalized cerebral atrophy is noted, more pronounced in the parieto-occipital regions, demonstrated by widened cortical sulci and mild ventricular enlargement consistent with volume loss. 2. The cisternal and cavernous segments of the trigeminal nerves are symmetrically visualized without abnormal thickening, enhancement, or mass lesion. No neurovascular compression identified at the root entry zones. 3. No abnormal parenchymal or meningeal enhancement seen. 4. The ventricles and basal cisterns are patent without obstruction. 5. The pituitary gland is flattened against the sella floor with CSF filling the sella, indicative of a partially empty sella. The pituitary shows no abnormal post-contrast enhancement. 6. The brainstem, cerebellum, and cranial nerves (other than trigeminal nerve segments noted) appear normal. 7. The nasal turbinates appear engorged with mucosal thickening, consistent with turbinate hypertrophy or chronic rhinitis. 8. No extra-axial collections or abnormal enhancement identified.
+
+[ RADIOLOGICAL IMPRESSION ]
+· Generalized cerebral atrophy, most marked in the parieto-occipital regions, likely chronic or age-inappropriate for patient's age; clinical correlation recommended. · Partially empty sella syndrome with no evidence of pituitary pathology. · No MRI evidence of mass, inflammation, or neurovascular compression involving the trigeminal nerves. DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

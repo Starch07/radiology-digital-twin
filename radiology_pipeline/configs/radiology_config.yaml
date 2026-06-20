@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# radiology_config.yaml
+# Configuration for the Radiology Digital Twin pipeline
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── LLM Provider ─────────────────────────────────────────────────────────────
+provider: "gemini"          # "gemini"
+
+# ── Model ─────────────────────────────────────────────────────────────────────
+model_name: "gemini-2.5-flash"   # cost-effective; swap for gemini-1.5 for higher accuracy
+
+# ── Sampling ─────────────────────────────────────────────────────────────────
+temperature: 0.3            # deterministic — best for structured clinical JSON
+max_tokens: 2000            # sufficient for the full 6-question response
+
+# ── Retries & concurrency ────────────────────────────────────────────────────
+max_retries: 5              # retries per persona if JSON validation fails
+num_workers: 1             # concurrent API requests (tune to your rate limit)
+
+# ── Run control ──────────────────────────────────────────────────────────────
+force_regenerate: false     # set true to re-run even already-completed personas
+max_personas: -1             # set to -1 (or remove) to run all personas
+
+# ── Directories (relative to repo root / text_simulation/) ───────────────────
+input_folder_dir:  "text_simulation_input"         # combined persona+question prompts
+output_folder_dir: "radiology_simulation_output"   # LLM responses land here
+
+# ── System instruction ────────────────────────────────────────────────────────
+system_instruction: |
+  You are an expert clinical radiologist and physician.
+
+  You will be given a Persona Profile — a structured summary of a patient's
+  brain MRI radiology report — followed by a set of clinical questions.
+
+  Your task is to answer those questions as a knowledgeable clinician who has
+  carefully read the report.  Ground every answer strictly in the findings
+  described in the persona profile; do not invent findings that are not present.
+
+  Always respond with a single, valid JSON object as specified in the question
+  block.  Do not include any markdown fences, explanatory text, or preamble
+  before or after the JSON.

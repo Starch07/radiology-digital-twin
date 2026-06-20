@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-072
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-072
+Display Name    : PT-072
+Age             : 52 years
+Gender          : Female
+Date of Study   : 03-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is a non-enhancing area of T1 hypointensity and T2/FLAIR hyperintensity involving the left peri- ventricular region and extending to the superior aspect of the left thalamus. It measures about 2.5 x 0.8 x 2.3cm (AP x T x CC). Nil mass effect, surrounding edema or significant restricted diffusion. Multiple non-enhancing T1 isointense and T2/FLAIR hyperintense subcentimeter foci are noted within the periventricular and deep white matter bilaterally; predominantly fronto-parietal lobes. The remaining cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The paranasal sinuses are free of collections. Engorged nasal turbinates noted suggestive of allergic rhinitis. The orbital structures and the pituitary appear preserved. Nil abnormality noted in the calvarium.
+
+[ RADIOLOGICAL IMPRESSION ]
+Small left ischemic peri-ventricular cerebral infarct (likely subacute) -Background cerebral microangiopathy (FAZEKAS grade 1)
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

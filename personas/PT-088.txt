@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-088
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-088
+Display Name    : PT-088
+Age             : 55 years
+Gender          : Male
+Date of Study   : 18-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Defence HMO
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+A small cortical area T1/FLAIR hypointensity and T2 hyperintensity is noted in the para-falcine region of the left parietal lobe. It measures about 2.4 x 1.3 x 1.6cm (AP x T x CC). Adjacent area of edema is noted. Nil post contrast enhancement. The remaining demonstrated cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. There is significant mucosal thickening of the maxillary, ethmoidal and left frontal sinuses. Nasal turbinates are engorged. The orbital structures and remaining paranasal sinuses are normal. The outlined intracranial arteries are also normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Small cortical infarct in the left parietal lobe -Background rhinosinusitis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

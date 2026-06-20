@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-042
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-042
+Display Name    : PT-042
+Age             : 44 years
+Gender          : Female
+Date of Study   : 29-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are multi-focal areas of T1 isointense and T2-FLAIR hyperintense lesions seen within the occipital, periventricular and deep parietal. The lesion shows restriction on DWI. No enhancement is seen on post-contrast administration. The largest in the right deep parietal white matter measures 1.2cm x 1.9cm in dimensions. No significant mass effect seen. 2. The remaining cerebral and cerebellar hemisphere are within normal limits. 3. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 4. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 5. There is engorgement of the nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Multi-focal T2-FLAIR hyperintense lesions with restricted diffusion in the occipital, periventricular, and deep parietal regions. The restricted diffusion suggests acute or subacute changes, which could be consistent with either acute infarcts or a demyelinating process. However, there is no contrast enhancement, which makes active inflammation less likely. NB: Clinical Correlation is advised BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

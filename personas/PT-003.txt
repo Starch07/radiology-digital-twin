@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-003
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-003
+Display Name    : PT-003
+Age             : 29 years
+Gender          : Male
+Date of Study   : 30-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN + MRA
+
+[ IMAGING FINDINGS ]
+1. There is moderate dilatation of the cisterna magna with normal CSF signal intensity which communicating the adjacent cistern. No mass seen within it. There is mild anterior displacement of the adjacent right cerebellum. The cerebellar vermis and hemisphere are normal in morphology and signal intensity. 2. On MR angiography, there is non-visualization of the distal segment of the left vertebral artery measuring 1.53cm in diameter. The adjacent terminal aspect and proximal left vertebral artery is visualized. The remaining intra-cranial arteries are preserved 3. On MR venography, the entire intracranial sinuses and tributaries are within normal limits. 4. The cerebral and cerebellar hemisphere are within normal limits 5. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 6. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 7. The Sella and Para-Sella structures are preserved. 8. There is engorgement of the inferior nasal turbinate's in keeping with rhinitis. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Moderate mega cisterna magna with mild anterior displacement of the adjacent right cerebellum likely developmental variant; no mass effect or vermian anomaly. - Non-visualization of the distal segment of the left vertebral artery - possible distal occlusion or congenital hypoplasia; correlate clinically. - Otherwise normal MR brain, MR angiography, and MR venography. BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

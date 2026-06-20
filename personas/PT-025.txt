@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-025
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-025
+Display Name    : PT-025
+Age             : 76
+Gender          : Private
+Date of Study   : 18-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is prominence of the cerebral sulci, basal cisterns, lateral and third ventricles. Non-enhancing peri-ventricular T1 isointense and T2/FLAIR hyper intense area changes noted bilaterally. Some of these lesions appear to radiate away from the body of both lateral ventricles (allowing for non sagittal series). Mild periventricular CSF seepage also noted. The cerebellum, 4th ventricle and brain stem have normal morphology and signal intensities. No intra or extra axial mass lesion or collection seen. Mucosal thickening of the ethmoidal and frontal sinuses noted with engorgement of the nasal turbinates consistent with background rhinosinusitis. Pneumatization of the right middle nasal turbinate indicates concha bullosa. The orbital structures and the remaining paranasal sinuses are preserved. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Mild age related cerebral atrophy -Bilateral mild peri-ventricular hyperintensities suggestive of early microangiopathy KIV multiple sclerosis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

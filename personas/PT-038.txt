@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-038
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-038
+Display Name    : PT-038
+Age             : 41 years
+Gender          : Male
+Date of Study   : 30-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are multi-focal areas of T1 hypo-intense and T2-FLAIR hyperintense sub-centimeter lesions seen within the deep parietal white matter bilaterally. The lesion shows restriction on DWI. No mass effect seen. 2. The cerebral and cerebellar hemisphere are within normal limits. 3. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 4. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 5. There is engorgement of the inferior nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Multifocal subacute lacunar infarcts involving the deep parietal white matter - Bilateral rhinitis BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

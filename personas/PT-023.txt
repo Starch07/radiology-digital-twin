@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-023
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-023
+Display Name    : PT-023
+Age             : 68 years
+Gender          : Male
+Date of Study   : 22-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is a oval shaped lesion that is T1 hypointense and T2/Flair hyperintense lesion seen involving the left thalamus. The lesion measures 1.21cm x 1.02cm in dimension. The lesion shows restricted diffusion on DWI and hypointense on ADC. 2. There are multi-focal areas of T1 iso-intense and T2-FLAIR hyperintense small lesions seen involving the peri-ventricular and deep parietal white matter bilaterally. The lesion shows restriction on DWI and is hyperintense on ADC. 3. There is generalized mild reduction in the volume of the gyri and widening of the sulci with mild ex- vacuo dilatation of the lateral ventricles and peri-ventricular sippage noted. 4. The remaining cerebral and cerebellar hemisphere are within normal limits. 5. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 6. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 7. The Sella and Para-Sella structures are preserved. 8. There is right maxillary polyp measuring 1.07cm x 0.6cm in dimension. There is mild mucosal thickening of the left maxillary sinus with engorgement of the inferior nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Acute left thalamic infarct on background widespread chronic small vessels ischemic changes - Right maxillary polyp with co-existing chronic rhino-sinusitis BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

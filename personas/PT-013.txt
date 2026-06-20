@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-013
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-013
+Display Name    : PT-013
+Age             : 75 years
+Gender          : Female
+Date of Study   : 28-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is a focal T1 and T2 signal void lesion located within the left Sylvian cistern (sphenoidal portion), at the region of the left MCA just distal to its bifurcation. The lesion demonstrates intense post-contrast enhancement, similar to the adjacent arterial structures. MR angiography confirms a saccular dilatation arising from the left MCA just distal to its bifurcation, consistent with an aneurysm. It measures 1.4cm x 0.9cm and 1.06cm x 0.9cm in its axial and coronal dimension. The remaining intracranial arteries and venous channels are unremarkable. 2. There are multi-focal areas of T1 hypo-intense and T2-FLAIR hyperintense sub-centimeter lesions seen within the deep parietal white matter bilaterally. 3. The remaining cerebral and cerebellar hemisphere are within normal limits. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. There is engorgement of the inferior nasal turbinate's in keeping with rhinitis. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Left MCA saccular aneurysm arising just distal to the bifurcation. - Multifocal deep parietal white matter hyperintensity consistent with chronic small vessel ischemic changes. BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

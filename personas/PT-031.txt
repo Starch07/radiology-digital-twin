@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-031
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-031
+Display Name    : PT-031
+Age             : 62 years
+Gender          : Male
+Date of Study   : 07-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is generalized prominence of the cerebral sulci and basal cisterns. Mild dilatation of the lateral and third ventricles are also noted with periventricular CSF seepage. There are confluencing FLAIR/T2 hyper-intense non-enhancing areas seen in the periventricular and deep white matter regions bilaterally; predominantly in the fronto-parietal regions. Multiple subcentimeter T1/FLAIR hypointense and T2 hyperintense foci are noted in the periventricular regions and centrum (R>L). Multiple similar but irregular branching signal intensity changes are noted in the pons. Prominent peri-vascular spaces are also observed within both basal ganglia and centrum. The pituitary gland is enlarged measuring about 1.6 x 2.3 x 1.8cm (AP x T x CC). Mild indentation into the suprasella cistern noted. However, no significant mass effect. The cerebellum, 4th ventricle and remaining brain stem have normal morphology and signal intensities. Mid-line symmetry is maintained. The orbital structures and paranasal sinuses are grossly preserved. Bilateral engorgement of the nasal turbinates with mucosal thickening of the frontal and ethmoidal sinuses indicative of background rhinosinusitis. Outlined intracranial arteries are grossly preserved.
+
+[ RADIOLOGICAL IMPRESSION ]
+Cerebral microangiopathy (Fazekas grade 2) -Cerebral atrophy -Multifocal chronic lacunar brain and pontine infarcts -Pituitary macroadenoma
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

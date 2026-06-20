@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-059
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-059
+Display Name    : PT-059
+Age             : 24 years
+Gender          : Female
+Date of Study   : 28-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral and cerebellar hemisphere, brainstem and basal cisterns have normal morphology and intensity. No intracranial mass lesion seen or collection seen. The orbital structures are normal. There is right maxillary polyp seen measuring 1.4cm x 0.9cm in dimensions. There is also left maxillary and ethmoidal mucosal thickening seen with engorgement of the Inferior nasal turbinate's. The remaining paranasal sinuses are preserved. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal brain study - Right maxillary polyp on background chronic rhino-sinusitis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

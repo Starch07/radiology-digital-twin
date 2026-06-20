@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-084
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-084
+Display Name    : PT-084
+Age             : Not specified
+Gender          : Not specified
+Date of Study   : Not specified
+Hospital No     : [REDACTED]
+Account         : Not specified
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : Not specified
+
+[ IMAGING FINDINGS ]
+See original report.
+
+[ RADIOLOGICAL IMPRESSION ]
+See original report.
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

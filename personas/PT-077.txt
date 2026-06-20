@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-077
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-077
+Display Name    : PT-077
+Age             : 53 years
+Gender          : Female
+Date of Study   : 24-May-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. A subcentimeter retension cyst is noted in the postero-superior aspect of the left maxillary sinus. Engorgement of both inferior nasal turbinates suggestive of background rhinitis. The orbital structures and the remaining paranasal sinuses are normal. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Otherwise Normal Brain MRI
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

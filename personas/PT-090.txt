@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-090
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-090
+Display Name    : PT-090
+Age             : 42 years
+Gender          : Male
+Date of Study   : 17-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI WHOLE SPINE
+
+[ IMAGING FINDINGS ]
+1. Mild dilatation of the lateral and third ventricles with associated mild periventricular seepage noted. 2. A small subcentimeter T1 hypointense and T2/FLAIR hyperintense lesion is seen in the right periventricular parietal white matter. 3. No midline shift, mass effect, or acute hemorrhage identified. 4. The basal ganglia, thalami, brainstem, and cerebellum are preserved in outline and signal intensities. 5. The major intracranial vascular flow voids are preserved. 6. No extra-axial collection or abnormal meningeal enhancement seen. 7. Paranasal sinuses: Engorgement of the nasal turbinates is noted; no significant sinus fluid levels seen. 8. The visualized orbits, calvarium, and mastoid air cells are unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Mild communicating hydrocephalus with periventricular seepage. - Small right periventricular parietal white matter lesion - likely a small ischemic focus - Bilateral rhinitis DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

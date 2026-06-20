@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-050
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-050
+Display Name    : PT-050
+Age             : 9 years
+Gender          : Female
+Date of Study   : 21-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. No area of abnormal contrast enhancement seen. Mucosal thickening of the ethmoidal and maxillary sinuses noted with dependent fluid in the left maxillary sinus and bilateral engorgement of the nasal turbinates. The orbital structures and pituitary gland are grossly preserved. Nil obvious calvarial lesion seen. Mild asymmetrical prominence of the right temporalis muscle ? clinical significance.
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal Brain MRI, nil metastatic deposits seen. -Background Rhinosinusitis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

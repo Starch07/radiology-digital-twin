@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-093
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-093
+Display Name    : PT-093
+Age             : 73 years
+Gender          : Female
+Date of Study   : 19-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI SHOULDER
+
+[ IMAGING FINDINGS ]
+1. Rotator cuff: Muscles preserved in bulk. Supraspinatus tendon shows linear T2/PD hyperintense signal, consistent with tendinosis. 2. Acromioclavicular joint: Progressive hypertrophic degenerative changes, narrowing the supraspinatus outlet. 3. Subcutaneous tissues: Diffuse edema extending over the shoulder and upper arm, correlating with clinical swelling. 4. Biceps tendon and anchor: Intact. 5. Glenoid labrum and capsular complex: Unremarkable. 6. Coracoacromial and glenohumeral ligaments: Intact. 7. Joint space: No effusion or intra-articular loose body. 8. Osseous structures: No acute fracture, dislocation, or suspicious marrow lesion. 9. Lymph nodes: Multiple enlarged leftaxillary nodes, largest measuring 2.09 × 1.71 cm.
+
+[ RADIOLOGICAL IMPRESSION ]
+· Rotator cuff impingement with supraspinatus tendinosis. · AC joint hypertrophy contributing to outlet narrowing. · Diffuse subcutaneous edema/arm swelling - likely lymphedema, but axillary nodal disease may be contributing. · Multiple enlarged left axillary nodes - suspicious for metastatic involvement in a patient with prior breast carcinoma.
+
+[ RECOMMENDATION ]
+· Ultrasound-guided biopsy/FNA of the largest axillary node for histopathological confirmation. · Doppler ultrasound of the upper limb veins to exclude venous thrombosis/obstruction. · Cross-sectional chest/axillary imaging (CT chest with contrast) to stage disease and assess local recurrence.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

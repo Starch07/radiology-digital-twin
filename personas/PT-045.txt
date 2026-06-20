@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-045
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-045
+Display Name    : PT-045
+Age             : 44 years
+Gender          : Female
+Date of Study   : 22-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is a large wedge shaped region that is T1 hypointense and T2/Flair hyperintense lesion seen involving the right parieto-occipital white matter. The lesion measures 6.75cm x 4.02cm and 7.6cm x 4.15cm in axial and sagittal dimension. The lesion show restricted diffusion on DWI. There is associated effacement of the adjacent sulci and mild compression of the posterior horn of the ipsilateral lateral ventricle. The remaining cerebral and cerebellar hemisphere are within normal limits. 2. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 3. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 4. The Sella and Para-Sella structures are preserved. 5. There is right maxillary polyp measuring 1.7cm x 0.9cm in dimension. There is engorgement of the inferior nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Acute large right parieto-occipital lobe infarct -Right maxillary polyp on background bilateral rhinitis DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

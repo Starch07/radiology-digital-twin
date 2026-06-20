@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-014
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-014
+Display Name    : PT-014
+Age             : 45 years
+Gender          : Male
+Date of Study   : 04-Sep-2021
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : CT CHEST
+
+[ IMAGING FINDINGS ]
+Both lungs have normal morphology and density. No pulmonary mass lesion seen. No pleural collection. The cardiac and mediastinal vascular structures are normal. The pulmonary arteries have normal calibre and outline. The thoracic bony outlines are normal. The visualized upper abdominal structures are within normal limits
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal Chest CT. DR Olufemi Akanle Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-070
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-070
+Display Name    : PT-070
+Age             : 50 years
+Gender          : Male
+Date of Study   : 09-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+Multiple non-enhancing T1 isointense and T2/FLAIR hyperintense subcentimeter foci are noted within the subcortical and deep white matter regions bilaterally; predominantly fronto-parietal lobes. The remaining cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The orbital structures, pituitary and paranasal sinuses appear preserved. Nil abnormality noted in the calvarium.
+
+[ RADIOLOGICAL IMPRESSION ]
+White matter lesions consistent with chronic small vessel disease (FAZEKAS grade 1)
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

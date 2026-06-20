@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-010
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-010
+Display Name    : PT-010
+Age             : 30 years
+Gender          : Male
+Date of Study   : 30-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is a T1 iso-intense, T2 hyper- intense non-enhancing polypoid lesion measuring 1.6cm x 1.1cm in size and attached to the inferior-medial wall of the right maxillary sinus. The remaining visualized paranasal sinuses as well as the orbital structures are intact. The demonstrated cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No focal mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The outlined intracranial arteries are also normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Right maxillary polyp
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

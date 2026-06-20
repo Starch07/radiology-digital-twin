@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-021
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-021
+Display Name    : PT-021
+Age             : 38 years
+Gender          : Male
+Date of Study   : 23-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There are multiple peripherally enhancing T2/FLAIR hyperintense lesions noted in the frontal, parietal, temporal and occipital lobes bilaterally as well as the left cerebellum and mid brain. Largest measures 1.8cm x 1.4cm in dimension and located in the left temporal lobe. There is surrounding vasogenic edema. The ventricles, sylvian fissure and basal cisterns are within normal limits. No mid line shift. The remaining brain stem appears preserved. A 12mm retention cyst is noted in the right maxillary sinus. The orbital structures and the remaining paranasal sinuses are normal. The outlined intracranial arteries are normal. The demonstrated cranial bones are intact.
+
+[ RADIOLOGICAL IMPRESSION ]
+Features are those of metastatic brain lesions 2o to the clinically diagnosed lung Ca.
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

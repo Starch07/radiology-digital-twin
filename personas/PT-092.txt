@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-092
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-092
+Display Name    : PT-092
+Age             : 46 years
+Gender          : Male
+Date of Study   : 16-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is a well-defined fairly rounded T1 isointense and T2 heterogeneous but predominantly hyperintense extra-axial mass seen to the right of the falx adjacent the right parietal bone. It measures 3.6cm x 2.7cm and 2.4cm x 2.69cm in axial and coronal dimension. The mass shows avid homogeneous contrast enhancement with a dural tail sign seen. There is restriction diffusion seen on DWI sequence. 2. There is associated compression of the adjacent right parietal lobe, third and both lateral ventricles. There is associated marked right parietal intra-parenchyma vasogenic edema noted. 3. The remaining cerebral and cerebellar hemisphere are within normal limits. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. The Sella and Para-Sella structures are preserved. 7. There is a small right maxillary polyp seen in the right maxillary sinus measuring 1.2cm x 0.7cm in dimension. There is engorgement of the nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Right parietal extra-axial mass with dural tail and homogeneous enhancement consistent with a meningioma causing significant mass effect and adjacent marked parietal lobe vasogenic edema. DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : NORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

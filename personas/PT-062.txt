@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-062
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-062
+Display Name    : PT-062
+Age             : 53 years
+Gender          : Female
+Date of Study   : 26-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Clearline HMO
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is T1W hypointense focus with peripheral hyperintensities noted in the left cerebekllare hemisphere. It does not enhance following contrast administration. DWI and ADC maps appear normal. The cerebral hemispheres, right cerebellar hemisphere and brain stem have normal morphology and signal intensities. No intracranial collection seen. The cerebellopontine angles and the midline symmetry are presered. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The orbital structures and the paranasal sinuses are normal. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Features are consistent with lefrt cerebellar ischeamic infarct DR Affiku C. A. Consultant Radiologist
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-015
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-015
+Display Name    : PT-015
+Age             : 82 years
+Gender          : Male
+Date of Study   : 28-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is wedge shaped T1 hypointense and T2/Flair hyperintense lesion seen involving the medulla oblongata and proximal aspect of the cervical cord. It measures 1.57cm x 0.5cm and 0.7cm x 0.5cm in sagittal and axial dimension. It shows restricted diffusion on DWI. 2. There are multi-focal areas of T1 hypo-intense and T2-FLAIR hyperintense sub-centimeter lesions seen within the deep parietal white matter bilaterally. 3. There is generalized moderate reduction in the volume of the gyri and widening of the sulci with ex-vacuo dilatation of the lateral ventricles and peri-ventricular sippage noted. 4. The remaining cerebral and cerebellar hemisphere are within normal limits. 5. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 6. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 7. There is marked mucosal thickening involving the right maxillary sinus. There is engorgement of the inferior nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Subacute infarct involving the medulla oblongata and proximal cervical spinal cord on background chronic small vessel ischemic disease and moderate brain atrophy - Chronic rhino-sinusitis DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

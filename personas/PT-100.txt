@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-100
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-100
+Display Name    : PT-100
+Age             : 42 years
+Gender          : Female
+Date of Study   : 05-Sep-2025
+Hospital No     : [REDACTED]
+Account         : United Health Care
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The pituitary gland is normal in morphology and signal intensity with superior convexity. No area of abnormal contrast enhancement seen. Both globes and retro-orbital structures are within normal limits. There is erosion of the postero-superior aspect of the nasal septum as well as the right middle nasal turbinate ? cause ? post surgical. Mucosal thickening of the ethmoidal sinuses noted with bilateral engorgement of the nasal turbinates. Non-enhancing T1 hypointense and T2 hyperintense collection consistent with retention cysts noted in the floor of both maxillary sinuses with the larger right measuring about 18 x 25mm. The remaining paranasal sinuses and mastoid air cells are within normal limits. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal Brain MRI. - Background Rhinosinusitis with maxillary retention cysts.
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

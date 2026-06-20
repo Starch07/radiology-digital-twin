@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-078
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-078
+Display Name    : PT-078
+Age             : 52 years
+Gender          : Female
+Date of Study   : 23-May-2025
+Hospital No     : [REDACTED]
+Account         : TSP-TCN
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are multi-focal areas of T1 iso-intense and T2-FLAIR hyperintense small lesions seen involving the peri-ventricular and deep parietal white matter bilaterally. The lesion shows restriction on DWI and is hyperintense on ADC. The largest on the right measures 9.8mm x 8.5mm in axial dimensions. No significant mass effect seen. 2. There is a triangular region of T1 and T2 hyperintensity seen adjacent the anterior falx on the right just inferior to the superior sagittal sinus. It measures 5.5mm x 8.47mm in dimensions. The region is hypointense on DWI. No mass effect seen. 3. The cerebral and cerebellar hemisphere are within normal limits. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. There is engorgement of the inferior nasal turbinates in keeping with rhinitis. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+1. Multifocal T2-FLAIR hyperintense lesions in the periventricular and deep white matter bilaterally- Differentials: - Subacute to chronic small vessel ischemic changes - Multi-focal Lacunar micro infarcts 2. Triangular T1 and T2 hyperintense lesion adjacent to anterior falx on the right, hypointense on DWI - Differentials: - Likely venous developmental anomaly - Small falcine lipoma - Remote hemorrhagic residue. NB: Clinical correlation is advised. DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

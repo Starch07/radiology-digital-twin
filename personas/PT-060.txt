@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-060
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-060
+Display Name    : PT-060
+Age             : 27 years
+Gender          : Male
+Date of Study   : 28-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+A non-enhancing T1 hypointense and T2/FLAIR hyperintense lesion is noted in the inferior aspect of the right sphenoid sinus. It measures about 2.27cm x 2.15cm in its size. Similar smaller lesions are noted on the superior-lateral wall of the left sphenoid sinus, as well as the medial wall of the left maxillary sinus measuring 1.0cm x 0.8cm and 0.8cm x 0.7cm in their respective sizes. The remaining cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The orbital structures and the remaining paranasal sinuses are normal. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Findings are those of multiple paranasal sinuses retention cysts (Sphenoid and left maxillary sinuses)
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

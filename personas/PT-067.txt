@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-067
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-067
+Display Name    : PT-067
+Age             : 35 years
+Gender          : Male
+Date of Study   : 11-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral and cerebellar hemispheres have normal morphology and signal intensities. The pituitary and brainstem are also preserved. No intracranial mass lesion or collection seen. The ventricles, sylvian fissures and basal cisterns are within normal limits. Subtle mucosal thickening of the ethmoidal sinuses noted with engorgement of the inferior nasal turbinates suggestive of background rhinosinusitis. A 9 x 12mm retention cyst is noted in the posterior wall of the right maxillary sinus. The orbital structures and the remaining paranasal sinuses are preserved. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+Otherwise normal Brain MRI
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

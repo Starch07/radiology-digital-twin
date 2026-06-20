@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-096
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-096
+Display Name    : PT-096
+Age             : 30 years
+Gender          : Male
+Date of Study   : 10-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. The cerebral and cerebellar hemisphere are within normal limits. 2. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 3. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 4. The Sella and Para-Sella structures are preserved. 5. The nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal brain study BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : NORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

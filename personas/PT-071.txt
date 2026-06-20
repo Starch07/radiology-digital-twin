@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-071
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-071
+Display Name    : PT-071
+Age             : 41 years
+Gender          : Male
+Date of Study   : 07-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The ventricles, sylvian fissures and basal cisterns are within normal limits. Mucosal thickening of the ethmoidal sinuses noted engorgement of the inferior nasal turbinates indicative of background rhinosinusitis. The orbital structures and the remaining paranasal sinuses are preserved. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal Brain MRI. No space occupying lesion
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-082
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-082
+Display Name    : PT-082
+Age             : 48 years
+Gender          : Female
+Date of Study   : 14-May-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is a non-enhancing area of T1/FLAIR hypointensity and T2 hyperintensity involving the left basal ganglia extending to the peri-venticular margin. The intensity is similar to CSF on all sequences with no restricted diffusion. It measures about 1.6 x 1.3 x 2.2cm (AP x T x CC). Similar intensity lesion is noted involving the head of the right caudate nucleus measuring about 0.5 x 0.96cm. There is a subtle curvilinear / gyriform T2/FLAIR hyperintensities involving the peripheral cortical regions of the left fronto-parietal lobes at the region of the pre-central gyrus. These corresponding areas are iso- intense on T1 and shows mild enhancement post contrast with restricted diffusion. The remaining cerebral hemispheres and thalami are normal in morphology and signal intensity. The ventricles, sylvian fissures and basal cisterns are within normal limits. The brain stem and cerebellum have normal morphology and signal intensity. Mucosal thickening of the maxillary sinus is noted with engorgement of the inferior nasal turbinates indicative of background Rhinosinusitis. The orbital structures and the remaining paranasal sinuses are normal. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+Chronic ischemic infarcts involving the left basal ganglia and head of the right caudate nucleus -Subtle left fronto-parietal gyriform cortical T2/FLAIR hyperintensities suggestive of mild ischemic cortical infarction.
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

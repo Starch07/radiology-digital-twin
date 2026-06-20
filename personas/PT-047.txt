@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-047
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-047
+Display Name    : PT-047
+Age             : 85 years
+Gender          : Female
+Date of Study   : 24-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is generalized prominence of the cerebral sulci and basal cisterns observed. Mild-to-moderate dilatation of the lateral and third ventricles are also noted. There are multiple confluent FLAIR/T2 hyper-intense non-enhancing areas seen in the periventricular and deep white matter regions bilaterally; predominantly in the fronto-parietal regions. Prominent peri- vascular spaces are also observed within both basal ganglia. The pituitary gland, cerebellum, 4th ventricle and brain stem have normal morphology and signal intensities. No extra-axial mass or collection seen. Mid-line symmetry is maintained. Bilateral engorgement of the nasal turbinates is noted with mucosal thickening of the ethmoidal and maxillary sinuses indicative rhinosinusitis. The orbital structures and remaining paranasal sinuses are grossly preserved Outlined intracranial arteries are grossly preserved.
+
+[ RADIOLOGICAL IMPRESSION ]
+Cerebral microangiopathy (Fazekas grade 3) -Cerebral atrophy
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

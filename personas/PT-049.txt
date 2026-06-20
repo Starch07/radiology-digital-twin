@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-049
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-049
+Display Name    : PT-049
+Age             : 15 years
+Gender          : Female
+Date of Study   : 21-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There is hemi-atrophy of the left cerebral hemisphere as well as the left aspects of the midbrain and pons. The left cerebral gyri, sulci and basal cisterns are also prominent with ipsilateral midline shift. A non-enhancing wedge shaped area of T1/FLAIR hypointense and T2 hyperintensity is noted in the left pareital lobe extending to the posterior aspect of the left basal ganglia region. It shows similar intensity to CSF consistent with encephalomalacia. It measures about 7.2 x 3.0 x 4.0cm (AP x T x CC). Nil restricted diffusion seen. Exvacuo dilatation of the left lateral ventricle is noted. The right cerebral hemisphere is normal in morphology and signal intensity. The right lateral and third ventricles are within normal limits. The pituitary gland, cerebellum, 4th ventricle and remaining brain stem have normal morphology and signal intensities. Engorgement of the nasal turbinates noted with subtle mucosal thickening of the maxillary and ethmoidal sinuses suggestive of background rhinosinusitis. The orbital structures and remaining paranasal sinuses are grossly preserved. Outlined intracranial arteries shows narrowing of the distal segements of the MCA with persistent non- visualization of a distal posterior branch of the left MCA.
+
+[ RADIOLOGICAL IMPRESSION ]
+Chronic left parietal ischemic infarct wih encephalomalacia -Left cerebral hemiatrophy most likely background Rasmussen encephalitis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

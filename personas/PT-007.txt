@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-007
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-007
+Display Name    : PT-007
+Age             : 48 years
+Gender          : Female
+Date of Study   : 05-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is a fairly defined rounded central T1/FLAIR hypointense and T2 hyperintense lesion with peripheral hyperintensity seen adjacent the posterior horn of the left lateral ventricle. It measures 5.69mm in diameter. No mass effect seen. 2. The remaining cerebral and cerebellar hemisphere are within normal limits. 3. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 4. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 5. The Sella and Para-Sella structures are preserved. 6. There is engorgement of the nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Small, benign-appearing lesion adjacent to the posterior horn of the left lateral ventricle, likely a perivascular space or previous ischemic focus; no mass effect or surrounding edema. - No intracranial abnormalities identified. - Mild nasal turbinate engorgement, likely incidental. BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

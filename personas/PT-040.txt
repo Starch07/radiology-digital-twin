@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-040
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-040
+Display Name    : PT-040
+Age             : 11 years
+Gender          : Female
+Date of Study   : 29-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is bilateral hippocampal volume loss, with associated prominence of the temporal horns of the lateral ventricles. 2. Mild generalized cerebral atrophy is seen, with diffuse prominence of cortical sulci, slightly greater than expected for age. 3. No signal abnormalities within the hippocampi or adjacent temporal lobes on T1, T2, FLAIR, or DWI. 4. The basal ganglia and thalami are normal in signal and morphology. 5. Brainstem and cerebellum are unremarkable. 6. No evidence of restricted diffusion, hemorrhage, mass, or abnormal enhancement. 7. The ventricular system is otherwise normal in configuration. 8. Visualized orbits, skull base, and paranasal sinuses are within normal limits.
+
+[ RADIOLOGICAL IMPRESSION ]
+· Bilateral hippocampal atrophy with temporal horn prominence on background Mild generalized cerebral atrophy Differentials: - Chronic mesial temporal sclerosis, - Chronic epileptic encephalopathy - Post-infectious or post-inflammatory injury DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

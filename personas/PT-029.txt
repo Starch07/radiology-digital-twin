@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-029
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-029
+Display Name    : PT-029
+Age             : 54 years
+Gender          : Male
+Date of Study   : 14-Aug-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : REST ECG
+
+[ IMAGING FINDINGS ]
+See original report.
+
+[ RADIOLOGICAL IMPRESSION ]
+Left axis deviation - Voltage criteria for Left Ventricular Hypertrophy
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-053
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-053
+Display Name    : PT-053
+Age             : 60 years
+Gender          : Female
+Date of Study   : 14-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities for age. No remarkable white matter changes. No intracerebral mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The pituitary gland is normal in morphology and signal intensity. There is a well defined lesion seen in the extraconal compartment of the medial aspect of the left orbit. It appears isointense to adjacent extraoccular muscle on both T1/T2. Mild focal enhancement of the anterior aspect of the lesion observed post contrast administration. It measures about 2.56 x 1.06 x 1.84cm (AP x T x CC). There is compression and medial deviation of the left medial rectus muscle. Mild indentation of the left optic nerve also noted. No invasion of adjacent structures. No orbital proptosis. Other orbital structures are fairly preserved. The right orbital structures are within normal limits. Mucosal thickening of the ethmoidal and maxillary sinuses noted with dependent fluid collection within the left maxillary sinus. Subcentimeter retention cyst is seen in the medial wall of the right maxillary sinus. The remaining paranasal sinuses are preserved. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Essentially normal brain MRI -Medial left extraconal mass suggesive of metastasis in view of clinical history -Background sinusitis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

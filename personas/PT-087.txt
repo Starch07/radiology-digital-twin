@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-087
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-087
+Display Name    : PT-087
+Age             : 64 years
+Gender          : Male
+Date of Study   : 19-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are two focal areas of T1 isointense and T2-FLAIR hyperintense sub-centimeter lesions seen involving the left peri-ventricular frontal and external capsule. The lesions show restricted diffusion on DWI sequence. 2. There is generalized moderate reduction in the volume of the gyri and widening of the sulci with ex-vacuo-dilatation of the lateral and third ventricles and mild periventricular sippage noted. 3. The remaining cerebral and cerebellar hemisphere, brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 4. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 5. There is engorgement of the inferior nasal turbinates. There is reduction in volume of both maxillary sinuses noted. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Multi-focal ischemic focus in the left periventricular frontal and external capsule on background moderate cerebral atrophy. - Bilateral maxillary sinus hypoplasia with inferior turbinate engorgement (rhinitis). DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

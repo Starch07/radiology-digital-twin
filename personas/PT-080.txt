@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-080
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-080
+Display Name    : PT-080
+Age             : 66 years
+Gender          : Male
+Date of Study   : 18-May-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There are multiple small FLAIR/T2 hyper-intense non-enhancing foci seen in the periventricular and deep white matter regions bilaterally; predominantly in the fronto-parietal regions. Prominence of the cerebral sulci and basal cisterns observed. Mild dilatation of the lateral ventricles and peri-ventricular CSF seepage also noted. The pituitary gland, cerebellum and brain stem have normal morphology and signal intensities. No extra-axial mass or collection seen. Mid-line symmetry is maintained. Mucosal thickening of the ethmoidal and maxillary sinuses noted with bilateral engorgement of nasal turbinates. Both ocular lens are poorly visualized r/o previous cataract surgery. The remaining orbital structures and paranasal sinuses are normal. A non-enhancing T1/T2 hyperintense lesion is noted in the left frontal scalp. It appears hypointense on fat suppression and measures 7 x 12 x 15mm.
+
+[ RADIOLOGICAL IMPRESSION ]
+Cerebral microangiopathy (Fazekas grade 2) - Mild cerebral atrophy - Left frontal scalp lipoma - Background rhinosinusitis
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

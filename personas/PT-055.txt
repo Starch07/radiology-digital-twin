@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-055
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-055
+Display Name    : PT-055
+Age             : 33 years
+Gender          : Male
+Date of Study   : 08-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+· Brain parenchyma: Normal in appearance. No evidence of infarction, hemorrhage, mass lesion, or demyelinating disease. · Brainstem and cerebellum: Normal signal and morphology. No lesions identified in the pons where the abducens (sixth cranial) nerve nucleus is located. · Ventricular system and cisterns: Normal in size and configuration. No hydrocephalus or mass effect. · Cranial nerves: No abnormal enhancement, thickening, or mass involving the visible segments of the cranial nerves. The cisternal course of cranial nerve VI is not clearly visualized, which is not unusual due to its small caliber. · Cavernous sinuses and Meckel's caves: Normal. No evidence of mass, inflammation, or abnormal enhancement. · Orbits and optic pathways (limited view): Appear grossly unremarkable. · Paranasal sinuses and mastoid air cells: There is a non-enhancing polypoid mass seen in the superior wall of the right maxillary sinus measuring 1.3cm x 1.4cm in dimensions. There is engorgement of the nasal turbinate's bilaterally noted. The remaining nasal and para-nasal sinuses are unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+· Normal MRI of the brain with contrast. · No evidence of mass, infarct, demyelination, or structural lesion along the course of the sixth cranial nerve. · A sixth cranial nerve palsy cannot be definitively ruled out on imaging, as small- caliber cranial nerves may not be well visualized, and functional deficits may occur without visible structural abnormalities. · Right maxillary polyp with co-existing bilateral rhinitis NB: Clinical correlation is recommended. Further evaluation may be guided by neurologic assessment and follow-up as needed. DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

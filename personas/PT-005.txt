@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-005
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-005
+Display Name    : PT-005
+Age             : 10 years
+Gender          : Male
+Date of Study   : 25-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. The pituitary gland is normal in morphology and signal intensity. No area of abnormal contrast enhancement seen. Subtle mucosal thickening of the ethmoidal and maxillary sinuses noted with bilateral engorgement of the nasal turbinates indicative of background rhinosinusitis. The orbital structures and the remaining paranasal sinuses are normal. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal Brain MRI. Nil SOL
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

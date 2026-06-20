@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-069
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-069
+Display Name    : PT-069
+Age             : 58 years
+Gender          : Male
+Date of Study   : 09-Jun-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There are multiple non-enhancing T1 isointense and FLAIR/T2 hyper-intense foci seen in the periventricular and deep white matter regions bilaterally; predominantly in the fronto-parietal regions. Similar fairly symmetrical signal changes (L>R) are also noted adjacent the posterior horn of both lateral ventricles. A subcentimeter T1/FLAIR hypointense and T2 hyperintense foci is seen adjacent the body of the left lateral ventricle measuring 7 x 8mm consistent with a chronic lacunar infarct. Central non-enhancing area of T2/FLAIR hyperintensity is noted involving the pons sparing the periphery. Shows restricted diffusion. The remaining cerebral lobes, remaining brainstem and cerebellum have normal morphology and signal intensities. No extra-axial mass or collection seen. Mid-line symmetry is maintained. Subtle mucosal thickening of the ethmoidal and right maxillary sinuses noted suggestive of background sinusitis. The pituitary gland, orbital structures and remaining paranasal sinuses are grossly preserved. Outlined intracranial arteries are grossly preserved.
+
+[ RADIOLOGICAL IMPRESSION ]
+I. Central pontine hyperintensity most consistent with Osmotic demyelination syndrome. II. Periventricular/white matter hyperintensities consistent with cerebral microangiopathy (Fazekas grade 2) KIV chronic demyelinating disease.
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

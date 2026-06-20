@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-052
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-052
+Display Name    : PT-052
+Age             : 62 years
+Gender          : Male
+Date of Study   : 17-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+A wedge shaped area of T1/FLAIR hypointensity and T2 hyperintensity is noted in the supero-medial aspect of the left frontal region adjacent the vertex extending to the parietal region bilaterally. It measures about 10 x 2 x 3cm (AP x T x CC). No restricted diffusion seen with similar intensity to CSF consistent with encephalomalacia. Similar intensity wedge shaped area with surrounding cortical gliosis is noted in the right parietal lobe, adjacent the posterior horn of the ipsilateral ventricle. It measures about 3.4 x 3.0 x 3.5cm (AP x T x CC). There is generalized prominence of the cerebral sulci and basal cisterns observed with moderate dilatation of the lateral and third ventricles. There are multiple confluent FLAIR/T2 hyper-intense non-enhancing areas seen in the periventricular and deep white matter regions bilaterally; predominantly in the fronto-parietal regions. Two subtle similar intensity subcentimeter foci are seen in the cerebellar hemisphere. Periventricular CSF seepage also observed. Subcentimeter T1/FLAIR Hypointense and T2 hyperintense foci are noted in the superior aspect of the right thalamus and pons. The pituitary gland, remaining cerebellum, 4th ventricle and remaining brain stem are grossly preserved. Mid-line symmetry is maintained. The left orbital structures and other paranasal sinuses are preserved. Reduction in volume of the right globe observed ? cause. Bilateral engorgement of the nasal turbinates with subtle mucosal thickening of the ethmoidal sinuses suggestive of background rhinosinusitis. Outlined intracranial arteries are grossly preserved.
+
+[ RADIOLOGICAL IMPRESSION ]
+Chronic left fronto-parietal ischemic infarct -Chronic right parietal ischemic infarct -Cerebral microangiopathy (Fazekas grade 3) -Cerebral atrophy -Chronic pontine and right thalamic lacunar infarcts
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

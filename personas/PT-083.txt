@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-083
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-083
+Display Name    : PT-083
+Age             : 46 years
+Gender          : Male
+Date of Study   : 11-May-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There are curvilinear/gyriform T2/FLAIR hyperintensities involving the peripheral cortical regions of the left frontal and left parieto-occipital lobes. These corresponding areas are iso-intense on T1 and non- enhancing post contrast. The remaining cerebral hemispheres, basal ganglia and thalami are normal in morphology and signal intensity. The ventricles, sylvian fissures and basal cisterns are within normal limits. The brain stem and cerebellum have normal morphology and signal intensity. Mucosal thickening of the left maxillary sinus is noted with engorgement of the inferior nasal turbinates indicative of background Rhinosinusitis. The orbital structures and the remaining paranasal sinuses are normal. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Left frontal, parietal and occipital gyriform cortical T2/FLAIR hyperintensities consistent with ischemic cortical infarction.
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

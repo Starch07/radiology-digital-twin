@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-006
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-006
+Display Name    : PT-006
+Age             : 58 years
+Gender          : Male
+Date of Study   : 26-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Eastern And Western
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are multifocal T1 iso-intense and T2/FLAIR hyperintense subcentimeter lesions involving the bilateral periventricular and deep parietal white matter, showing diffusion restriction on DWI, in keeping with acute ischemic changes. 2. The cerebral and cerebellar hemispheres are within normal limits. 3. The brainstem and basal cisterns appear normal in outline and signal intensity. No dural or extra- axial collection seen. 4. The globes, extraocular muscles, optic nerves, and extra-conal soft tissues are normal. 5. There is marked mucosal thickening of both maxillary sinuses with engorged nasal turbinate's, consistent with rhinitis and sinusitis. The remaining nasal and paranasal sinuses appear unremarkable. 6. Right vertebral artery dominance noted. Right vertebral artery measures 3.9 mm (normal), while the left vertebral artery measures 1.45 mm, consistent with hypoplastic artery.
+
+[ RADIOLOGICAL IMPRESSION ]
+· Bilateral periventricular and deep parietal chronic small vessels ischemic changes. · Right vertebral artery dominance with hypoplastic left vertebral artery (1.45 mm), which may contribute to vertebrobasilar insufficiency in view of the sudden loss of consciousness and persistent dizziness. · Bilateral chronic maxillary sinusitis with rhinitis. DR BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

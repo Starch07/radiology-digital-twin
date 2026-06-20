@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-091
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-091
+Display Name    : PT-091
+Age             : 50 years
+Gender          : Male
+Date of Study   : 17-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There is generalized mild reduction in the volume of the gyri and widening of the sulci. 2. The remaining cerebral and cerebellar hemisphere are within normal limits. 3. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 4. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 5. The Sella and Para-Sella structures are preserved. 6. There is mild right maxillary sinus mucosal thickening noted with engorgement of the inferior nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Mild brain atrophy. - Chronic rhino-sinusitis. - No specific structural MRI features of Parkinsonism identified (changes may be subtle or absent on routine MRI). BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

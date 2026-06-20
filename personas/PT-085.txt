@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-085
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-085
+Display Name    : PT-085
+Age             : 42 years
+Gender          : Male
+Date of Study   : 21-Sep-2025
+Hospital No     : [REDACTED]
+Account         : TSP-TCN
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. Slit like posterior horn of the right lateral ventricle likely variant anatomy. The sylvian fissure, cortical sulci, remaining ventricular system and basal cisterns have normal calibre and outline. The pituitary gland is normal in morphology and signal intensity. No area of abnormal contrast enhancement seen. The orbital structures and the paranasal sinuses are within normal limits. Bilateral engorgement of the nasal turbinates suggestive of allergic rhinitis. The outlined intracranial arteries are normal.
+
+[ RADIOLOGICAL IMPRESSION ]
+Otherwise Normal Brain MRI
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

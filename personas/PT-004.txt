@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-004
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-004
+Display Name    : PT-004
+Age             : 69 years
+Gender          : Male
+Date of Study   : 29-Sep-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+1. There are multi-focal areas of non-enhancing T1 hypo-intense and T2-FLAIR hyperintense sub- centimeter lesions seen within the peri-ventricular and deep parietal white matter bilaterally. The lesion shows restriction on DWI. No significant mass effect seen. 2. There is generalized severe reduction in the volume of the gyri and widening of the sulci with ex-vacuo dilatation of the lateral and third ventricles and peri-ventricular sippage noted. 3. The remaining cerebral and cerebellar hemisphere are within normal limits. 4. The brainstem and basal cisterns appear normal in outline and signal intensity. No dura collection noted. 5. The globe, extra-ocular muscle, optic nerve and extra-conal structures are all within normal limits. 6. There is engorgement of the nasal turbinate's. The remaining nasal and paranasal sinuses appear unremarkable.
+
+[ RADIOLOGICAL IMPRESSION ]
+Chronic small vessel ischemic changes on background severe cerebral atrophy -Background rhinitis BALA I. CONSULTANT RADIOLOGIST
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

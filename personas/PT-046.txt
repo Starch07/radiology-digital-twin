@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-046
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-046
+Display Name    : PT-046
+Age             : 43 years
+Gender          : Female
+Date of Study   : 24-Jul-2025
+Hospital No     : [REDACTED]
+Account         : Private
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+There are multiple confluencing FLAIR/T2 hyper-intense non-enhancing areas seen in the periventricular and deep white matter regions of predominantly the frontal lobes bilaterally. There is early prominence of the cerebral sulci and basal cisterns observed with suggestive of incipient atrophy. Atrophy of the anterior aspect of the body of the corpus callosum also noted. The pituitary gland, cerebellum, ventricles and brain stem have normal morphology and signal intensities. No extra-axial mass or collection seen. Mid-line symmetry is maintained. Bilateral engorgement of the nasal turbinates is noted with subtle mucosal thickening of the ethmoidal sinuses indicative of rhinosinusitis. The orbital structures and remaining paranasal sinuses are grossly preserved. Outlined intracranial arteries are grossly preserved.
+
+[ RADIOLOGICAL IMPRESSION ]
+Cerebral microangiopathy (Fazekas grade 2) -Incipient Cerebral atrophy
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================

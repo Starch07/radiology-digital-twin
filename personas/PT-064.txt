@@ -1,0 +1,33 @@
+============================================================
+PERSONA FILE — PT-064
+============================================================
+
+[ DEMOGRAPHICS ]
+Persona ID      : PT-064
+Display Name    : PT-064
+Age             : 10 years
+Gender          : Female
+Date of Study   : 23-Jun-2025
+Hospital No     : [REDACTED]
+Account         : United Health Care
+Referred By     : [REDACTED]
+
+[ INVESTIGATION ]
+Modality        : MRI BRAIN
+
+[ IMAGING FINDINGS ]
+The cerebral hemispheres, cerebellum and brain stem have normal morphology and signal intensities. No intracranial mass lesion or collection seen. The sylvian fissure, cortical sulci, ventricular system and basal cisterns have normal calibre and outline. No area of abnormal contrast enhancement seen. The orbital structures and the paranasal sinuses are normal. The outlined intracranial arteries are normal
+
+[ RADIOLOGICAL IMPRESSION ]
+Normal Brain MRI
+
+[ RECOMMENDATION ]
+None specified.
+
+[ REPORT STATUS ]
+Classification  : ABNORMAL
+Reported By     : [REDACTED]
+
+============================================================
+END OF PERSONA FILE
+============================================================
