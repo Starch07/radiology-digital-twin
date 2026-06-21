@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radiology Digital Twin - Results Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; background: #f5f5f5; color: #222; padding: 24px; }
+  h1 { font-size: 22px; font-weight: 600; margin-bottom: 4px; color: #1a1a1a; }
+  .subtitle { font-size: 14px; color: #666; margin-bottom: 24px; }
+  .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+  .card { background: #fff; border-radius: 10px; padding: 16px; border: 1px solid #e0e0e0; }
+  .card-label { font-size: 12px; color: #888; margin-bottom: 6px; }
+  .card-value { font-size: 28px; font-weight: 600; }
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .chart-box { background: #fff; border-radius: 10px; padding: 20px; border: 1px solid #e0e0e0; }
+  .chart-box h3 { font-size: 14px; font-weight: 600; margin-bottom: 16px; color: #333; }
+  .chart-full { background: #fff; border-radius: 10px; padding: 20px; border: 1px solid #e0e0e0; margin-bottom: 24px; }
+  .chart-full h3 { font-size: 14px; font-weight: 600; margin-bottom: 16px; color: #333; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f0f0f0; padding: 10px 12px; text-align: left; font-weight: 600; color: #444; }
+  td { padding: 10px 12px; border-bottom: 1px solid #f0f0f0; color: #333; }
+  tr:hover td { background: #fafafa; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .b1 { background: #fde8e8; color: #A32D2D; }
+  .b2 { background: #fef3e2; color: #854F0B; }
+  .b3 { background: #e6f1fb; color: #185FA5; }
+  .b4 { background: #e1f5ee; color: #0F6E56; }
+  .b5 { background: #f0f0f0; color: #5F5E5A; }
+  .footer { text-align: center; font-size: 12px; color: #aaa; margin-top: 24px; }
+</style>
+</head>
+<body>
+
+<h1>Radiology Digital Twin — Results Dashboard</h1>
+<p class="subtitle">AI-powered analysis of 100 brain MRI radiology reports | Federal University of Technology Minna</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-label">Total patients analyzed</div>
+    <div class="card-value" style="color:#185FA5">100</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Critical / emergency cases</div>
+    <div class="card-value" style="color:#A32D2D">66</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Neurology referrals</div>
+    <div class="card-value" style="color:#534AB7">50</div>
+  </div>
+  <div class="card">
+    <div class="card-label">AI success rate</div>
+    <div class="card-value" style="color:#3B6D11">100%</div>
+  </div>
+</div>
+
+<div class="charts">
+  <div class="chart-box">
+    <h3>Triage priority distribution</h3>
+    <div style="position:relative;height:220px;">
+      <canvas id="triageChart"></canvas>
+    </div>
+  </div>
+  <div class="chart-box">
+    <h3>Top specialist referrals</h3>
+    <div style="position:relative;height:220px;">
+      <canvas id="referralChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="chart-full">
+  <h3>Patient triage breakdown</h3>
+  <div style="position:relative;height:180px;">
+    <canvas id="barChart"></canvas>
+  </div>
+</div>
+
+<div class="chart-full">
+  <h3>Patient summary table</h3>
+  <table>
+    <tr>
+      <th>Patient ID</th>
+      <th>Triage Priority</th>
+      <th>Red Flags</th>
+      <th>Specialist Referral</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>pid_0019</td>
+      <td><span class="badge b5">Priority 5 - Non-urgent</span></td>
+      <td>Acute infarct in the left parietal cortex and subc...</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0023</td>
+      <td><span class="badge b5">Priority 5 - Non-urgent</span></td>
+      <td>Acute left thalamic infarct</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0045</td>
+      <td><span class="badge b5">Priority 5 - Non-urgent</span></td>
+      <td>Acute large cerebral infarct | Restricted diffusio...</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0076</td>
+      <td><span class="badge b5">Priority 5 - Non-urgent</span></td>
+      <td>Significant effacement of the cerebral sulci | Eff...</td>
+      <td>Neurosurgery</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0095</td>
+      <td><span class="badge b5">Priority 5 - Non-urgent</span></td>
+      <td>Midline shift to the left | Compression of adjacen...</td>
+      <td>Neurosurgery</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0004</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Restriction on DWI within multi-focal lesions</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0006</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Multifocal T1 iso-intense and T2/FLAIR hyperintens...</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0008</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Acute/subacute lacunar infarct with DWI restrictio...</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0015</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0017</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Midline shift of 6mm | Effacement of cerebral sulc...</td>
+      <td>Neurosurgery</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0021</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Multiple brain metastases with widespread vasogeni...</td>
+      <td>Neuro-oncology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0028</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Acute or subacute cytotoxic injury indicated by re...</td>
+      <td>N/A</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0042</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Multi-focal T2-FLAIR hyperintense lesions with res...</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0062</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Diagnosis of ischemic infarct</td>
+      <td>Neurology/Stroke service</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0066</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0069</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Central pontine hyperintensity with restricted dif...</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0082</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Restricted diffusion in the left fronto-parietal c...</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0083</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Ischemic cortical infarction</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0087</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0088</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Small cortical infarct | Adjacent area of edema</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0092</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Significant mass effect | Marked right parietal in...</td>
+      <td>Neurosurgery</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0093</td>
+      <td><span class="badge b4">Priority 4 - Semi-urgent</span></td>
+      <td>Multiple enlarged left axillary nodes suspicious f...</td>
+      <td>Oncology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0011</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0013</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>Neurosurgery</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0027</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0029</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>Cardiology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0033</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0036</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>Multifocal deep white matter lesions with diffusio...</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0038</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0048</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>DWI restriction indicating acute/subacute multifoc...</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0053</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>Medial left extraconal mass suggestive of metastas...</td>
+      <td>Ophthalmologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0055</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0084</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>None identified</td>
+      <td>N/A</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0099</td>
+      <td><span class="badge b3">Priority 3 - Urgent</span></td>
+      <td>The 'ABNORMAL' report classification despite the '...</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0001</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Primary care physician</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0002</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0003</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0005</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Ear, Nose, and Throat</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0009</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0010</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0012</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0016</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0020</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Ear, Nose, and Throat</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0022</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurosurgeon or Interventional Neuroradiologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0024</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0026</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0030</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0031</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0032</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Ear, Nose, and Throat</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0034</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0035</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0037</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0039</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0040</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Pediatric Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0041</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0043</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Ear, Nose, and Throat</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0044</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Ear, Nose, and Throat</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0046</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0047</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0049</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Pediatric Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0050</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0051</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0052</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0054</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0056</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0057</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0058</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0059</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0061</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0063</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0064</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>Report status classified as 'ABNORMAL' despite 'No...</td>
+      <td>Referral to relevant specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0065</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurosurgery</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0067</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0068</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Primary care physician for ongoing management of rhinitis</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0070</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Primary care physician</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0071</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0072</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0073</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0074</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0075</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0077</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0078</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0079</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0080</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0081</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurosurgery</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0085</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0086</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0089</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0090</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Neurologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0091</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Ear, Nose, and Throat</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0094</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0097</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0098</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0100</td>
+      <td><span class="badge b2">Priority 2 - Emergency</span></td>
+      <td>None identified</td>
+      <td>Otolaryngologist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0007</td>
+      <td><span class="badge b1">Priority 1 - Critical</span></td>
+      <td>None identified</td>
+      <td>N/A</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0014</td>
+      <td><span class="badge b1">Priority 1 - Critical</span></td>
+      <td>The 'REPORT STATUS: ABNORMAL' contradicts the 'Nor...</td>
+      <td>N/A</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0018</td>
+      <td><span class="badge b1">Priority 1 - Critical</span></td>
+      <td>None identified</td>
+      <td>ENT specialist</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0025</td>
+      <td><span class="badge b1">Priority 1 - Critical</span></td>
+      <td>None identified</td>
+      <td>N/A</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0060</td>
+      <td><span class="badge b1">Priority 1 - Critical</span></td>
+      <td>None identified</td>
+      <td>Otolaryngology</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+    <tr>
+      <td>pid_0096</td>
+      <td><span class="badge b1">Priority 1 - Critical</span></td>
+      <td>None identified</td>
+      <td>Referring physician for clinical correlation and symptom management.</td>
+      <td><span class="badge b4">Completed</span></td>
+    </tr>
+  </table>
+</div>
+
+<div class="footer">Generated by Radiology Digital Twin Pipeline | Powered by Google Gemini AI | 100 patients processed</div>
+
+<script>
+new Chart(document.getElementById('triageChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Priority 1 - Critical', 'Priority 2 - Emergency', 'Priority 3 - Urgent', 'Priority 4 - Semi-urgent', 'Priority 5 - Non-urgent'],
+    datasets: [{
+      data: [6, 60, 12, 17, 5],
+      backgroundColor: ['#E24B4A', '#EF9F27', '#378ADD', '#1D9E75', '#888780'],
+      borderWidth: 2,
+      borderColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom', labels: { font: { size: 11 }, padding: 8 } }
+    }
+  }
+});
+
+new Chart(document.getElementById('referralChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Neurologist', 'ENT specialist', 'Neurology', 'Otolaryngologist', 'ENT'],
+    datasets: [{
+      data: [29, 29, 17, 14, 11],
+      backgroundColor: ['#534AB7', '#0F6E56', '#993C1D', '#185FA5', '#854F0B'],
+      borderWidth: 0,
+      borderRadius: 4
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { font: { size: 11 } } },
+      y: { beginAtZero: true, ticks: { stepSize: 1 } }
+    }
+  }
+});
+
+new Chart(document.getElementById('barChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Priority 1 - Critical', 'Priority 2 - Emergency', 'Priority 3 - Urgent', 'Priority 4 - Semi-urgent', 'Priority 5 - Non-urgent'],
+    datasets: [{
+      data: [6, 60, 12, 17, 5],
+      backgroundColor: ['#E24B4A', '#EF9F27', '#378ADD', '#1D9E75', '#888780'],
+      borderWidth: 0,
+      borderRadius: 4
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { beginAtZero: true, ticks: { stepSize: 1 } },
+      y: { ticks: { font: { size: 11 }, autoSkip: false } }
+    }
+  }
+});
+</script>
+</body>
+</html>
