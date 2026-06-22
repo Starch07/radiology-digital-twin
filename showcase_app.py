@@ -51,7 +51,12 @@ html, body, [data-testid="stAppViewContainer"] {
 footer {visibility: hidden;}
 #MainMenu {visibility: hidden;}
 header {visibility: hidden;}
-[data-testid="stToolbar"] {visibility: hidden !important;}
+[data-testid="collapsedControl"] {display: flex !important; visibility: visible !important;}
+section[data-testid="stSidebar"] {min-width: 250px !important;}
+div[data-testid="stSidebarCollapseButton"] {display: flex !important;}
+.stDeployButton {display: none !important;}
+#stDecoration {display: none !important;}
+div[data-testid="stToolbar"] {display: none !important;}
 </style>
 """, unsafe_allow_html=True)
 
@@ -69,12 +74,6 @@ with st.sidebar:
     <div style="padding:1rem 0">
       <div style="font-size:1.4rem;font-weight:800;background:linear-gradient(120deg,#00d4aa,#0096ff);
                   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">
-# ── Sidebar ────────────────────────────────────────────────────────────────
-with st.sidebar:
-    st.markdown("""
-    <div style="padding:1rem 0">
-      <div style="font-size:1.4rem;font-weight:800;background:linear-gradient(120deg,#00d4aa,#0096ff);
-                  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">
         🧠 RadDigitalTwin
       </div>
       <div style="font-size:0.7rem;color:#64748b;font-family:'DM Mono',monospace;margin-top:0.3rem;line-height:1.6">
@@ -83,44 +82,16 @@ with st.sidebar:
         Department of Physics
       </div>
     </div>
-    <hr style="border-color:#263040;margin:1rem 0">
     """, unsafe_allow_html=True)
 
-    st.markdown('<div style="font-size:0.75rem;color:#64748b;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:0.5rem">Navigation</div>', unsafe_allow_html=True)
-    
-    page = st.radio("", [
+    page = st.radio("Navigate", [
         "🏠 Home",
         "📊 Results Dashboard",
         "🔬 Model Evaluation",
         "📈 Enhanced Visualizations",
         "🧠 RadPersona App",
         "📋 About & Methods",
-    ], label_visibility="collapsed")
-
-    st.markdown("---")
-    
-    # Quick stats in sidebar
-    st.markdown("""
-    <div style="font-size:0.75rem;color:#64748b;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:0.5rem">Quick Stats</div>
-    <div style="font-size:0.85rem;color:#94a3b8;line-height:2">
-      <div style="display:flex;justify-content:space-between"><span>Patients</span><b style="color:#00d4aa">100</b></div>
-      <div style="display:flex;justify-content:space-between"><span>Score</span><b style="color:#0096ff">89.4</b></div>
-      <div style="display:flex;justify-content:space-between"><span>Emergency</span><b style="color:#ef4444">66%</b></div>
-      <div style="display:flex;justify-content:space-between"><span>Success</span><b style="color:#22c55e">100%</b></div>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    st.markdown("---")
-    st.markdown("""
-    <div style="font-size:0.7rem;color:#475569;line-height:1.6">
-      <b style="color:#94a3b8">Student</b><br>[Your Name]<br><br>
-      <b style="color:#94a3b8">Supervisor</b><br>[Supervisor Name]<br><br>
-      <b style="color:#94a3b8">Department</b><br>Medical Physics
-    </div>
-    """, unsafe_allow_html=True)
-    
-    st.markdown("---")
-    st.markdown('<div style="text-align:center;font-size:0.65rem;color:#475569">© 2026 FUT Minna</div>', unsafe_allow_html=True)
+    ])
 
 PLOTS_DIR = "radiology_pipeline/results/enhanced_plots"
 EVAL_DIR  = "radiology_pipeline/results/evaluation"
