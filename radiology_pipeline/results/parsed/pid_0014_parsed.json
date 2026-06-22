@@ -1,0 +1,41 @@
+{
+  "pid": "pid_0014",
+  "parsed": {
+    "persona_id": "PT-014",
+    "clinical_presentation": [
+      "The normal imaging findings do not suggest specific clinical symptoms or signs, as no pathology was identified on the CT scan."
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Musculoskeletal chest pain",
+        "justification": "Common cause of chest pain that would not be visible on a chest CT scan."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Gastroesophageal Reflux Disease (GERD)",
+        "justification": "Can cause chest discomfort or pain, which is not detectable on a chest CT scan."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Anxiety or Panic Disorder",
+        "justification": "Can manifest with chest tightness or shortness of breath, without structural changes visible on CT."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [],
+      "further_investigations": [],
+      "follow_up_timeline": "Routine follow-up if symptoms persist, guided by the patient's clinical presentation, as the CT scan is normal."
+    },
+    "patient_explanation": "Your chest scan showed that your lungs, heart, and other structures in your chest appear normal. There were no signs of any significant problems or abnormalities on this scan.",
+    "triage_priority": {
+      "rating": 1,
+      "justification": "The CT scan findings are entirely normal, indicating no acute or urgent pathology requiring immediate attention."
+    },
+    "red_flags": [
+      "The 'REPORT STATUS: ABNORMAL' contradicts the 'Normal Chest CT' radiological impression and findings, which requires clarification."
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0014\\pid_0014_response.json"
+}

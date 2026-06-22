@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0067",
+  "parsed": {
+    "persona_id": "pid_0067",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pressure or pain",
+      "Headache (sinus-related)",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "The report explicitly notes subtle mucosal thickening of the ethmoidal sinuses and engorgement of the inferior nasal turbinates, suggestive of background rhinosinusitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Maxillary Sinus Retention Cyst",
+        "justification": "A 9 x 12mm retention cyst is directly identified in the posterior wall of the right maxillary sinus."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Allergic rhinitis can cause mucosal thickening and turbinate engorgement, often contributing to or coexisting with rhinosinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT (Ear, Nose, Throat) specialist"
+      ],
+      "further_investigations": [
+        "Clinical evaluation by ENT specialist",
+        "Nasal endoscopy"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up with ENT specialist"
+    },
+    "patient_explanation": "Your brain MRI shows that your brain itself looks completely normal, which is excellent news. We did notice some minor changes in your sinuses, specifically some mild swelling in the lining of your ethmoid sinuses and some enlargement of the structures inside your nose, which are common signs of sinus inflammation or a condition called rhinosinusitis. There's also a small, harmless fluid-filled sac, called a retention cyst, in your right cheekbone sinus. These are generally not serious and often don't require specific treatment unless they are causing symptoms.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is otherwise normal, and the sinus findings are incidental and non-urgent, warranting routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0067\\pid_0067_response.json"
+}

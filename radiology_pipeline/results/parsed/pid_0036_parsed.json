@@ -1,0 +1,54 @@
+{
+  "pid": "pid_0036",
+  "parsed": {
+    "persona_id": "pid_0036",
+    "clinical_presentation": [
+      "Acute neurological deficits (e.g., focal weakness, sensory changes, speech difficulties)",
+      "Progressive cognitive decline or memory impairment",
+      "Gait instability or balance problems",
+      "Headaches",
+      "Symptoms related to rhino-sinusitis (e.g., nasal congestion, facial pain)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Ischemic Infarcts",
+        "justification": "Multifocal deep white matter lesions with diffusion restriction are explicitly suggestive of ischemic infarcts in the radiological impression."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Demyelinating Process",
+        "justification": "The radiological impression also explicitly suggests a demyelinating process as an alternative for the multifocal deep white matter lesions with diffusion restriction."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Vascular Dementia / Chronic Small Vessel Disease",
+        "justification": "The report notes 'chronic small vessel ischemic changes' and 'generalized severe cerebral atrophy,' which are consistent with vascular dementia or the long-term effects of small vessel disease."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Blood tests (e.g., inflammatory markers, autoimmune panel, vascular risk factors)",
+        "Vascular imaging (e.g., MRA brain/neck, carotid ultrasound)",
+        "Lumbar puncture (if demyelinating or inflammatory process is highly suspected)",
+        "Neuropsychological assessment",
+        "Repeat MRI brain for follow-up"
+      ],
+      "follow_up_timeline": "Clinical correlation and review within weeks to assess symptoms and guide further workup."
+    },
+    "patient_explanation": "Your brain scan shows a few small spots in the deeper parts of your brain that appear to be either recent small strokes or areas of inflammation. We also see that your brain has shrunk more than expected for your age, and there are signs of wear and tear in the tiny blood vessels. This combination can sometimes affect memory, thinking, or movement. Additionally, there's some inflammation in your nose and sinus areas. We need to do more tests to figure out the exact cause of these findings and plan the best way to help you.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The presence of multifocal deep white matter lesions with diffusion restriction suggests an acute or subacute process requiring prompt clinical correlation and workup."
+    },
+    "red_flags": [
+      "Multifocal deep white matter lesions with diffusion restriction, indicating an acute or subacute pathological process."
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0036\\pid_0036_response.json"
+}

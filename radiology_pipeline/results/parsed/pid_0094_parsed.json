@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0094",
+  "parsed": {
+    "persona_id": "pid_0094",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Rhinorrhea (runny nose)",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Engorgement of inferior nasal turbinates is a very common finding in allergic rhinitis due to inflammatory response."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Viral Rhinitis",
+        "justification": "Acute viral infections frequently cause inflammation and engorgement of nasal turbinates."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Non-allergic Rhinitis",
+        "justification": "Turbinate engorgement can occur in non-allergic forms of rhinitis due to various triggers or autonomic dysfunction."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist",
+        "Allergist (if allergic etiology suspected)"
+      ],
+      "further_investigations": [
+        "Allergy testing (skin prick or specific IgE blood tests)",
+        "Nasal endoscopy (if symptoms persist or are severe)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician or specialist within weeks to assess symptom control and treatment efficacy."
+    },
+    "patient_explanation": "Your MRI scan showed that your brain is completely normal, which is excellent news. We did notice some swelling inside your nose, specifically of the structures called inferior nasal turbinates, which is consistent with a condition called rhinitis. This is a common issue that can cause symptoms like a stuffy or runny nose, and it's not related to your brain health.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the only identified abnormality is rhinitis, which is typically managed in an outpatient setting."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0094\\pid_0094_response.json"
+}

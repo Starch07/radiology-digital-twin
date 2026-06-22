@@ -1,0 +1,45 @@
+{
+  "pid": "pid_0078",
+  "parsed": {
+    "persona_id": "pid_0078",
+    "clinical_presentation": [
+      "Cognitive difficulties (e.g., memory, processing speed)",
+      "Gait disturbance or balance issues",
+      "Focal neurological deficits (e.g., weakness, numbness)",
+      "Mood changes (e.g., apathy, depression)",
+      "Nasal congestion or rhinorrhea"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Subacute to chronic small vessel ischemic changes",
+        "justification": "This is directly stated as a primary differential for the multifocal T2-FLAIR hyperintense lesions in the white matter."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Multi-focal Lacunar micro infarcts",
+        "justification": "This is also directly stated as a differential for the multifocal T2-FLAIR hyperintense lesions, representing specific small vessel disease."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Venous developmental anomaly",
+        "justification": "This is listed as the most likely differential for the triangular T1 and T2 hyperintense lesion adjacent to the anterior falx."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist"
+      ],
+      "further_investigations": "None explicitly recommended in the radiology report.",
+      "follow_up_timeline": "To be determined after clinical correlation and specialist assessment."
+    },
+    "patient_explanation": "Your MRI scan showed several small spots in the white matter of your brain, on both sides. These spots are common and often suggest minor changes in the small blood vessels over time, possibly from very small, old strokes or general wear and tear. There's also a small, triangular area near the front of your brain, which is likely a normal variation in your blood vessels, a tiny fatty deposit, or a very old, small bleed. None of these findings are large or pressing on your brain. The scan also showed some swelling inside your nose, which is consistent with rhinitis, like allergies or a cold. Your doctor will discuss these findings with you in the context of your overall health.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings indicate subacute to chronic changes without acute mass effect or hemorrhage, warranting routine outpatient clinical correlation."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0078\\pid_0078_response.json"
+}

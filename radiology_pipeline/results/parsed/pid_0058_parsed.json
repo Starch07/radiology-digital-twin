@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0058",
+  "parsed": {
+    "persona_id": "pid_0058",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Facial pressure/discomfort",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Rhinitis",
+        "justification": "The imaging findings directly describe engorgement of the left inferior nasal turbinate in keeping with rhinitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "This is a common etiology for rhinitis and turbinate engorgement, often presenting with similar symptoms."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Non-allergic Rhinitis",
+        "justification": "Another common form of rhinitis that can cause chronic nasal symptoms and turbinate swelling without an allergic trigger."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT)"
+      ],
+      "further_investigations": [
+        "Allergy testing (if allergic rhinitis suspected)",
+        "Nasal endoscopy (by ENT)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up for rhinitis management."
+    },
+    "patient_explanation": "Your brain MRI shows that everything inside your head, including your brain, looks completely normal. We did notice some swelling inside your left nostril, which is a common condition called rhinitis. This often causes symptoms like a stuffy or runny nose, and it's not related to your brain health.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the incidental finding of rhinitis is not an acute emergency requiring urgent intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0058\\pid_0058_response.json"
+}

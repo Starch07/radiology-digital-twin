@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0012",
+  "parsed": {
+    "persona_id": "pid_0012",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose (rhinorrhea)",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "This is a very common cause of nasal turbinate engorgement and is consistent with the imaging finding of rhinitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Non-allergic Rhinitis (e.g., Vasomotor Rhinitis)",
+        "justification": "Another frequent cause of chronic nasal congestion and turbinate engorgement, especially when no specific allergen is identified."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Acute Viral Rhinitis (Common Cold)",
+        "justification": "Can cause significant turbinate engorgement, although often self-limiting and associated with other systemic symptoms not detailed in the report."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "None, as the brain study is normal and rhinitis is not an acute emergency.",
+      "specialist_referrals": [
+        "ENT specialist (for persistent or severe symptoms)",
+        "Allergist (if allergic rhinitis is suspected)"
+      ],
+      "further_investigations": [
+        "Allergy testing (skin prick test or specific IgE blood test)",
+        "Nasal endoscopy (if symptoms are persistent or atypical)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician or specialist as needed, depending on symptom severity and response to initial management."
+    },
+    "patient_explanation": "Your brain MRI shows that your brain itself looks completely normal, with no issues or abnormalities. We did notice some swelling inside your nose, specifically of the structures called turbinates, which is consistent with a common condition called rhinitis. This is often what causes symptoms like a stuffy or runny nose.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the only identified finding is rhinitis, which is not an acute or life-threatening condition requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0012\\pid_0012_response.json"
+}

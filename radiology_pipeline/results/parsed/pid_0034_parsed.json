@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0034",
+  "parsed": {
+    "persona_id": "pid_0034",
+    "clinical_presentation": [
+      "Neck pain",
+      "Neck stiffness or reduced range of motion",
+      "Arm pain (radiculopathy)",
+      "Numbness or tingling in arms/hands",
+      "Weakness in arms/hands"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Cervical spondylosis with radiculopathy",
+        "justification": "The report details extensive degenerative changes ('cervical spondylodegenerative disease', osteophytes, disc height reduction, facet changes) and explicitly mentions 'exit nerve root impingements'."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Cervical disc disease",
+        "justification": "The report notes 'multilevel disc protrusions' and 'posterior disc bulges' causing 'thecal sac impingements' and 'exit nerve root impingements'."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Early cervical myelopathy",
+        "justification": "While 'Nil significant spinal canal stenosis' is noted, the presence of 'thecal sac impingements' and 'ligamentum flavum hypertrophy' indicates some degree of cord compression, warranting consideration of early myelopathy."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Orthopedic spine specialist / Neurosurgeon",
+        "Physical therapist"
+      ],
+      "further_investigations": null,
+      "follow_up_timeline": "Routine follow-up with a specialist to establish a comprehensive management plan."
+    },
+    "patient_explanation": "Your MRI shows some expected wear and tear in your neck bones and discs, which is common for your age. The discs between your neck bones are a bit thinner and bulging in several places. There are also some small bone growths and thickened ligaments. These changes are narrowing the spaces where nerves exit your spine and also slightly narrowing the space around your spinal cord. This is likely causing your neck pain and any arm symptoms you might be experiencing. Importantly, there are no signs of anything serious like a tumor or significant pressure on your spinal cord itself.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings indicate chronic degenerative changes with nerve root impingement but no signs of acute cord compression, myelopathy, or other urgent pathology."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0034\\pid_0034_response.json"
+}

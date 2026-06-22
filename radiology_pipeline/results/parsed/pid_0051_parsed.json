@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0051",
+  "parsed": {
+    "persona_id": "pid_0051",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "The imaging findings explicitly state 'Engorgement of the nasal turbinates suggestive of allergic rhinitis.'"
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Non-allergic Rhinitis (Vasomotor Rhinitis)",
+        "justification": "Turbinate engorgement can also be caused by non-allergic triggers, leading to similar symptoms."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Acute Rhinosinusitis",
+        "justification": "While less likely without other signs of infection, turbinate engorgement can be a feature of inflammatory conditions of the nasal passages."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist",
+        "Allergy specialist"
+      ],
+      "further_investigations": [
+        "Allergy testing (e.g., skin prick test, specific IgE blood test)"
+      ],
+      "follow_up_timeline": "Routine follow-up for management of allergic rhinitis, typically within weeks to a few months."
+    },
+    "patient_explanation": "Your brain MRI scan looks completely normal, which is great news. We didn't find anything concerning in your brain. However, the scan did show that the tissues inside your nose, called turbinates, are a bit swollen, which often happens with allergies like hay fever. This finding is consistent with something called allergic rhinitis.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the finding of allergic rhinitis is a chronic condition that requires routine outpatient management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0051\\pid_0051_response.json"
+}

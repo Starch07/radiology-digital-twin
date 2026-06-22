@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0077",
+  "parsed": {
+    "persona_id": "pid_0077",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Rhinorrhea",
+      "Sneezing",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Rhinitis",
+        "justification": "The imaging findings show engorgement of both inferior nasal turbinates, which is highly suggestive of background rhinitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Engorged turbinates are a common feature of allergic rhinitis, which is a specific type of chronic rhinitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Incidental Maxillary Sinus Retention Cyst",
+        "justification": "A subcentimeter retention cyst is noted in the left maxillary sinus, which is typically an asymptomatic incidental finding."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist (if symptomatic)"
+      ],
+      "further_investigations": [
+        "Allergy testing (if allergic rhinitis suspected)",
+        "CT sinuses (if persistent or severe symptoms warrant further evaluation by ENT)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician or ENT specialist if symptoms related to rhinitis persist or worsen."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain structures are normal, and there are no serious issues like tumors or bleeding. We did find some minor, common findings in your sinuses: a small, harmless fluid-filled sac (called a retention cyst) in your left cheekbone sinus, and some swelling in the lining of your nose, which suggests you might have some background inflammation or irritation, like rhinitis. These are generally not serious and often don't cause problems, but they could be related to symptoms like a stuffy or runny nose if you have them.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is otherwise normal, and the sinus findings are incidental and non-urgent, warranting routine outpatient review if symptomatic."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0077\\pid_0077_response.json"
+}

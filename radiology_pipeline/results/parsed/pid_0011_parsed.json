@@ -1,0 +1,50 @@
+{
+  "pid": "pid_0011",
+  "parsed": {
+    "persona_id": "pid_0011",
+    "clinical_presentation": [
+      "Executive dysfunction (e.g., issues with planning or problem-solving)",
+      "Gait disturbance or balance difficulties",
+      "Left-sided motor weakness or clumsiness",
+      "Speech difficulties (e.g., dysarthria)",
+      "Subtle mood or personality changes"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Cerebral small vessels ischaemic disease",
+        "justification": "This is explicitly mentioned in the radiological impression as a possibility and is consistent with the patient's age and white matter changes."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Low-grade glioma",
+        "justification": "Non-enhancing T2/FLAIR hyper-intense lesions in the deep white matter can represent low-grade glial tumors."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Atypical demyelinating lesion",
+        "justification": "T2/FLAIR hyper-intensities are characteristic of demyelination, though the patient's age makes typical presentations less likely."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Geriatrician (for comprehensive assessment given age and potential cognitive/functional impact)"
+      ],
+      "further_investigations": [
+        "Comprehensive blood work (e.g., inflammatory markers, vascular risk factors, autoimmune screen)",
+        "Neuropsychological assessment (if cognitive symptoms are present or suspected)",
+        "Repeat MRI Brain in 3-6 months (to assess stability or progression of the lesion)"
+      ],
+      "follow_up_timeline": "Outpatient neurological review within weeks, with repeat imaging in 3-6 months."
+    },
+    "patient_explanation": "We found an area in the deep part of the right side of your brain that looks a bit unusual on the scan. It's an area of altered brain tissue, but it doesn't show signs of a fresh bleed or a rapidly growing tumor. This type of finding is often seen in older individuals and can be related to changes in the very small blood vessels in the brain, sometimes called 'small vessel disease.' We need to investigate this further to understand what caused it and if it's affecting your brain function.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The finding is abnormal and requires further investigation to determine its cause and clinical significance, but there are no acute features requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0011\\pid_0011_response.json"
+}

@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0044",
+  "parsed": {
+    "persona_id": "pid_0044",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "This is a very common cause of nasal turbinate engorgement and associated symptoms."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Viral Rhinitis",
+        "justification": "Common cold can cause significant nasal turbinate engorgement and is a frequent presentation."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Non-allergic Rhinitis (e.g., Vasomotor Rhinitis)",
+        "justification": "This can also lead to chronic nasal turbinate engorgement without an identifiable allergic trigger."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "None, as the brain study is normal and rhinitis is not an acute emergency.",
+      "specialist_referrals": [
+        "Ear, Nose, and Throat (ENT) specialist (if symptoms are persistent or severe)"
+      ],
+      "further_investigations": [
+        "Allergy testing (if allergic rhinitis is suspected)",
+        "Nasal endoscopy (if symptoms are atypical or persistent)"
+      ],
+      "follow_up_timeline": "Routine follow-up with General Practitioner or ENT specialist if symptoms persist or worsen."
+    },
+    "patient_explanation": "Your brain scan shows that your brain is completely normal. We did find some swelling inside your nose, which is a common condition called rhinitis, often associated with allergies or a cold. This finding is not serious and does not affect your brain.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the rhinitis finding is a common, non-urgent condition typically managed in an outpatient setting."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0044\\pid_0044_response.json"
+}

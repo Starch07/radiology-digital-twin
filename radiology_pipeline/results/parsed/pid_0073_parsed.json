@@ -1,0 +1,51 @@
+{
+  "pid": "pid_0073",
+  "parsed": {
+    "persona_id": "pid_0073",
+    "clinical_presentation": [
+      "Subtle cognitive changes (e.g., memory, processing speed)",
+      "Gait instability or balance issues",
+      "Mood disturbances (e.g., depression)",
+      "Fatigue",
+      "Headaches"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Cerebral microvascular ischemic foci",
+        "justification": "This is the explicit radiological impression provided in the report."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Age-related white matter changes (Leukoaraiosis)",
+        "justification": "The described small, non-enhancing T2/FLAIR hyperintense lesions are highly consistent with common age-related microvascular changes."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Small vessel vasculitis",
+        "justification": "Inflammatory conditions affecting small vessels can cause similar ischemic-like white matter changes."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Primary Care Physician (for vascular risk factor management)"
+      ],
+      "further_investigations": [
+        "Blood pressure monitoring",
+        "Lipid profile",
+        "HbA1c (for diabetes screening)",
+        "Assessment for other vascular risk factors (e.g., smoking, diet)"
+      ],
+      "follow_up_timeline": "Routine clinical follow-up within weeks to months to manage vascular risk factors and assess symptoms."
+    },
+    "patient_explanation": "Your MRI scan showed some very small spots in the white matter of your brain. These spots are not new strokes, tumors, or anything immediately dangerous. They look like tiny areas where the blood supply might have been a bit reduced in the past, which is common as people get older. We also noted some swelling in your nose, which is consistent with rhinitis.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings suggest chronic microvascular changes without acute features or immediate life-threatening conditions, warranting routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0073\\pid_0073_response.json"
+}

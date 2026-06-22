@@ -1,0 +1,53 @@
+{
+  "pid": "pid_0066",
+  "parsed": {
+    "persona_id": "pid_0066",
+    "clinical_presentation": [
+      "Left-sided motor weakness or paresis",
+      "Left-sided sensory disturbances",
+      "Ataxia or balance difficulties",
+      "Cognitive decline or memory impairment",
+      "Spatial neglect"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Ischemic Stroke (of various etiologies)",
+        "justification": "The report explicitly identifies multiple infarcts, including a large subacute one and multifocal lacunar infarcts, which are all forms of ischemic stroke."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Cerebral Small Vessel Disease",
+        "justification": "The presence of multifocal lacunar infarcts and severe brain atrophy is highly consistent with chronic cerebral small vessel disease."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Cardioembolic Disease",
+        "justification": "The 'large subacute right parietal infarct' in a 40-year-old raises suspicion for an embolic source, potentially cardiac."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Initiate comprehensive stroke workup to identify etiology and prevent recurrence. Assess neurological deficits and initiate supportive care.",
+      "specialist_referrals": [
+        "Neurology",
+        "Cardiology",
+        "Rehabilitation Medicine"
+      ],
+      "further_investigations": [
+        "Blood work (CBC, metabolic panel, lipid panel, HbA1c, inflammatory markers, thrombophilia screen)",
+        "ECG",
+        "Echocardiogram (TTE/TEE)",
+        "Carotid Doppler ultrasound",
+        "MRA brain and neck"
+      ],
+      "follow_up_timeline": "Urgent outpatient review within days to a week for comprehensive assessment and initiation of secondary prevention."
+    },
+    "patient_explanation": "Your MRI scan shows that you've had a recent stroke on the right side of your brain, which is a significant area of damage. We also see several other smaller areas of damage, like mini-strokes, scattered throughout different parts of your brain, including areas important for movement and balance. Additionally, there's some general shrinkage of the brain tissue. We need to investigate the cause of these strokes to help prevent any further issues.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of a large subacute infarct and multifocal lacunar infarcts in a 40-year-old, along with severe brain atrophy, necessitates urgent investigation to determine the etiology and initiate secondary prevention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0066\\pid_0066_response.json"
+}

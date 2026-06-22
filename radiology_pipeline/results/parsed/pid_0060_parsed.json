@@ -1,0 +1,39 @@
+{
+  "pid": "pid_0060",
+  "parsed": {
+    "persona_id": "pid_0060",
+    "clinical_presentation": [],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Paranasal sinuses retention cysts",
+        "justification": "This is the explicit radiological impression based on the described imaging characteristics of non-enhancing T1 hypointense and T2/FLAIR hyperintense lesions."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Mucoceles",
+        "justification": "Mucoceles are fluid-filled, non-enhancing sinus lesions that can have similar signal characteristics to retention cysts and can expand sinus cavities."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Inflammatory sinus mucosal thickening with fluid",
+        "justification": "Chronic inflammatory changes with fluid accumulation and mucosal edema can present with similar signal characteristics in the paranasal sinuses."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngology (ENT)"
+      ],
+      "further_investigations": [],
+      "follow_up_timeline": "Clinical follow-up as needed, particularly if symptoms develop or worsen, with no specific imaging follow-up recommended at this time."
+    },
+    "patient_explanation": "Your MRI scan showed some small, harmless fluid-filled sacs, called retention cysts, in your sinuses. These are very common and usually don't cause any problems. The rest of your brain and other structures look normal, and there's no sign of anything serious or needing immediate attention. We will monitor these, especially if you develop any symptoms like headaches or sinus pressure.",
+    "triage_priority": {
+      "rating": 1,
+      "justification": "The findings are benign retention cysts with no acute intracranial abnormalities or specified recommendations for immediate action in the report."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0060\\pid_0060_response.json"
+}

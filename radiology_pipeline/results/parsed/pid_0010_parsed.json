@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0010",
+  "parsed": {
+    "persona_id": "pid_0010",
+    "clinical_presentation": [
+      "Nasal obstruction (right side)",
+      "Facial pressure or pain (right maxillary area)",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Inflammatory polyp",
+        "justification": "This is the most common cause of a non-enhancing, T2 hyperintense polypoid lesion in the maxillary sinus, consistent with the radiological impression."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Retention cyst",
+        "justification": "Benign, fluid-filled lesions that can appear polypoid, T2 hyperintense, and non-enhancing in the maxillary sinus."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic fungal rhinosinusitis (AFRS) with mucin",
+        "justification": "Can present as a non-enhancing, T2 hyperintense, polypoid lesion in the sinus, though often with heterogeneous signal."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "CT scan of paranasal sinuses",
+        "Nasal endoscopy"
+      ],
+      "follow_up_timeline": "Outpatient review within weeks"
+    },
+    "patient_explanation": "The MRI scan showed a small, benign-looking growth, called a polyp, inside your right cheekbone sinus. It measures about 1.6 by 1.1 centimeters. This polyp does not appear to be cancerous and is not affecting your brain or eyes. It's a common finding and usually not serious, but we will refer you to a specialist to discuss it further and determine the best course of action.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The imaging findings describe a benign-appearing maxillary polyp with no acute features or immediate recommendations, warranting routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0010\\pid_0010_response.json"
+}

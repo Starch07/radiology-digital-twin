@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0071",
+  "parsed": {
+    "persona_id": "pid_0071",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pain or pressure",
+      "Headache (sinus-related)",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Rhinosinusitis",
+        "justification": "The imaging findings directly describe mucosal thickening and turbinate engorgement indicative of rhinosinusitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "The term 'background rhinosinusitis' suggests a potentially ongoing or recurrent inflammatory process in the sinuses."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Allergic rhinitis can cause similar symptoms and contribute to mucosal changes in the sinuses, often preceding or coexisting with rhinosinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "Nasal endoscopy",
+        "Allergy testing (if indicated by history)",
+        "Dedicated CT sinuses (if symptoms persist or worsen)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up within weeks for rhinosinusitis management."
+    },
+    "patient_explanation": "Your brain MRI scan shows that your brain itself looks normal, with no signs of any serious problems like tumors, bleeding, or other significant abnormalities. However, the scan did pick up some inflammation and swelling in your ethmoid sinuses and nasal passages, which is a common condition called rhinosinusitis. This finding is likely related to any sinus-related symptoms you might be experiencing.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal with no acute intracranial pathology, and the rhinosinusitis is noted as a background finding, indicating a routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0071\\pid_0071_response.json"
+}

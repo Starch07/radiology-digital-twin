@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0037",
+  "parsed": {
+    "persona_id": "pid_0037",
+    "clinical_presentation": [
+      "Nasal obstruction",
+      "Mouth breathing",
+      "Snoring",
+      "Sleep-disordered breathing",
+      "Recurrent otitis media"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Adenoidal hypertrophy",
+        "justification": "This is the explicit radiological impression from the X-ray."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Physiological adenoid enlargement",
+        "justification": "Adenoid tissue naturally grows during childhood, and some degree of enlargement can be considered physiological."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Infectious adenoiditis",
+        "justification": "Acute or chronic inflammation due to infection can cause adenoid enlargement, presenting similarly to hypertrophy."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Clinical assessment by ENT specialist",
+        "Flexible nasoendoscopy (if clinically indicated)",
+        "Polysomnography (sleep study) if sleep-disordered breathing is suspected"
+      ],
+      "follow_up_timeline": "Routine outpatient review with an ENT specialist."
+    },
+    "patient_explanation": "The X-ray shows that the adenoids, which are soft tissues at the back of your child's nose, are larger than usual. This is a common finding in children and can sometimes make it harder to breathe through the nose, especially at night, and might lead to snoring or ear problems. A specialist will discuss the best way to manage this.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The report indicates adenoidal hypertrophy but specifies no immediate recommendations or urgency, suggesting a routine outpatient review is appropriate."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0037\\pid_0037_response.json"
+}

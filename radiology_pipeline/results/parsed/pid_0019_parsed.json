@@ -1,0 +1,54 @@
+{
+  "pid": "pid_0019",
+  "parsed": {
+    "persona_id": "pid_0019",
+    "clinical_presentation": [
+      "Right-sided weakness or paralysis (hemiparesis/hemiplegia)",
+      "Right-sided sensory deficits (e.g., numbness, altered sensation)",
+      "Aphasia (difficulty with speech or understanding language)",
+      "Visual field deficits (e.g., right homonymous hemianopia)",
+      "Acute onset of neurological symptoms"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Ischemic Stroke",
+        "justification": "The imaging findings, including a wedge-shaped lesion with restricted diffusion, are explicitly stated as consistent with an acute infarct."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Demyelinating Disease",
+        "justification": "While less typical for the wedge shape, some acute demyelinating lesions can present with T2/FLAIR hyperintensity and restricted diffusion."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Acute Encephalitis/Cerebritis",
+        "justification": "Inflammatory processes can cause T2/FLAIR hyperintensity and sometimes restricted diffusion, though the specific morphology might differ."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Activate stroke protocol, perform immediate neurological assessment, and monitor vital signs closely.",
+      "specialist_referrals": [
+        "Neurology",
+        "Stroke team",
+        "Rehabilitation services"
+      ],
+      "further_investigations": [
+        "Carotid Doppler ultrasound",
+        "Echocardiogram",
+        "ECG/Holter monitoring",
+        "Comprehensive blood work (e.g., lipid panel, HbA1c, coagulation studies)"
+      ],
+      "follow_up_timeline": "Immediate hospitalization for acute stroke management and rehabilitation, followed by long-term outpatient neurology follow-up."
+    },
+    "patient_explanation": "Your MRI scan shows that you have recently experienced a stroke on the left side of your brain. This is a new event and is likely responsible for any recent symptoms you've been having. The scan also shows some older, minor changes in the small blood vessels in both sides of your brain, which are common over time, and some inflammation in your nose.",
+    "triage_priority": {
+      "rating": 5,
+      "justification": "An acute infarct requires immediate medical intervention to minimize brain damage and and prevent further complications."
+    },
+    "red_flags": [
+      "Acute infarct in the left parietal cortex and subcortical white matter"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0019\\pid_0019_response.json"
+}

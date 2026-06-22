@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0032",
+  "parsed": {
+    "persona_id": "pid_0032",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose (rhinorrhea)",
+      "Sneezing",
+      "Nasal itching"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "This is a very common cause of bilateral rhinitis and inferior nasal turbinate engorgement, especially in adolescents."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Non-allergic Rhinitis (Vasomotor Rhinitis)",
+        "justification": "This condition can present with similar symptoms and turbinate engorgement without an identifiable allergic trigger."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Viral Rhinitis (Common Cold)",
+        "justification": "An acute viral infection can cause bilateral rhinitis and turbinate engorgement, consistent with the findings."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Ear, Nose, and Throat (ENT) specialist",
+        "Allergist"
+      ],
+      "further_investigations": [
+        "Allergy testing (e.g., skin prick test or specific IgE blood test)",
+        "Nasal endoscopy"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up with primary care physician or specialist for management of rhinitis."
+    },
+    "patient_explanation": "Your brain MRI scan showed that everything in your brain is normal and healthy. We didn't find any problems there. The only thing we noticed was some swelling inside your nose, which is a common condition called rhinitis. This swelling is likely what's causing symptoms like a stuffy or runny nose. It's not serious and can usually be managed with simple treatments.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the bilateral rhinitis is a common, non-urgent condition that can be managed in an outpatient setting."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0032\\pid_0032_response.json"
+}

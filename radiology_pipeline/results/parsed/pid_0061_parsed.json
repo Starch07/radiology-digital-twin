@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0061",
+  "parsed": {
+    "persona_id": "pid_0061",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pressure or pain",
+      "Headache",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute/Chronic Rhinosinusitis",
+        "justification": "The report explicitly states 'Background Rhinosinusitis' and describes mucosal thickening of the ethmoidal sinuses and bilateral engorgement of the nasal turbinates."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Bilateral engorgement of nasal turbinates and mucosal thickening are consistent with an allergic inflammatory response in the nasal passages and sinuses."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Viral Upper Respiratory Infection",
+        "justification": "Mucosal thickening and turbinate engorgement can be transiently observed during a common cold or other self-limiting viral infections affecting the upper respiratory tract."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "CT scan of paranasal sinuses (if symptoms persist or worsen)",
+        "Allergy testing (if allergic etiology is suspected clinically)"
+      ],
+      "follow_up_timeline": "Routine outpatient review, guided by symptom resolution or persistence."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain itself looks completely normal, which is excellent news. We didn't find any issues with the brain structures or blood vessels. However, the scan also picked up some inflammation and swelling in the lining of your ethmoid sinuses and nasal passages, which is a common condition known as rhinosinusitis. This is often the cause of symptoms like nasal congestion, facial pressure, or headaches. It's a treatable condition, and we can discuss the best steps for managing it.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the rhinosinusitis is a background finding without features suggesting acute complications or requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0061\\pid_0061_response.json"
+}

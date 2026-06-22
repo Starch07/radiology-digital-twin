@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0070",
+  "parsed": {
+    "persona_id": "PT-070",
+    "clinical_presentation": [
+      "Often asymptomatic",
+      "Subtle cognitive changes (e.g., executive dysfunction)",
+      "Mild gait instability",
+      "Mood disturbances (e.g., apathy)",
+      "Increased risk of future cerebrovascular events"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic small vessel disease (FAZEKAS grade 1)",
+        "justification": "This is the explicit radiological impression and therefore the most consistent and likely diagnosis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Age-related white matter changes",
+        "justification": "Mild white matter hyperintensities are common with increasing age and can be physiologically normal, often overlapping with early small vessel disease."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Hypertensive encephalopathy (early stage)",
+        "justification": "Uncontrolled hypertension is a primary cause of small vessel disease and can manifest with similar white matter changes."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Primary care physician (for comprehensive vascular risk factor assessment and management)",
+        "Neurologist (for clinical correlation, baseline assessment, and long-term follow-up)"
+      ],
+      "further_investigations": [
+        "Blood pressure monitoring",
+        "Lipid panel",
+        "HbA1c",
+        "Renal function tests",
+        "Cognitive screening (if clinically indicated)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care for vascular risk factor management; neurological follow-up in 6-12 months or as clinically indicated."
+    },
+    "patient_explanation": "Your MRI shows some small, common changes in the white matter of your brain, which are often seen as people get older. These are called 'small vessel disease' and are very mild. They are not causing any immediate problems but suggest we should look at your general health, like blood pressure and cholesterol, to keep your brain healthy in the long term.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are consistent with chronic, mild small vessel disease (FAZEKAS grade 1) with no acute abnormalities or urgent recommendations, warranting routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0070\\pid_0070_response.json"
+}

@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0086",
+  "parsed": {
+    "persona_id": "pid_0086",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pressure or pain",
+      "Headache",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Rhinosinusitis",
+        "justification": "The imaging findings of subtle mucosal thickening and bilateral engorgement of nasal turbinates are classic for acute inflammation of the sinuses and nasal passages."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Mucosal thickening and turbinate engorgement can also be caused by allergic reactions, which often predispose to or co-exist with rhinosinusitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "While described as 'subtle,' these findings could represent persistent inflammation or a mild exacerbation in the context of chronic rhinosinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist (if symptoms are persistent or severe)"
+      ],
+      "further_investigations": [
+        "None immediately indicated; consider CT sinuses if symptoms are refractory to initial treatment or worsen"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician for symptom management within weeks."
+    },
+    "patient_explanation": "Your MRI scan of the brain shows that your brain itself looks completely normal, which is excellent news. We didn't find any serious problems there. However, the scan did pick up some mild swelling and thickening in the lining of your nose and the air-filled spaces around your nose, called sinuses. This is a common finding, often referred to as rhinosinusitis, and it's likely contributing to any nasal congestion or facial discomfort you might be experiencing.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the rhinosinusitis findings are subtle and do not indicate an acute emergency, allowing for routine outpatient management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0086\\pid_0086_response.json"
+}

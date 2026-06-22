@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0043",
+  "parsed": {
+    "persona_id": "pid_0043",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Engorgement of nasal turbinates is a common finding in allergic rhinitis, a prevalent condition often presenting with chronic or seasonal symptoms."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Non-allergic Rhinitis (Vasomotor Rhinitis)",
+        "justification": "Nasal turbinate engorgement can also be caused by non-allergic triggers such as irritants, temperature changes, or hormonal fluctuations."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Infectious Rhinitis (Common Cold)",
+        "justification": "Acute viral infections can cause inflammation and engorgement of the nasal turbinates, consistent with rhinitis, though typically self-limiting."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Ear, Nose, and Throat (ENT) specialist (if symptoms are persistent, severe, or unresponsive to initial management)"
+      ],
+      "further_investigations": [
+        "Allergy testing (if allergic rhinitis is suspected based on clinical history)"
+      ],
+      "follow_up_timeline": "Routine follow-up with General Practitioner for symptom management and to discuss potential triggers or treatment options."
+    },
+    "patient_explanation": "Your brain scan shows everything looks completely normal, which is excellent news. We did notice some swelling inside your nose, specifically in the lower part, which is a common condition called rhinitis. This is often due to allergies or irritation and is generally not serious, but can cause symptoms like a stuffy or runny nose. We can discuss ways to manage these nasal symptoms.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the only abnormal finding is rhinitis, which is typically a non-urgent condition requiring routine outpatient review for symptom management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0043\\pid_0043_response.json"
+}

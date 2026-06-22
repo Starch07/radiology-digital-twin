@@ -1,0 +1,57 @@
+{
+  "pid": "pid_0017",
+  "parsed": {
+    "persona_id": "pid_0017",
+    "clinical_presentation": [
+      "Headache (due to increased intracranial pressure)",
+      "Nausea/Vomiting (due to increased intracranial pressure)",
+      "Left-sided weakness or sensory deficits (due to right cerebral hemisphere lesions)",
+      "Ataxia or balance issues (due to right cerebellar hemisphere lesion)",
+      "Seizures (common with brain lesions and mass effect)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Metastasis",
+        "justification": "The report explicitly states 'most consistent with metastasis' and describes multiple, complex intra-axial masses with significant enhancement and perilesional edema, which are classic features."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "High-grade glioma (e.g., Glioblastoma Multiforme)",
+        "justification": "High-grade gliomas can present with complex solid/cystic components, enhancement, and significant edema, though multifocal presentation across different lobes and the cerebellum is less typical than for metastases."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Multiple brain abscesses",
+        "justification": "Multiple abscesses can show ring enhancement, edema, and mass effect, but the T2 hypointensity of the solid component and the mention of neovascularization are less characteristic for infection."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Administer corticosteroids (e.g., Dexamethasone) to reduce perilesional edema and intracranial pressure.",
+      "specialist_referrals": [
+        "Neurosurgery (for urgent evaluation, potential biopsy, and surgical planning)",
+        "Oncology (for systemic workup and management of suspected primary malignancy)",
+        "Radiation Oncology (for potential radiation therapy)"
+      ],
+      "further_investigations": [
+        "Biopsy of the brain lesions (for definitive histological diagnosis)",
+        "Systemic workup for primary malignancy (e.g., CT chest/abdomen/pelvis, mammography, PET scan, tumor markers)",
+        "Repeat MRI brain (for monitoring response to treatment or progression)"
+      ],
+      "follow_up_timeline": "Urgent, with immediate clinical assessment and rapid initiation of diagnostic workup and treatment planning."
+    },
+    "patient_explanation": "Your MRI scan shows several abnormal growths or spots in different parts of the right side of your brain, including the main part and the balance control part. These spots are complex, with some solid and some fluid-filled areas, and they light up brightly after we give you a special dye. There's also a noticeable amount of swelling around these spots, which is causing some pressure and a slight shift in your brain's normal position. Based on these findings, the most likely explanation is that these are secondary cancers, meaning they have spread to your brain from a primary cancer elsewhere in your body.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The imaging shows multiple brain lesions with significant mass effect, remarkable perilesional edema, and a 6mm midline shift, indicating elevated intracranial pressure and a high likelihood of symptomatic neurological compromise requiring prompt clinical evaluation and management."
+    },
+    "red_flags": [
+      "Midline shift of 6mm",
+      "Effacement of cerebral sulci, sylvian fissures, and some basal cisterns",
+      "Mass effect on the ipsilateral right lateral ventricle and the fourth ventricle",
+      "Remarkable perilesional edema",
+      "Multiple complex brain lesions most consistent with metastasis"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0017\\pid_0017_response.json"
+}

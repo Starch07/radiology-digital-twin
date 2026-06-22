@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0056",
+  "parsed": {
+    "persona_id": "pid_0056",
+    "clinical_presentation": [
+      "Nasal congestion or obstruction",
+      "Facial pain or pressure",
+      "Headache",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Rhinosinusitis",
+        "justification": "The imaging findings of mucosal thickening and turbinate engorgement are characteristic of acute inflammation of the sinuses and nasal passages."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "Persistent mucosal thickening can indicate a long-standing inflammatory process, which would classify it as chronic rhinosinusitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Allergic reactions commonly cause nasal turbinate engorgement and mucosal edema, which can mimic or predispose to rhinosinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT) if symptoms are persistent or severe"
+      ],
+      "further_investigations": [
+        "Detailed clinical history and physical examination",
+        "Nasal endoscopy (if referred to ENT)",
+        "Allergy testing (if allergic component suspected)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician for symptom management; ENT referral if symptoms persist or worsen after initial management."
+    },
+    "patient_explanation": "Your brain MRI shows that your brain itself is completely normal, which is excellent news. We didn't find any serious problems or abnormalities there. However, the scan did show some swelling and thickening in the lining of your sinuses and nasal passages, which is consistent with what we call rhinosinusitis. This is a common condition, often like a sinus infection or inflammation, and it's likely the cause of any nasal or facial symptoms you might be experiencing.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the rhinosinusitis is a background finding without features suggesting acute severe complications, warranting routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0056\\pid_0056_response.json"
+}

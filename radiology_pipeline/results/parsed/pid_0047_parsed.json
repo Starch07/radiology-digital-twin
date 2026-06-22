@@ -1,0 +1,51 @@
+{
+  "pid": "pid_0047",
+  "parsed": {
+    "persona_id": "pid_0047",
+    "clinical_presentation": [
+      "Cognitive decline (e.g., memory loss, executive dysfunction)",
+      "Gait disturbance or balance issues",
+      "Urinary incontinence",
+      "Nasal congestion or facial pressure",
+      "Headache"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Vascular Dementia",
+        "justification": "The presence of severe cerebral microangiopathy (Fazekas grade 3) and cerebral atrophy strongly indicates a significant cerebrovascular component to cognitive impairment."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Mixed Dementia (Alzheimer's Disease with cerebrovascular disease)",
+        "justification": "Cerebral atrophy is a common feature of Alzheimer's, and the extensive microangiopathy suggests a co-existing vascular pathology, which is common in this age group."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+        "justification": "Mild-to-moderate dilatation of the lateral and third ventricles, along with cerebral atrophy, raises NPH as a possibility, although prominent sulci are less typical for classic NPH."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Geriatrician",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Neuropsychological assessment",
+        "Comprehensive blood work (e.g., for vascular risk factors, reversible causes of cognitive impairment)",
+        "Carotid ultrasound"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up to manage chronic conditions and monitor progression."
+    },
+    "patient_explanation": "Your MRI shows some changes in your brain that are common with age. We see that your brain has shrunk a bit, which we call atrophy, and there are signs of wear and tear in the tiny blood vessels, known as microangiopathy. These changes can sometimes affect memory, thinking, and balance. The scan also shows some inflammation in your sinuses, which is called rhinosinusitis. Importantly, there are no signs of a tumor or recent bleeding.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The imaging findings describe chronic and degenerative changes without any acute or life-threatening features requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0047\\pid_0047_response.json"
+}

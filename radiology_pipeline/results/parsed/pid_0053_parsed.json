@@ -1,0 +1,54 @@
+{
+  "pid": "pid_0053",
+  "parsed": {
+    "persona_id": "PT-053",
+    "clinical_presentation": [
+      "Visual disturbance in the left eye",
+      "Double vision (diplopia)",
+      "Restricted movement of the left eye",
+      "Left-sided facial pain/pressure",
+      "Headache"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Metastasis",
+        "justification": "The radiological impression explicitly states the medial left extraconal mass is 'suggestive of metastasis in view of clinical history'."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Orbital Lymphoma",
+        "justification": "Orbital lymphoma can present as a well-defined extraconal mass, often isointense to muscle with mild enhancement, and can cause optic nerve compression."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Idiopathic Orbital Inflammation (Orbital Pseudotumor)",
+        "justification": "This inflammatory condition can manifest as an orbital mass, causing muscle involvement and optic nerve compression, with variable enhancement."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Prompt clinical correlation and specialist review.",
+      "specialist_referrals": [
+        "Ophthalmologist",
+        "Oncologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Biopsy of the orbital mass",
+        "Systemic workup for primary malignancy (if metastasis confirmed)",
+        "Detailed ophthalmological assessment (visual acuity, visual fields, fundoscopy)"
+      ],
+      "follow_up_timeline": "Prompt specialist review within days to a week to plan definitive diagnosis and management."
+    },
+    "patient_explanation": "Your brain scan shows that your brain itself looks normal for your age. However, we found a growth or lump in the left eye socket, behind your eye. This lump is gently pressing on one of the muscles that moves your eye and also slightly on the nerve that helps you see. This could be why you might be experiencing some changes in your vision or double vision. We also noted some inflammation and fluid in your sinuses. We need to do further tests to understand exactly what this lump is and to plan the best way to manage it.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The presence of an orbital mass suggestive of metastasis with mild optic nerve indentation requires prompt specialist evaluation to determine its nature and prevent further visual compromise."
+    },
+    "red_flags": [
+      "Medial left extraconal mass suggestive of metastasis",
+      "Mild indentation of the left optic nerve"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0053\\pid_0053_response.json"
+}

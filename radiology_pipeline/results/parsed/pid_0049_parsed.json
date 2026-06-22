@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0049",
+  "parsed": {
+    "persona_id": "pid_0049",
+    "clinical_presentation": [
+      "Right-sided hemiparesis or hemiplegia",
+      "Seizures",
+      "Cognitive impairment or developmental delay",
+      "Right-sided sensory deficits",
+      "Speech or language difficulties"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Rasmussen encephalitis",
+        "justification": "The radiological impression explicitly states 'Left cerebral hemiatrophy most likely background Rasmussen encephalitis'."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic left parietal ischemic infarct",
+        "justification": "The radiological impression explicitly states 'Chronic left parietal ischemic infarct wih encephalomalacia', supported by the wedge-shaped area of encephalomalacia and MCA narrowing."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Left MCA vasculopathy/stenosis",
+        "justification": "The imaging findings describe 'narrowing of the distal segements of the MCA with persistent non- visualization of a distal posterior branch of the left MCA', which is the likely cause of the ischemic infarct."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Pediatric Neurologist",
+        "Neurosurgeon",
+        "Rehabilitation services (Physical, Occupational, Speech Therapy)"
+      ],
+      "further_investigations": [
+        "EEG (to evaluate for seizure activity)",
+        "Neuropsychological assessment (to evaluate cognitive function)",
+        "Consider brain biopsy (for definitive diagnosis of Rasmussen encephalitis, if clinically indicated)",
+        "Detailed vascular workup (e.g., MRA/CTA of brain vessels) to further characterize MCA narrowing"
+      ],
+      "follow_up_timeline": "Outpatient review with specialists within weeks for comprehensive evaluation and management planning."
+    },
+    "patient_explanation": "Your MRI scan shows that the left side of your brain is smaller than expected, and there's an area of old damage, like a scar from a past event, on the left side. We also saw some narrowing in a blood vessel on that side. These findings suggest a condition called Rasmussen encephalitis, which can cause the brain to shrink and lead to issues like seizures or weakness on the right side of your body. There are no signs of new, active problems right now. We'll need to work with specialists to understand this better and figure out the best plan for you.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are chronic with no acute changes (nil restricted diffusion), and no immediate recommendations were specified, but the underlying condition requires specialist evaluation."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0049\\pid_0049_response.json"
+}

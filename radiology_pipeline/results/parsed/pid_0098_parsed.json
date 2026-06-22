@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0098",
+  "parsed": {
+    "persona_id": "pid_0098",
+    "clinical_presentation": [
+      "Nasal congestion or obstruction",
+      "Rhinitis symptoms (e.g., runny nose, sneezing)",
+      "Facial pain or pressure",
+      "Headache",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic allergic fungal sinusitis",
+        "justification": "This is explicitly mentioned as a differential consideration for the ethmoidal lesion in the radiological impression."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Inflammatory etiology (e.g., chronic sinusitis)",
+        "justification": "The ethmoidal soft tissue lesion is described as suspicious for inflammatory etiology, and mucosal thickening is consistent with rhinitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Infectious etiology (e.g., bacterial sinusitis)",
+        "justification": "The ethmoidal soft tissue lesion is described as suspicious for infectious etiology."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "Nasal endoscopy",
+        "Biopsy of the ethmoidal sinus lesion",
+        "Allergy testing (if allergic fungal sinusitis is suspected)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up with a specialist."
+    },
+    "patient_explanation": "Your MRI scan showed a few things in your sinuses. One of your sinuses, the sphenoid sinus, appears wider than usual, which might be related to past blockages or previous surgery. We also found a small area of thickened tissue in another sinus, the ethmoid sinus. This looks like it could be due to inflammation, an infection, or possibly a type of fungal sinusitis. There's also some swelling inside your nose, consistent with rhinitis. Importantly, the rest of your brain appears normal.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings suggest chronic inflammatory or infectious processes without acute complications or aggressive features, warranting specialist outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0098\\pid_0098_response.json"
+}

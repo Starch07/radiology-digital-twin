@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0057",
+  "parsed": {
+    "persona_id": "pid_0057",
+    "clinical_presentation": [
+      "Cognitive impairment (e.g., memory, executive function, processing speed)",
+      "Gait and balance disturbances",
+      "Mood changes (e.g., apathy, depression)",
+      "Urinary urgency or incontinence",
+      "Fatigue"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Small Vessel Ischemic Disease",
+        "justification": "The report explicitly identifies multi-focal white matter lesions as consistent with chronic small vessel ischemic disease."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Age-Related Cerebral Atrophy",
+        "justification": "The report describes generalized mild reduction in gyral volume and sulcal widening, explicitly stating 'background mild cerebral atrophy'."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Vascular Cognitive Impairment",
+        "justification": "The presence of chronic small vessel ischemic disease and cerebral atrophy in an elderly patient are significant imaging correlates for vascular cognitive impairment."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Geriatrician",
+        "Primary Care Physician"
+      ],
+      "further_investigations": [
+        "Neuropsychological assessment",
+        "Blood pressure monitoring and optimization",
+        "Laboratory tests for vascular risk factors (e.g., lipid panel, HbA1c)",
+        "Clinical assessment for gait and balance"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up within weeks to months for clinical correlation and initiation of risk factor management."
+    },
+    "patient_explanation": "Your brain scan shows some common changes for someone your age. We see some small, old marks in the white matter, which are signs of wear and tear from tiny blood vessels over time. This is called chronic small vessel disease. We also see that your brain has slightly shrunk overall, which is a mild form of age-related brain shrinkage, or atrophy. These findings are common and can sometimes affect memory or thinking speed, but they are not signs of anything immediately dangerous.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The imaging findings indicate chronic, non-acute changes consistent with small vessel disease and atrophy, requiring routine outpatient clinical correlation and management of risk factors."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0057\\pid_0057_response.json"
+}

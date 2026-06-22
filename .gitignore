@@ -3,7 +3,7 @@ appenv/
 __pycache__/
 *.pyc
 *.pyo
-radiology_pipeline/results/
+
 text_simulation/radiology_simulation_output/
 text_simulation/text_simulation_input/
 text_simulation/text_personas/

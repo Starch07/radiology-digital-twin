@@ -1,0 +1,54 @@
+{
+  "pid": "pid_0083",
+  "parsed": {
+    "persona_id": "pid_0083",
+    "clinical_presentation": [
+      "Right-sided motor weakness",
+      "Right-sided sensory deficits",
+      "Aphasia (difficulty with speech or language comprehension)",
+      "Right homonymous hemianopsia (loss of vision in the right half of the visual field)",
+      "Cognitive or executive dysfunction"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Ischemic cortical infarction",
+        "justification": "This is the explicit radiological impression provided in the report, consistent with the described gyriform T2/FLAIR hyperintensities."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Cortical venous thrombosis",
+        "justification": "Can present with similar gyriform cortical T2/FLAIR hyperintensities and infarction due to venous congestion, especially if arterial imaging appears normal."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Post-ictal changes",
+        "justification": "Transient gyriform cortical FLAIR hyperintensities can be seen following seizures, mimicking ischemic changes, although the term 'infarction' implies permanent damage."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Clinical assessment to determine acuity of symptoms, comprehensive neurological examination, vital signs monitoring, and initiation of a full stroke workup.",
+      "specialist_referrals": [
+        "Neurology",
+        "Cardiology"
+      ],
+      "further_investigations": [
+        "Blood tests (e.g., CBC, electrolytes, renal/liver function, glucose, lipids, coagulation profile)",
+        "ECG and Holter monitor (for cardiac arrhythmias)",
+        "Carotid duplex ultrasound",
+        "Echocardiogram (Transthoracic or Transesophageal)",
+        "MRA/CTA of brain and neck vessels"
+      ],
+      "follow_up_timeline": "Urgent clinical review within days for comprehensive stroke workup and initiation of secondary prevention strategies."
+    },
+    "patient_explanation": "Your brain scan shows some areas on the left side of your brain, specifically in the front, side, and back regions, where the blood supply was reduced. This has caused a small area of damage, which we call an ischemic cortical infarction, essentially a type of stroke. We also noted some inflammation in your left sinus, which is a separate common finding. We need to investigate the cause of this stroke and plan how to prevent any future events.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The finding of an ischemic cortical infarction requires urgent clinical correlation and comprehensive workup to determine its acuity, underlying cause, and to initiate secondary prevention strategies."
+    },
+    "red_flags": [
+      "Ischemic cortical infarction"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0083\\pid_0083_response.json"
+}

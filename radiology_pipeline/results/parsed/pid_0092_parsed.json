@@ -1,0 +1,53 @@
+{
+  "pid": "pid_0092",
+  "parsed": {
+    "persona_id": "pid_0092",
+    "clinical_presentation": [
+      "Headache",
+      "Seizures",
+      "Left-sided sensory or motor deficits",
+      "Nausea/Vomiting",
+      "Cognitive changes or altered mental status"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Meningioma",
+        "justification": "The radiological impression explicitly states 'consistent with a meningioma' and findings like extra-axial location, dural tail sign, and avid homogeneous enhancement are characteristic."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Dural Metastasis",
+        "justification": "Some dural-based metastases can mimic meningiomas with homogeneous enhancement and extra-axial presentation, and restricted diffusion can be seen."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Dural Lymphoma",
+        "justification": "Primary dural lymphoma or secondary involvement can present as an extra-axial mass with enhancement and restricted diffusion, mimicking a meningioma."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Initiate corticosteroids to reduce vasogenic edema and manage intracranial pressure; consider anti-epileptic medication if seizures are suspected or occur.",
+      "specialist_referrals": [
+        "Neurosurgery",
+        "Neurology"
+      ],
+      "further_investigations": [
+        "Pre-surgical MRI with advanced sequences for detailed anatomical mapping and surgical planning",
+        "Histopathological examination (biopsy/resection) for definitive diagnosis"
+      ],
+      "follow_up_timeline": "Urgent specialist consultation within days due to significant mass effect and edema."
+    },
+    "patient_explanation": "The MRI scan shows a growth on the surface of your brain, on the right side. This growth, which appears to be a common type called a meningioma, is pressing on your brain and causing some swelling around it. Meningiomas are usually non-cancerous and grow from the protective lining of the brain.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of significant mass effect, marked vasogenic edema, and ventricular compression indicates a high risk of neurological deterioration requiring urgent specialist review."
+    },
+    "red_flags": [
+      "Significant mass effect",
+      "Marked right parietal intra-parenchyma vasogenic edema",
+      "Compression of the adjacent right parietal lobe, third and both lateral ventricles"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0092\\pid_0092_response.json"
+}

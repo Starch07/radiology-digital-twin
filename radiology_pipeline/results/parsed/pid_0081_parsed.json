@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0081",
+  "parsed": {
+    "persona_id": "PT-081",
+    "clinical_presentation": [
+      "Unilateral hearing loss (right ear)",
+      "Tinnitus (right ear)",
+      "Vertigo or balance difficulties",
+      "Facial numbness or weakness (right side)",
+      "Headache"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acoustic schwannoma",
+        "justification": "The lesion is described as a lobulated, avidly enhancing extra-axial mass with intracannicular extension, giving the ice-cream on cone appearance, which is characteristic for an acoustic schwannoma and is listed as 'likely' in the radiological impression."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Meningioma",
+        "justification": "Meningioma is explicitly listed as a differential diagnosis in the radiological impression."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Not specified in report",
+        "justification": "The radiological impression only listed two differential diagnoses for the mass lesion."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurosurgery",
+        "Otolaryngology (ENT)"
+      ],
+      "further_investigations": [
+        "Audiometry and vestibular function tests",
+        "Repeat MRI brain in 6-12 months"
+      ],
+      "follow_up_timeline": "Clinical review with neurosurgery and ENT, and consideration for repeat MRI in 6-12 months for surveillance."
+    },
+    "patient_explanation": "Your brain scan shows a small growth, about 1.7 cm in size, located behind your right ear in an area called the cerebellopontine angle. This type of growth is most likely an 'acoustic schwannoma,' which is usually a slow-growing, non-cancerous tumor. It's situated near important nerves that control hearing, balance, and facial movement, which might explain any symptoms you've been experiencing. We also noted some general age-related changes in your brain, which are common. We will need to monitor this growth and assess its impact on your health.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The lesion is a moderately sized mass requiring specialist evaluation but does not show features of acute neurological compromise or immediate life-threatening findings."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0081\\pid_0081_response.json"
+}

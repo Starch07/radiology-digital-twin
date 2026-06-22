@@ -1,0 +1,55 @@
+{
+  "pid": "pid_0095",
+  "parsed": {
+    "persona_id": "pid_0095",
+    "clinical_presentation": [
+      "Headaches",
+      "Focal neurological deficits (e.g., contralateral motor weakness)",
+      "Cognitive or personality changes",
+      "Seizures",
+      "Nausea and vomiting"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Meningioma",
+        "justification": "Large multilobulated extra-axial mass, closely abutting the dura, brilliant enhancement, and focal calvarial erosion are classic features of a meningioma."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Solitary Fibrous Tumor/Hemangiopericytoma (SFT/HPC)",
+        "justification": "This dural-based tumor can present with prominent vascularity and aggressive features, mimicking a meningioma, supported by prominent intralesional vascular flow voids."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Dural Metastasis",
+        "justification": "While less typical for the described morphology, a dural metastasis could present as an enhancing extra-axial mass with significant mass effect."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Urgent neurosurgical consultation for evaluation of surgical resection and management of increased intracranial pressure (e.g., corticosteroids to reduce perilesional edema).",
+      "specialist_referrals": [
+        "Neurosurgery",
+        "Neurology"
+      ],
+      "further_investigations": [
+        "Pre-operative angiography/embolization planning",
+        "Detailed neurological assessment",
+        "Post-operative histopathological analysis"
+      ],
+      "follow_up_timeline": "Urgent, within hours to a day, given the significant mass effect and midline shift."
+    },
+    "patient_explanation": "The MRI scan shows a large growth on the outer surface of your brain, in the front part on the right side, which is also extending towards the left. This growth is pressing on your brain, causing some swelling and shifting it slightly. The findings are most consistent with a type of growth called a meningioma, which typically grows from the brain's outer lining. While meningiomas are often benign, its current size is causing significant pressure on your brain, which requires urgent medical attention. We also noted some inflammation in your sinuses, which is a separate finding.",
+    "triage_priority": {
+      "rating": 5,
+      "justification": "The report describes a large mass with significant mass effect, perilesional edema, and midline shift, indicating increased intracranial pressure and a high risk of neurological deterioration."
+    },
+    "red_flags": [
+      "Midline shift to the left",
+      "Compression of adjacent brain parenchyma",
+      "Perilesional edema",
+      "Generalized effacement of cerebral sulci, basal cisterns, and frontal horns of both lateral ventricles due to mass effect"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0095\\pid_0095_response.json"
+}

@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0097",
+  "parsed": {
+    "persona_id": "pid_0097",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose (rhinorrhea)",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "This is a very common cause of turbinate engorgement and rhinitis symptoms, especially in a 29-year-old."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Non-allergic Rhinitis",
+        "justification": "Conditions like vasomotor rhinitis or irritant rhinitis can also cause similar nasal turbinate engorgement and symptoms without an allergic trigger."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Infectious Rhinitis (e.g., viral)",
+        "justification": "Acute viral infections can cause turbinate engorgement, though the report does not specify acute findings, making chronic causes more likely for an incidental MRI finding."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "Allergy testing (skin prick or blood tests)",
+        "Nasal endoscopy"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up within weeks for rhinitis management."
+    },
+    "patient_explanation": "Your brain scan showed that your brain is completely normal and healthy. We did, however, notice some swelling inside your nose, specifically in the structures called turbinates. This finding is consistent with a common condition known as rhinitis, which often causes symptoms like a stuffy or runny nose. This is not related to your brain, and we can discuss options for managing your nasal symptoms.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the rhinitis finding is not acute or life-threatening, warranting routine outpatient management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0097\\pid_0097_response.json"
+}

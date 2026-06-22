@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0075",
+  "parsed": {
+    "persona_id": "pid_0075",
+    "clinical_presentation": [
+      "Nasal obstruction/congestion",
+      "Rhinorrhea (runny nose)",
+      "Facial pressure or pain (over maxillary sinus)",
+      "Reduced sense of smell (hyposmia/anosmia)",
+      "Post-nasal drip/cough"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Rhinosinusitis with Nasal Polyps",
+        "justification": "The report explicitly identifies a left maxillary polyp and bilateral rhinitis, which are key features of chronic rhinosinusitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinosinusitis",
+        "justification": "Bilateral nasal turbinate engorgement and polyp formation can be manifestations of an underlying allergic process."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Inflammatory Maxillary Polyp",
+        "justification": "The polyp's T1 isointense and T2 hyperintense signal characteristics are consistent with a benign inflammatory lesion."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "Dedicated CT scan of paranasal sinuses",
+        "Nasal endoscopy",
+        "Allergy testing (if clinically indicated)"
+      ],
+      "follow_up_timeline": "Routine outpatient review with an ENT specialist."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain itself looks completely normal. However, the scan also incidentally captured images of your sinuses and nose. It revealed a small, benign-looking growth, called a polyp, in your left cheekbone sinus, and some swelling inside both sides of your nose, which is known as rhinitis. These are common findings and are not related to your brain, but they might be causing symptoms like a blocked or runny nose.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings of a maxillary polyp and bilateral rhinitis are not acutely life-threatening and warrant routine outpatient specialist evaluation."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0075\\pid_0075_response.json"
+}

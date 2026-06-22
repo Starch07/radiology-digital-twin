@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0099",
+  "parsed": {
+    "persona_id": "pid_0099",
+    "clinical_presentation": [
+      "No clinical symptoms or signs are provided in the persona profile.",
+      "The imaging findings are reported as normal, therefore no specific symptoms can be inferred from the MRI results alone."
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Functional Neurological Disorder",
+        "justification": "This diagnosis is consistent with neurological symptoms in the absence of structural brain pathology visible on MRI."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Migraine or Tension-type headache",
+        "justification": "These are common primary headache disorders that typically do not show structural abnormalities on brain MRI."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Psychiatric disorder with somatic symptoms",
+        "justification": "Psychiatric conditions can manifest with physical symptoms, including neurological complaints, despite normal brain imaging."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Clarify the discrepancy between the 'Normal study' radiological impression and the 'ABNORMAL' report classification with the reporting department.",
+      "specialist_referrals": [
+        "Neurologist (for clinical correlation and further evaluation of any presenting symptoms, given the normal MRI findings)"
+      ],
+      "further_investigations": [
+        "Review of patient's full clinical history and reason for MRI",
+        "Consider blood tests (e.g., inflammatory markers, metabolic panel) if clinically indicated",
+        "Consider EEG or neuropsychological assessment depending on specific clinical concerns (not provided)"
+      ],
+      "follow_up_timeline": "Follow-up after clarification of report status and comprehensive clinical review, timeline dependent on patient's clinical presentation (not provided)."
+    },
+    "patient_explanation": "Your brain MRI scan shows that the structures of your brain, including the main parts, blood vessels, and surrounding areas, appear normal for your age. There are no signs of any growths, blockages, or other significant abnormalities that would typically be seen on this type of scan. This is generally good news, as it rules out many serious conditions that affect the brain's structure.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "Despite normal imaging findings, the 'ABNORMAL' report classification requires semi-urgent clarification and clinical correlation to understand the discrepancy."
+    },
+    "red_flags": [
+      "The 'ABNORMAL' report classification despite the 'Normal study' radiological impression and detailed normal imaging findings is a significant discrepancy that requires immediate clarification."
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0099\\pid_0099_response.json"
+}

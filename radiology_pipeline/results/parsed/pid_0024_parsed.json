@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0024",
+  "parsed": {
+    "persona_id": "pid_0024",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pressure or pain",
+      "Headache (frontal/sinus type)",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "The imaging findings explicitly state 'subtle mucosal thickening of the ethmoidal sinuses noted with bilateral engorgement of the nasal turbinates suggestive of background rhinosinusitis'."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Allergic rhinitis can cause similar findings of mucosal thickening and turbinate engorgement due to inflammatory response."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Viral Upper Respiratory Infection",
+        "justification": "A recent or ongoing viral upper respiratory infection can lead to temporary mucosal swelling and turbinate engorgement in the sinuses."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "None, as the brain MRI is normal and sinus findings are subtle and suggestive of background rhinosinusitis, not an acute emergency.",
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist) if symptoms are persistent, severe, or recurrent"
+      ],
+      "further_investigations": [
+        "Clinical assessment of patient's symptoms and medical history",
+        "CT scan of paranasal sinuses if symptoms persist or worsen despite conservative management",
+        "Allergy testing if allergic rhinitis is suspected as an underlying cause"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician to monitor symptoms; ENT referral if indicated by symptom severity or persistence."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain itself looks completely normal, with no concerning issues or abnormalities. However, the scan did identify some minor swelling and thickening in the lining of your ethmoid sinuses and some engorgement of the nasal turbinates, which are structures inside your nose. These findings are consistent with what we call 'rhinosinusitis,' which is a common inflammation or irritation of the nasal passages and sinuses. It's a subtle finding and typically manageable.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the sinus findings are subtle and suggestive of background rhinosinusitis, indicating a non-acute issue suitable for routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0024\\pid_0024_response.json"
+}

@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0063",
+  "parsed": {
+    "persona_id": "pid_0063",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pain or pressure",
+      "Headache",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Rhinosinusitis",
+        "justification": "The imaging findings of mucosal thickening and bilateral engorgement of the nasal turbinates are characteristic of acute inflammation of the sinuses."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "The term 'Background Rhinosinusitis' in the impression suggests a persistent or recurrent inflammatory process, consistent with chronic disease."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Allergic reactions can cause similar mucosal swelling and turbinate hypertrophy, often predisposing to or co-existing with sinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist (if symptoms persist or are severe)"
+      ],
+      "further_investigations": [
+        "Nasal endoscopy (if indicated by symptoms)",
+        "Allergy testing (if allergic component suspected)",
+        "CT sinuses (if symptoms persist despite medical management)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician or ENT specialist as clinically indicated by symptoms."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain itself looks completely normal, which is excellent news. We did notice some swelling and thickening in the lining of your ethmoid sinuses and some engorgement in your nasal passages. This is a common finding and indicates you have some inflammation or congestion in your sinuses, often referred to as rhinosinusitis, which is not related to your brain.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the rhinosinusitis is described as 'background' with no urgent recommendations, suggesting a routine outpatient review is appropriate."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0063\\pid_0063_response.json"
+}

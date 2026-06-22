@@ -1,0 +1,54 @@
+{
+  "pid": "pid_0062",
+  "parsed": {
+    "persona_id": "pid_0062",
+    "clinical_presentation": [
+      "Ataxia (impaired coordination or balance)",
+      "Dysarthria (slurred speech)",
+      "Vertigo or dizziness",
+      "Nausea and vomiting",
+      "Headache"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Left cerebellar ischemic infarct",
+        "justification": "This is the explicit radiological impression provided in the report."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic lacunar infarct/encephalomalacia",
+        "justification": "A T1W hypointensity with normal DWI and ADC maps is consistent with an old infarct cavity or gliosis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Atypical demyelinating lesion",
+        "justification": "Some demyelinating lesions can present with T1 hypointensity, though the specific imaging features are less typical."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Clinical assessment for acute stroke symptoms, comprehensive neurological examination, vital signs monitoring, and blood glucose check.",
+      "specialist_referrals": [
+        "Neurology/Stroke service",
+        "Cardiology"
+      ],
+      "further_investigations": [
+        "Blood tests (e.g., CBC, lipid panel, HbA1c, renal and liver function tests)",
+        "Electrocardiogram (ECG)",
+        "Echocardiogram",
+        "Carotid Doppler ultrasound",
+        "MRA/CTA of brain and neck vessels"
+      ],
+      "follow_up_timeline": "Urgent review by neurology/stroke service for etiology workup and initiation of secondary prevention strategies."
+    },
+    "patient_explanation": "Your MRI scan shows a small area in the back part of your brain, called the cerebellum, where the blood supply was interrupted. This is what we call a small stroke or infarct. It appears to be an older event, not something that just happened very recently. The rest of your brain looks normal.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The diagnosis of an ischemic infarct, even if subacute or chronic, necessitates urgent clinical evaluation and workup to determine its cause and initiate secondary prevention strategies."
+    },
+    "red_flags": [
+      "Diagnosis of ischemic infarct"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0062\\pid_0062_response.json"
+}

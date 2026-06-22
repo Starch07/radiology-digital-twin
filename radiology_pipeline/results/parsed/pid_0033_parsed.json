@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0033",
+  "parsed": {
+    "persona_id": "pid_0033",
+    "clinical_presentation": [
+      "Left-sided motor weakness (hemiparesis)",
+      "Left-sided sensory deficits",
+      "Balance or coordination difficulties"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Subacute Ischemic Stroke",
+        "justification": "The radiological impression explicitly states a 'small subacute ischemic focus' in the right internal capsule with DWI restriction, which is highly characteristic of ischemia."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Demyelinating Lesion",
+        "justification": "Some acute demyelinating lesions can present with T2-FLAIR hyperintensity and occasionally show restricted diffusion, though less typical for this specific location and DWI pattern."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Cerebritis/Abscess",
+        "justification": "Focal inflammatory or infectious lesions can cause T2 hyperintensity and DWI restriction, but usually present with additional clinical signs and often ring enhancement."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "None, as the lesion is subacute and acute stroke interventions (e.g., thrombolysis, thrombectomy) are not indicated.",
+      "specialist_referrals": [
+        "Neurologist (for comprehensive stroke workup and secondary prevention)",
+        "Vascular specialist (if specific vascular pathology is identified)"
+      ],
+      "further_investigations": [
+        "Comprehensive blood work (e.g., lipid panel, HbA1c, coagulation studies, inflammatory markers)",
+        "ECG and Echocardiogram (to assess for cardiac sources of emboli)",
+        "Carotid ultrasound (to assess for carotid artery stenosis)"
+      ],
+      "follow_up_timeline": "Urgent outpatient review within days to weeks for comprehensive stroke risk factor assessment and initiation of secondary prevention strategies."
+    },
+    "patient_explanation": "The MRI scan shows a very small area in the right side of your brain that has been affected by a temporary reduction in blood flow, similar to a small, recent stroke. This area is important for controlling movement and sensation on the left side of your body. We also noted some common, harmless findings like prominent fluid spaces in the brain and nasal congestion, which are not related to the brain issue. We will need to investigate why this happened to prevent any future events.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The finding of a subacute ischemic focus requires semi-urgent workup and management to prevent further events, though it does not necessitate immediate emergency intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0033\\pid_0033_response.json"
+}

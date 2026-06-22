@@ -1,0 +1,55 @@
+{
+  "pid": "pid_0021",
+  "parsed": {
+    "persona_id": "PT-021",
+    "clinical_presentation": [
+      "Headaches (due to mass effect and vasogenic edema)",
+      "Focal neurological deficits (e.g., weakness, sensory changes, speech difficulties, depending on lesion location)",
+      "Seizures (irritation from cortical lesions and edema)",
+      "Cognitive impairment (e.g., memory, concentration, personality changes due to widespread lesions)",
+      "Balance and coordination issues (due to left cerebellar involvement)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Metastatic brain lesions",
+        "justification": "The radiological impression explicitly states features are those of metastatic brain lesions secondary to clinically diagnosed lung Ca, consistent with multiple peripherally enhancing lesions and vasogenic edema."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Multiple brain abscesses",
+        "justification": "Multiple peripherally enhancing lesions with surrounding vasogenic edema can mimic abscesses, though clinical context of infection is typically present."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Primary CNS lymphoma",
+        "justification": "Primary CNS lymphoma can present with multiple enhancing lesions, but often with different enhancement patterns and is less common than metastases in a patient with known systemic cancer."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Initiate corticosteroids (e.g., dexamethasone) to reduce vasogenic edema and alleviate potential symptoms.",
+      "specialist_referrals": [
+        "Neuro-oncology",
+        "Radiation Oncology",
+        "Neurosurgery",
+        "Palliative Care"
+      ],
+      "further_investigations": [
+        "Systemic staging for primary lung cancer if not fully completed",
+        "Baseline neurological assessment and symptom management",
+        "Consider repeat brain MRI for treatment planning and monitoring"
+      ],
+      "follow_up_timeline": "Urgent specialist consultation within days for comprehensive treatment planning."
+    },
+    "patient_explanation": "The MRI scan shows several small spots in your brain. These spots appear to be where your lung cancer has spread. They are causing some swelling around them, but thankfully, there isn't a major shift or pressure on your brainstem. We need to see specialists quickly to discuss the best way to manage these spots and the swelling.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "Multiple brain metastases with significant vasogenic edema, even without midline shift, require urgent specialist review and initiation of management to prevent neurological deterioration."
+    },
+    "red_flags": [
+      "Multiple brain metastases with widespread vasogenic edema",
+      "Involvement of critical brain regions (e.g., midbrain, cerebellum)"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0021\\pid_0021_response.json"
+}

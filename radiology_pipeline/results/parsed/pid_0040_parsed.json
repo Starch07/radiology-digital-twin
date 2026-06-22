@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0040",
+  "parsed": {
+    "persona_id": "pid_0040",
+    "clinical_presentation": [
+      "Seizures (e.g., temporal lobe epilepsy)",
+      "Memory impairment",
+      "Cognitive difficulties or developmental delay",
+      "Learning difficulties",
+      "Behavioral changes"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic mesial temporal sclerosis",
+        "justification": "Bilateral hippocampal volume loss is a hallmark feature of mesial temporal sclerosis, often associated with chronic epilepsy."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic epileptic encephalopathy",
+        "justification": "This condition is consistent with chronic brain changes like atrophy and is a common cause of seizures and cognitive impairment in children."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Post-infectious or post-inflammatory injury",
+        "justification": "Previous infection or inflammation can lead to localized or generalized brain atrophy and subsequent neurological sequelae."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Pediatric Neurologist",
+        "Neuropsychologist"
+      ],
+      "further_investigations": [
+        "Electroencephalogram (EEG)",
+        "Neuropsychological assessment",
+        "Genetic testing (if clinically indicated)",
+        "Metabolic workup (if clinically indicated)",
+        "Follow-up MRI Brain (to monitor progression)"
+      ],
+      "follow_up_timeline": "Outpatient review with a pediatric neurologist within weeks for comprehensive evaluation and further workup."
+    },
+    "patient_explanation": "Your brain scan showed that certain parts of your brain, especially those important for memory, are a bit smaller than expected. Also, the brain overall looks a little smaller than typical for someone your age. These changes are not signs of anything urgent like a tumor or bleeding, but they can sometimes be linked to things like memory problems or seizures. We need to do some more tests to understand why these changes are there and what they mean for you.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are chronic and not acutely life-threatening, but require prompt neurological evaluation and further investigation due to the patient's age and potential impact on development."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0040\\pid_0040_response.json"
+}

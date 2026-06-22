@@ -1,0 +1,54 @@
+{
+  "pid": "pid_0031",
+  "parsed": {
+    "persona_id": "pid_0031",
+    "clinical_presentation": [
+      "Cognitive decline (e.g., memory loss, executive dysfunction)",
+      "Gait disturbance or balance issues",
+      "Headaches",
+      "Visual field deficits",
+      "Symptoms of rhinosinusitis (e.g., nasal congestion, facial pressure)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Vascular Cognitive Impairment/Dementia",
+        "justification": "The presence of cerebral microangiopathy (Fazekas grade 2), multifocal chronic lacunar infarcts, and cerebral atrophy strongly indicates significant cerebrovascular disease contributing to cognitive decline."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Pituitary Macroadenoma",
+        "justification": "The report explicitly identifies an enlarged pituitary gland measuring 1.6 x 2.3 x 1.8cm, consistent with a macroadenoma requiring further clinical evaluation."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+        "justification": "The combination of ventricular dilatation, periventricular CSF seepage, and cerebral atrophy in an elderly patient raises suspicion for NPH, which presents with a classic triad of gait disturbance, cognitive impairment, and urinary incontinence."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Endocrinologist",
+        "Ophthalmologist/Neuro-ophthalmologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Endocrine blood panel (e.g., prolactin, IGF-1, cortisol, thyroid function)",
+        "Formal visual field testing",
+        "Neuropsychological assessment",
+        "Vascular risk factor screening and management (e.g., blood pressure, lipids, glucose)",
+        "Consider lumbar puncture for CSF dynamics if NPH is clinically suspected"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up with specialists within weeks to months for comprehensive evaluation and management."
+    },
+    "patient_explanation": "Your MRI scan shows a few things. Firstly, there's some general shrinkage of your brain, which is common with age and can affect memory and thinking. We also see signs of wear and tear in the small blood vessels of your brain, and some very small, old 'mini-strokes' in different areas. These findings together can sometimes contribute to issues with memory, thinking, or balance. Additionally, there's an enlargement in a small gland at the base of your brain called the pituitary gland, which we call a macroadenoma. While it's quite large, it doesn't appear to be pressing significantly on important structures right now, but we'll need to check its function and your vision. Finally, the scan also shows some inflammation in your sinuses, which might explain any sinus-related symptoms you've been having.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are chronic and do not indicate an immediate life-threatening condition or acute neurological emergency, warranting routine outpatient specialist review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0031\\pid_0031_response.json"
+}

@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0064",
+  "parsed": {
+    "persona_id": "pid_0064",
+    "clinical_presentation": [
+      "Headache (e.g., migraine, tension-type)",
+      "Seizures (without structural correlate)",
+      "Developmental delay (without structural cause)",
+      "Dizziness or vertigo",
+      "Behavioral changes"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Primary Headache Disorder",
+        "justification": "These are common reasons for brain MRI in children, and the MRI is typically normal, ruling out structural causes."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Idiopathic/Genetic Epilepsy",
+        "justification": "Many forms of epilepsy, especially in children, do not have an identifiable structural correlate on brain MRI."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Functional Neurological Symptom Disorder",
+        "justification": "Neurological symptoms without an identifiable organic cause are common, and brain MRI would be normal in such cases."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Review patient's detailed clinical history and presenting symptoms to guide further management, as the MRI is normal.",
+      "specialist_referrals": [
+        "Referral to relevant specialist (e.g., Pediatric Neurologist, Developmental Pediatrician) based on the patient's specific clinical presentation, as the MRI does not provide a diagnosis."
+      ],
+      "further_investigations": [
+        "Further investigations (e.g., EEG for seizures, metabolic workup, neuropsychological assessment) guided by the patient's clinical symptoms, as no structural pathology was identified on MRI."
+      ],
+      "follow_up_timeline": "Follow-up with the referring clinician to discuss the normal imaging findings in the context of the patient's clinical course and to plan symptom-directed management."
+    },
+    "patient_explanation": "We've carefully reviewed the pictures of your brain, and they look completely normal. We didn't find any problems like swelling, growths, or anything unusual that would explain why you've been having symptoms. This is good news because it means there isn't a structural issue in your brain that we can see on this type of scan.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is reported as normal with no acute findings, but the patient likely has ongoing symptoms that prompted the scan, requiring routine clinical follow-up."
+    },
+    "red_flags": [
+      "Report status classified as 'ABNORMAL' despite 'Normal Brain MRI' impression and findings. This discrepancy requires clarification."
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0064\\pid_0064_response.json"
+}

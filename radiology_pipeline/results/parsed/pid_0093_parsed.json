@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0093",
+  "parsed": {
+    "persona_id": "pid_0093",
+    "clinical_presentation": [
+      "Swelling of the shoulder and upper arm",
+      "Shoulder pain",
+      "Functional limitation or reduced range of motion of the shoulder",
+      "History of prior breast carcinoma"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Metastatic involvement from prior breast carcinoma",
+        "justification": "Multiple enlarged left axillary nodes are suspicious for metastatic involvement in a patient with prior breast carcinoma, leading to urgent biopsy recommendations."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Rotator cuff impingement with supraspinatus tendinosis",
+        "justification": "The supraspinatus tendon shows tendinosis and the AC joint hypertrophy contributes to outlet narrowing, consistent with impingement."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Lymphedema",
+        "justification": "Diffuse subcutaneous edema and arm swelling are likely lymphedema, though axillary nodal disease may be a contributing factor."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Initiate urgent diagnostic workup for suspected metastatic disease and lymphedema.",
+      "specialist_referrals": [
+        "Oncology",
+        "Interventional Radiology/Surgery (for biopsy)",
+        "Vascular specialist (if thrombosis is suspected)"
+      ],
+      "further_investigations": [
+        "Ultrasound-guided biopsy/FNA of the largest axillary node for histopathological confirmation",
+        "Doppler ultrasound of the upper limb veins to exclude venous thrombosis/obstruction",
+        "Cross-sectional chest/axillary imaging (CT chest with contrast) to stage disease and assess local recurrence"
+      ],
+      "follow_up_timeline": "Rapid follow-up for results of biopsy and further imaging to guide definitive treatment."
+    },
+    "patient_explanation": "Your shoulder MRI shows some wear and tear in a key shoulder tendon, the supraspinatus, and arthritis in the joint above it, which are likely causing your shoulder pain and stiffness. We also see swelling in your arm and shoulder. Most importantly, we found some enlarged lymph nodes in your armpit. Given your history of breast cancer, these nodes are suspicious and require further investigation, including a biopsy, to determine their nature.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of multiple enlarged axillary nodes suspicious for metastatic involvement in a patient with prior breast carcinoma necessitates urgent diagnostic workup."
+    },
+    "red_flags": [
+      "Multiple enlarged left axillary nodes suspicious for metastatic involvement in a patient with prior breast carcinoma"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0093\\pid_0093_response.json"
+}

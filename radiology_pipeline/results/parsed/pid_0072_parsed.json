@@ -1,0 +1,53 @@
+{
+  "pid": "pid_0072",
+  "parsed": {
+    "persona_id": "pid_0072",
+    "clinical_presentation": [
+      "Right-sided motor weakness (hemiparesis)",
+      "Right-sided sensory deficits",
+      "Gait or balance disturbance",
+      "Speech difficulties (dysarthria)",
+      "Subtle cognitive changes (e.g., executive dysfunction)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Hypertensive small vessel disease",
+        "justification": "The presence of a subacute ischemic infarct and background cerebral microangiopathy (FAZEKAS grade 1) strongly suggests underlying small vessel disease, commonly associated with hypertension."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Atherosclerotic cerebrovascular disease",
+        "justification": "Atherosclerosis is a common cause of ischemic strokes and can contribute to small vessel disease, making it a highly relevant underlying etiology."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Cardioembolic stroke",
+        "justification": "While the infarct is small and subcortical, a cardioembolic source can cause ischemic infarcts, and should be considered in the workup for stroke etiology."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurology",
+        "Cardiology",
+        "General Practitioner/Internal Medicine"
+      ],
+      "further_investigations": [
+        "Blood pressure monitoring",
+        "Lipid profile, HbA1c, renal function, inflammatory markers",
+        "ECG, Echocardiogram, Holter monitor",
+        "Carotid Doppler ultrasound",
+        "MRA brain/neck"
+      ],
+      "follow_up_timeline": "Outpatient review within weeks for comprehensive stroke risk factor assessment and management."
+    },
+    "patient_explanation": "Your MRI scan shows a small area on the left side of your brain where the blood flow was reduced, causing a minor injury that appears to be a few weeks old. We also observed some common, very small changes in the tiny blood vessels throughout your brain, indicating some age-related wear and tear. The scan also noted some swelling in your nose, likely due to allergies, which is an unrelated finding.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The infarct is subacute with no acute features or mass effect, indicating no immediate neurological emergency, but requires outpatient workup for stroke risk factors."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0072\\pid_0072_response.json"
+}

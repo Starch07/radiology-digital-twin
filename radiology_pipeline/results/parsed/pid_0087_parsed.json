@@ -1,0 +1,53 @@
+{
+  "pid": "pid_0087",
+  "parsed": {
+    "persona_id": "pid_0087",
+    "clinical_presentation": [
+      "Right-sided weakness or numbness (hemiparesis/hemisensory loss)",
+      "Speech difficulties (aphasia/dysarthria)",
+      "Cognitive impairment or memory issues",
+      "Gait disturbance or balance problems",
+      "Nasal congestion or rhinorrhea"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Ischemic Stroke",
+        "justification": "The presence of multi-focal ischemic foci with restricted diffusion on DWI is pathognomonic for acute or subacute cerebral infarction."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Transient Ischemic Attack (TIA) with acute infarcts",
+        "justification": "While TIA symptoms are transient, imaging can reveal acute infarcts, and the multi-focal nature suggests an embolic source."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Cerebral Small Vessel Disease (with acute exacerbation)",
+        "justification": "The multi-focal nature of the lesions and background moderate cerebral atrophy are consistent with underlying small vessel disease, with these new lesions representing acute events."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Urgent neurological assessment to confirm stroke diagnosis, determine symptom onset, and evaluate for acute interventions (e.g., thrombolysis, thrombectomy) if appropriate.",
+      "specialist_referrals": [
+        "Neurology",
+        "Cardiology (for stroke workup)",
+        "ENT (for rhinitis if symptomatic)"
+      ],
+      "further_investigations": [
+        "Carotid Doppler ultrasound",
+        "Echocardiogram",
+        "Holter monitoring",
+        "Comprehensive blood work (e.g., lipid panel, HbA1c, coagulation studies)",
+        "Cognitive assessment"
+      ],
+      "follow_up_timeline": "Immediate assessment, followed by ongoing outpatient neurological follow-up for secondary stroke prevention and management of cognitive/functional deficits."
+    },
+    "patient_explanation": "Your MRI shows a few small, recent areas in the left side of your brain where the blood supply was temporarily reduced, causing minor damage. These are consistent with small strokes. We also see some general age-related shrinkage of your brain, which is common and can sometimes affect memory or thinking. Separately, there are signs of inflammation in your nose and sinuses, which might explain any congestion you've had.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of multi-focal ischemic foci with restricted diffusion indicates acute or subacute cerebral infarction requiring urgent neurological assessment and workup."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0087\\pid_0087_response.json"
+}

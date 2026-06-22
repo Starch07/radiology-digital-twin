@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0018",
+  "parsed": {
+    "persona_id": "pid_0018",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Rhinitis",
+        "justification": "The imaging findings directly describe engorgement of nasal turbinates consistent with rhinitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "This is a common specific etiology for rhinitis, often presenting with nasal turbinate engorgement."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Non-allergic Rhinitis (e.g., Vasomotor Rhinitis)",
+        "justification": "This is another common specific etiology for rhinitis, which can also cause nasal turbinate engorgement."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "null",
+      "specialist_referrals": [
+        "ENT specialist (if symptoms are persistent or severe)"
+      ],
+      "further_investigations": [
+        "Allergy testing (if allergic rhinitis suspected)",
+        "Nasal endoscopy (if indicated by symptoms or lack of response to initial treatment)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician for symptom management, or ENT if referred."
+    },
+    "patient_explanation": "Your brain MRI shows that everything inside your head, including your brain, pituitary gland, and nerves, looks completely normal and healthy. We didn't find any problems there. The only thing noted was some swelling inside your nose, which is a common condition called rhinitis, often associated with a stuffy or runny nose.",
+    "triage_priority": {
+      "rating": 1,
+      "justification": "The brain MRI is normal, and the only identified finding is rhinitis, which is a non-urgent condition."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0018\\pid_0018_response.json"
+}

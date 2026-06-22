@@ -1,0 +1,37 @@
+{
+  "pid": "pid_0084",
+  "parsed": {
+    "persona_id": "pid_0084",
+    "clinical_presentation": [],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Information not available",
+        "justification": "No specific imaging findings or radiological impression are provided in the persona profile to formulate differential diagnoses."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Information not available",
+        "justification": "No specific imaging findings or radiological impression are provided in the persona profile to formulate differential diagnoses."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Information not available",
+        "justification": "No specific imaging findings or radiological impression are provided in the persona profile to formulate differential diagnoses."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [],
+      "further_investigations": [],
+      "follow_up_timeline": "Information not available in the persona profile."
+    },
+    "patient_explanation": "The radiology report indicates an abnormal finding. However, no specific details about the nature or location of this abnormality are provided in the available information. Further clinical correlation and review of the full report are necessary to understand what this means for your health.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The report is classified as 'ABNORMAL', indicating a finding that warrants clinical review; however, without specific details, a semi-urgent priority (3) is assigned as a default for an unspecified abnormality."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0084\\pid_0084_response.json"
+}

@@ -1,0 +1,40 @@
+{
+  "pid": "pid_0007",
+  "parsed": {
+    "persona_id": "pid_0007",
+    "clinical_presentation": [
+      "No specific neurological symptoms indicated by the benign intracranial findings.",
+      "Nasal congestion or mild breathing difficulty (if symptomatic from turbinate engorgement)."
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Perivascular space",
+        "justification": "Explicitly stated as 'likely a perivascular space' in the radiological impression, consistent with its benign appearance and lack of mass effect."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Previous ischemic focus",
+        "justification": "Explicitly stated as 'likely a previous ischemic focus' in the radiological impression, consistent with a small, benign-appearing lesion without mass effect."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Benign neuroepithelial cyst",
+        "justification": "Small, well-defined, non-enhancing, and non-mass-effect lesions can represent benign developmental cysts, fitting the imaging characteristics."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [],
+      "further_investigations": [],
+      "follow_up_timeline": "No specific follow-up recommended in the report, consistent with the benign nature of the findings."
+    },
+    "patient_explanation": "Your brain MRI showed a very small, harmless-looking spot in your brain, which is likely just a normal fluid-filled space or a tiny old mark that isn't causing any problems. Importantly, it's not pressing on anything and there are no other significant issues in your brain. We also noted some mild swelling in your nose, which is a common finding and usually not a concern.",
+    "triage_priority": {
+      "rating": 1,
+      "justification": "The report indicates a small, benign-appearing lesion with no mass effect and no intracranial abnormalities requiring intervention, along with incidental nasal findings."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0007\\pid_0007_response.json"
+}

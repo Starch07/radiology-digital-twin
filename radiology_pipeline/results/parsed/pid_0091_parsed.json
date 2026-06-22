@@ -1,0 +1,50 @@
+{
+  "pid": "pid_0091",
+  "parsed": {
+    "persona_id": "pid_0091",
+    "clinical_presentation": [
+      "Cognitive decline (e.g., memory issues)",
+      "Nasal congestion or obstruction",
+      "Facial pain or pressure",
+      "Headache",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "The report explicitly states 'mild right maxillary sinus mucosal thickening noted with engorgement of the inferior nasal turbinate's' and 'Chronic rhino-sinusitis' in the impression."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Age-related mild brain atrophy",
+        "justification": "The report notes 'generalized mild reduction in the volume of the gyri and widening of the sulci' and 'Mild brain atrophy' in the impression, which can be an age-related finding at 50."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Early neurodegenerative disorder (e.g., Parkinsonism)",
+        "justification": "The report identifies mild brain atrophy and explicitly states 'No specific structural MRI features of Parkinsonism identified (changes may be subtle or absent on routine MRI),' indicating this remains a clinical consideration."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Ear, Nose, and Throat (ENT) specialist for chronic rhino-sinusitis",
+        "Neurologist for evaluation of mild brain atrophy and to clinically assess for neurodegenerative conditions, including Parkinsonism"
+      ],
+      "further_investigations": [
+        "Clinical evaluation and management of chronic rhino-sinusitis by ENT",
+        "Neuropsychological assessment to evaluate cognitive function related to mild brain atrophy",
+        "Consider further specific imaging (e.g., DaTscan) if clinical suspicion for Parkinsonism remains high despite routine MRI findings"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up as guided by specialist evaluations."
+    },
+    "patient_explanation": "Your brain scan showed two main things. We observed a mild reduction in the overall volume of your brain, which can be a normal part of aging, even at 50, and is not severe. We also found signs of mild, long-standing inflammation in your right sinus, consistent with chronic sinus problems. Importantly, the scan did not show any specific structural features that would typically indicate Parkinson's disease, though very early changes might not always be visible on a routine MRI.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are described as mild and chronic, with no acute or urgent pathology identified in the report."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0091\\pid_0091_response.json"
+}

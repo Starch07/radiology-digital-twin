@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0028",
+  "parsed": {
+    "persona_id": "pid_0028",
+    "clinical_presentation": [
+      "Altered mental status or confusion",
+      "Cognitive impairment (e.g., memory loss, difficulty concentrating)",
+      "Sensory deficits (e.g., numbness, paresthesia)",
+      "Motor weakness or incoordination",
+      "Headache"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Paraneoplastic encephalopathy",
+        "justification": "The report explicitly states this is 'most likely' given the patient's known history of colon cancer."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Toxic-metabolic encephalopathy",
+        "justification": "This is listed as a differential diagnosis, consistent with acute or subacute cytotoxic injury and symmetrical distribution."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Ischemia",
+        "justification": "The report lists ischemia as a differential but notes it is 'less likely due to symmetric distribution' of the lesions."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [],
+      "further_investigations": [],
+      "follow_up_timeline": null
+    },
+    "patient_explanation": "Your brain scan showed some changes in specific areas, particularly in parts of your brain called the thalamus and the deep white matter. These changes suggest there's been some recent damage to brain cells. We didn't find any tumors, bleeding, or abnormal growths. Given your history of colon cancer, the most likely explanation for these findings is a condition where your immune system reacts to the cancer and affects your brain, known as paraneoplastic encephalopathy. Other possibilities include a toxic or metabolic issue affecting your brain, but a stroke is less likely due to the pattern of changes.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The imaging shows acute or subacute cytotoxic injury and encephalopathy, most likely paraneoplastic, which requires prompt clinical assessment and management."
+    },
+    "red_flags": [
+      "Acute or subacute cytotoxic injury indicated by restricted diffusion",
+      "Imaging features suggestive of paraneoplastic encephalopathy",
+      "Known history of colon cancer in conjunction with these findings"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0028\\pid_0028_response.json"
+}

@@ -1,0 +1,43 @@
+{
+  "pid": "pid_0001",
+  "parsed": {
+    "persona_id": "pid_0001",
+    "clinical_presentation": [],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Early Cerebral Microangiopathy (Fazekas Grade 1)",
+        "justification": "This is explicitly stated as the radiological impression based on the subtle T2/FLAIR hyperintense foci."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Small Vessel Ischemic Disease",
+        "justification": "Cerebral microangiopathy is a manifestation of small vessel ischemic disease, which causes the observed white matter changes."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Age-related white matter changes",
+        "justification": "Subtle T2/FLAIR hyperintense foci are common incidental findings that increase with age and can be considered benign age-related changes."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Primary care physician"
+      ],
+      "further_investigations": [
+        "Blood pressure monitoring",
+        "Lipid profile",
+        "Glucose/HbA1c"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care for cardiovascular risk factor assessment and management; imaging follow-up is typically not immediately indicated for Fazekas Grade 1 unless clinical progression occurs."
+    },
+    "patient_explanation": "Your MRI scan showed some very small, subtle bright spots in the deeper parts of your brain's wiring. These are consistent with the earliest and mildest form of changes in the brain's smallest blood vessels, known as early cerebral microangiopathy (Fazekas Grade 1). This is a common finding and often doesn't cause significant problems, but it's important to manage any underlying health conditions that might contribute to it. We also noted some swelling in your nose, which suggests you might have allergic rhinitis.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are subtle and consistent with early microangiopathy (Fazekas Grade 1) without acute features, requiring routine outpatient management of underlying risk factors."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0001\\pid_0001_response.json"
+}

@@ -1,0 +1,44 @@
+{
+  "pid": "pid_0096",
+  "parsed": {
+    "persona_id": "PT-096",
+    "clinical_presentation": [
+      "The normal imaging findings do not provide information regarding the patient's clinical presentation."
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Primary Headache Disorder (e.g., Migraine, Tension-type headache)",
+        "justification": "These are common neurological conditions often investigated with brain MRI, which typically appears normal."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Functional Neurological Disorder",
+        "justification": "This diagnosis is considered when neurological symptoms are present without an identifiable structural cause on imaging."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Somatic Symptom Disorder / Anxiety Disorder",
+        "justification": "Psychiatric conditions can manifest with physical symptoms mimicking neurological issues, for which brain MRI would be normal."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Referring physician for clinical correlation and symptom management."
+      ],
+      "further_investigations": [
+        "No further imaging investigations of the brain are indicated based on this report.",
+        "Further investigations, if any, should be guided by the patient's clinical presentation."
+      ],
+      "follow_up_timeline": "Routine follow-up with the referring physician as clinically indicated."
+    },
+    "patient_explanation": "Your brain MRI scan shows no abnormalities. All parts of your brain, including the main areas, brainstem, and surrounding structures, appear healthy and normal. There are no signs of any structural problems, swelling, or other issues that would be visible on this type of scan. This is a reassuring result.",
+    "triage_priority": {
+      "rating": 1,
+      "justification": "The brain MRI study is normal with no acute or significant findings, therefore no urgent intervention is required based on imaging."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0096\\pid_0096_response.json"
+}

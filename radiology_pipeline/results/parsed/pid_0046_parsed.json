@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0046",
+  "parsed": {
+    "persona_id": "pid_0046",
+    "clinical_presentation": [
+      "Cognitive impairment (e.g., executive dysfunction, memory issues)",
+      "Gait and balance disturbances",
+      "Mood changes (e.g., apathy, depression)",
+      "Headaches",
+      "Nasal congestion/facial pressure"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Cerebral Small Vessel Disease (CSVD)",
+        "justification": "The radiological impression explicitly states 'Cerebral microangiopathy (Fazekas grade 2)' and characteristic white matter changes, which are hallmarks of CSVD."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Early-onset Neurodegenerative Disorder",
+        "justification": "Incipient cerebral atrophy and atrophy of the corpus callosum at age 43 suggest a potential primary neurodegenerative process, possibly co-occurring with CSVD."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Multiple Sclerosis (MS)",
+        "justification": "Although the lesions are non-enhancing and confluencing, MS is a common differential for multiple white matter lesions in a 43-year-old, requiring exclusion."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Cardiologist/Internal Medicine",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Neuropsychological assessment",
+        "Blood tests for vascular risk factors (e.g., lipid panel, HbA1c)",
+        "Ambulatory blood pressure monitoring",
+        "Genetic testing (if indicated)"
+      ],
+      "follow_up_timeline": "Outpatient review within weeks for initial clinical assessment and workup, with subsequent imaging follow-up typically within 6-12 months to monitor progression."
+    },
+    "patient_explanation": "Your MRI shows some small changes in the white matter of your brain, which are areas where the tiny blood vessels might not be working as efficiently as they should. We also see some mild, early shrinkage of brain tissue, which can sometimes be related to these vessel changes. These findings are often associated with conditions that affect blood pressure or other vascular health. Additionally, the scan showed some inflammation in your sinuses, consistent with a sinus infection.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The imaging findings are chronic and do not indicate an acute, life-threatening condition requiring immediate intervention, and no urgent recommendations were specified."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0046\\pid_0046_response.json"
+}

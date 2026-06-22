@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0029",
+  "parsed": {
+    "persona_id": "pid_0029",
+    "clinical_presentation": [
+      "Dyspnea (shortness of breath)",
+      "Chest pain (angina)",
+      "Palpitations",
+      "Fatigue",
+      "Dizziness/Syncope"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Hypertension (Systemic Hypertension)",
+        "justification": "This is the most common cause of increased afterload leading to left ventricular hypertrophy."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Aortic Stenosis",
+        "justification": "Increased pressure load on the left ventricle due to outflow obstruction can cause hypertrophy."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Hypertrophic Cardiomyopathy",
+        "justification": "A primary myocardial disease characterized by abnormal ventricular hypertrophy."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Cardiology"
+      ],
+      "further_investigations": [
+        "Echocardiogram",
+        "Blood pressure monitoring",
+        "Blood tests (e.g., renal function, electrolytes, lipids, thyroid function)"
+      ],
+      "follow_up_timeline": "Prompt outpatient cardiology review within weeks to investigate the cause of left ventricular hypertrophy."
+    },
+    "patient_explanation": "Your heart's main pumping chamber, the left ventricle, appears thicker than normal on this electrical tracing (ECG). This thickening, called Left Ventricular Hypertrophy, means your heart might be working harder than it should. The ECG also shows a slight change in the electrical activity, known as Left Axis Deviation. These findings are not an emergency but indicate that we need to do further tests to understand why your heart muscle is thickened and to plan the best way to manage it.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The ECG shows significant abnormalities (LVH and LAD) that require prompt investigation to determine the underlying cause and guide management, though not an immediate emergency."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0029\\pid_0029_response.json"
+}

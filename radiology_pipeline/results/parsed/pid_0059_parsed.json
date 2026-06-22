@@ -1,0 +1,50 @@
+{
+  "pid": "pid_0059",
+  "parsed": {
+    "persona_id": "pid_0059",
+    "clinical_presentation": [
+      "Nasal obstruction or congestion",
+      "Reduced sense of smell (hyposmia/anosmia)",
+      "Post-nasal drip",
+      "Facial pain or pressure",
+      "Headache"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Rhinosinusitis with Nasal Polyps",
+        "justification": "The radiological impression explicitly states 'Right maxillary polyp on background chronic rhino-sinusitis', making this the primary and most likely diagnosis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Fungal Rhinosinusitis",
+        "justification": "This is a specific subtype of chronic rhinosinusitis often associated with significant mucosal thickening, turbinate engorgement, and polyp formation."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Inverted Papilloma",
+        "justification": "This benign but locally aggressive tumor can present as a unilateral polypoid mass within the sinuses and should be considered in the differential for a maxillary polyp."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "Nasal endoscopy",
+        "CT scan of paranasal sinuses",
+        "Allergy testing",
+        "Biopsy of the maxillary polyp (if indicated by ENT assessment)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up with an ENT specialist within weeks."
+    },
+    "patient_explanation": "The good news is that your brain scan is completely normal. However, the scan did show some findings in your sinuses, which are the air-filled spaces in your head. You have a small, non-cancerous growth, called a polyp, in your right cheek sinus. Additionally, the lining of your left cheek and ethmoid sinuses (which are between your eyes) appears swollen, and some structures inside your nose are also enlarged. These findings are consistent with long-term inflammation of your nose and sinuses, a condition known as chronic rhinosinusitis.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings indicate a chronic, non-life-threatening condition requiring specialist ENT evaluation, not immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0059\\pid_0059_response.json"
+}

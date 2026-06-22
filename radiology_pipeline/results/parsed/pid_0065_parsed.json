@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0065",
+  "parsed": {
+    "persona_id": "pid_0065",
+    "clinical_presentation": [
+      "Left visual field defect (e.g., homonymous hemianopia)",
+      "Visual hallucinations (simple, unformed)",
+      "Headaches",
+      "Seizures",
+      "Visual agnosia"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Parafalcine Meningioma",
+        "justification": "This is the explicit radiological impression and is consistent with a dural-based, brilliantly enhancing lesion in the described location."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Metastasis",
+        "justification": "A solitary, enhancing lesion in the brain can represent a metastasis, although meningioma is more likely given the specific enhancement pattern and parafalcine location."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Solitary Fibrous Tumor / Hemangiopericytoma",
+        "justification": "These are less common dural-based tumors that can mimic meningiomas and show strong contrast enhancement."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurosurgery"
+      ],
+      "further_investigations": [
+        "Follow-up MRI brain with contrast in 3-6 months to assess for growth"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up for monitoring of a benign lesion."
+    },
+    "patient_explanation": "The MRI scan showed a small, non-cancerous growth, called a meningioma, on the right side of your brain, towards the back and near the center. It measures about 2.7 by 2.6 centimeters. These types of growths are usually slow-growing and often don't cause immediate problems, but we will monitor it to ensure it remains stable.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The imaging findings are consistent with a benign meningioma, and the report is classified as 'NORMAL' with no urgent recommendations, warranting routine outpatient specialist review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0065\\pid_0065_response.json"
+}

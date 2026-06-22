@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0042",
+  "parsed": {
+    "persona_id": "pid_0042",
+    "clinical_presentation": [
+      "Visual disturbances (e.g., visual field defects)",
+      "Sensory deficits (e.g., numbness, tingling)",
+      "Motor weakness or difficulty with movement",
+      "Headache",
+      "Dizziness or balance issues"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Infarcts",
+        "justification": "Restricted diffusion is highly characteristic of acute ischemia, and multi-focal lesions suggest embolic or systemic causes."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Demyelinating Process",
+        "justification": "Acute demyelinating lesions can show restricted diffusion, although the absence of contrast enhancement makes active inflammation less likely."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Vasculitis (causing multi-focal ischemia)",
+        "justification": "Systemic or CNS vasculitis can result in multi-focal ischemic lesions with restricted diffusion, even without prominent enhancement."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Urgent clinical correlation with patient history and neurological examination.",
+      "specialist_referrals": [
+        "Neurologist"
+      ],
+      "further_investigations": [
+        "Comprehensive blood tests (e.g., inflammatory markers, autoimmune screen, thrombophilia screen, infection screen)",
+        "Lumbar puncture (if demyelinating or infectious process suspected)",
+        "Vascular imaging (e.g., MRA/CTA of brain and neck)",
+        "Repeat MRI brain (to assess lesion evolution)"
+      ],
+      "follow_up_timeline": "Urgent review within days, ideally same-day clinical assessment."
+    },
+    "patient_explanation": "Your brain scan shows several small areas that look different from the surrounding brain tissue. These changes suggest there might have been some recent events, possibly like small strokes or a condition affecting the protective covering of your brain cells. There is no sign of a large growth or active swelling. We need to conduct more tests and understand your symptoms to determine the exact cause and the best way to manage it.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of multi-focal acute or subacute brain lesions with restricted diffusion requires urgent clinical assessment and workup to determine the etiology and guide treatment."
+    },
+    "red_flags": [
+      "Multi-focal T2-FLAIR hyperintense lesions with restricted diffusion, indicating acute or subacute brain pathology."
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0042\\pid_0042_response.json"
+}

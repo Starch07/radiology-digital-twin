@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0016",
+  "parsed": {
+    "persona_id": "PT-016",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pressure/pain",
+      "Headache",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Rhinosinusitis",
+        "justification": "The imaging findings of mucosal thickening of the ethmoidal sinuses and bilateral engorgement of the nasal turbinates are characteristic of rhinosinusitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "While described as mild, the findings could represent a chronic inflammatory process, especially if symptoms are prolonged or recurrent."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Nasal turbinate engorgement and mucosal thickening can be seen in allergic rhinitis, which often predisposes to or coexists with sinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "None required immediately beyond symptomatic relief for rhinosinusitis (e.g., nasal saline rinses, analgesics if pain is present).",
+      "specialist_referrals": [
+        "ENT specialist (if symptoms are persistent, severe, or recurrent)"
+      ],
+      "further_investigations": [
+        "None immediately indicated based on current findings"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician for symptom management and reassessment."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain itself is completely normal, which is excellent news. We didn't find any serious problems or abnormalities there. However, the scan did pick up some mild inflammation and swelling in your ethmoid sinuses and the lining of your nose, which is a common condition called mild rhinosinusitis. This is not serious and is likely the cause of any nasal congestion or facial discomfort you might be experiencing.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the rhinosinusitis is described as mild and background, indicating no immediate urgency for review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0016\\pid_0016_response.json"
+}

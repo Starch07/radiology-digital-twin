@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0027",
+  "parsed": {
+    "persona_id": "pid_0027",
+    "clinical_presentation": [
+      "Cognitive decline (e.g., memory impairment, executive dysfunction)",
+      "Gait disturbance or balance issues",
+      "Focal neurological deficits (e.g., weakness, sensory changes, dysarthria)",
+      "Mood changes or apathy",
+      "Chronic nasal congestion or facial pressure (due to chronic rhino-sinusitis)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Cerebral Small Vessel Disease (CSVD)",
+        "justification": "The multifocal lacunar infarcts, prominent perivascular spaces, and white matter changes are characteristic imaging features of CSVD."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Vascular Dementia",
+        "justification": "The extensive multifocal lacunar infarcts and severe brain atrophy are significant contributors to cognitive decline, consistent with vascular dementia."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Mixed Dementia (Vascular and Alzheimer's type)",
+        "justification": "Severe brain atrophy is a common feature of Alzheimer's disease, which can co-exist with vascular pathology in older individuals."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Initiate urgent workup for stroke risk factors (e.g., hypertension, diabetes, hyperlipidemia, atrial fibrillation) and secondary prevention strategies, given the DWI restriction indicating acute/subacute infarcts.",
+      "specialist_referrals": [
+        "Neurologist (for cerebrovascular disease management and cognitive assessment)",
+        "Geriatrician (for comprehensive assessment of cognitive decline and multi-morbidity)",
+        "ENT specialist (for chronic rhino-sinusitis)"
+      ],
+      "further_investigations": [
+        "Blood pressure monitoring (including ambulatory BP)",
+        "Lipid panel, HbA1c, renal function, thyroid function",
+        "ECG and/or Holter monitoring (to rule out atrial fibrillation)",
+        "Formal cognitive assessment (neuropsychological testing)"
+      ],
+      "follow_up_timeline": "Neurologist review within 2-4 weeks for ongoing management of cerebrovascular disease and cognitive assessment. ENT referral as per clinical need for sinusitis."
+    },
+    "patient_explanation": "Your brain scan shows that you've had several very small strokes, which are like tiny blockages in the small blood vessels of your brain. Some of these appear to be recent. We also see some general shrinkage of your brain, which is common with aging and can be related to these small vessel changes. These findings can sometimes affect memory, thinking, and balance. Additionally, there are signs of long-standing inflammation in your sinuses, which is a separate issue.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The presence of multifocal lacunar infarcts with DWI restriction indicates recent or ongoing cerebrovascular events requiring prompt clinical evaluation and initiation of secondary prevention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0027\\pid_0027_response.json"
+}

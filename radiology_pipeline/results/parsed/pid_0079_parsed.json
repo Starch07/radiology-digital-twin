@@ -1,0 +1,50 @@
+{
+  "pid": "pid_0079",
+  "parsed": {
+    "persona_id": "pid_0079",
+    "clinical_presentation": [
+      "Headaches",
+      "Dizziness or vertigo",
+      "Transient neurological symptoms",
+      "Cognitive complaints",
+      "Seizures (non-structural)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Primary Headache Disorder",
+        "justification": "These are very common neurological conditions that frequently prompt brain imaging to exclude secondary causes, but typically present with normal MRI findings."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Functional Neurological Disorder",
+        "justification": "This involves neurological symptoms not explained by a neurological disease or other medical condition, and brain MRI is characteristically normal."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Psychiatric Disorder with Somatic Symptoms",
+        "justification": "Conditions like anxiety or somatization can manifest with various physical and neurological-like symptoms, for which a brain MRI would be normal."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurology"
+      ],
+      "further_investigations": [
+        "Detailed clinical history and neurological examination",
+        "Blood tests (e.g., complete blood count, electrolytes, thyroid function, B12)",
+        "EEG (if seizures suspected)",
+        "Neuropsychological assessment (if cognitive concerns)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up to further investigate the underlying cause of the patient's symptoms."
+    },
+    "patient_explanation": "Your brain MRI scan shows that the structure of your brain, including all its parts, looks completely normal. There are no signs of any growths, blockages, or other problems that would explain your symptoms. This is good news as it rules out many serious conditions.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The MRI shows no acute or life-threatening pathology, indicating a routine clinical situation for further symptom evaluation."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0079\\pid_0079_response.json"
+}

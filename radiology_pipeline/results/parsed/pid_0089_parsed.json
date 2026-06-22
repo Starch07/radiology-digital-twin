@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0089",
+  "parsed": {
+    "persona_id": "pid_0089",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pressure/pain (ethmoidal region)",
+      "Headache",
+      "Rhinorrhea",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Rhinosinusitis",
+        "justification": "The report explicitly states 'suggestive of background rhinosinusitis' due to mucosal thickening and turbinate engorgement."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Bilateral engorgement of nasal turbinates and mucosal thickening are common findings in allergic rhinitis, which can precede or coexist with rhinosinusitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Chronic Rhinitis (non-allergic)",
+        "justification": "Persistent inflammation of the nasal lining without an allergic cause can also lead to similar findings of mucosal thickening and turbinate engorgement."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT (Ear, Nose, Throat) specialist"
+      ],
+      "further_investigations": [
+        "Clinical evaluation by ENT",
+        "Nasal endoscopy",
+        "Allergy testing (if clinically indicated)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care or ENT as clinically indicated for rhinosinusitis management."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain itself looks completely normal, which is excellent news, and we didn't find any serious issues there. However, the scan did pick up some very mild swelling and thickening in the lining of your ethmoid sinuses and nasal passages. This is a common finding often associated with a condition called rhinosinusitis, which typically causes symptoms like a stuffy nose or sinus pressure, but it's not a serious brain problem.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the sinus findings are subtle and suggestive of background rhinosinusitis, which typically does not require urgent intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0089\\pid_0089_response.json"
+}

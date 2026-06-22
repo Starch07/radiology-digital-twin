@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0015",
+  "parsed": {
+    "persona_id": "PT-015",
+    "clinical_presentation": [
+      "Motor weakness (e.g., limb weakness)",
+      "Sensory disturbances (e.g., numbness or altered sensation)",
+      "Dysphagia (difficulty swallowing)",
+      "Dysarthria (slurred speech)",
+      "Vertigo or balance issues"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Subacute infarct involving the medulla oblongata and proximal cervical spinal cord",
+        "justification": "The report explicitly states this diagnosis, strongly supported by restricted diffusion on DWI and characteristic lesion morphology."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute demyelinating lesion (e.g., transverse myelitis)",
+        "justification": "Demyelinating diseases can cause T2 hyperintense lesions in the brainstem and spinal cord, leading to similar neurological deficits, though restricted diffusion is less typical."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Brainstem/spinal cord tumor (e.g., glioma)",
+        "justification": "Tumors can present with T1 hypointense and T2/FLAIR hyperintense lesions in this region, causing neurological symptoms, although the wedge shape and restricted diffusion are less characteristic."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Urgent neurological assessment and stabilization; initiate secondary stroke prevention measures (e.g., antiplatelet therapy, blood pressure control, lipid management) if not contraindicated.",
+      "specialist_referrals": [
+        "Neurology (for stroke management and workup)",
+        "ENT (for chronic rhino-sinusitis)"
+      ],
+      "further_investigations": [
+        "Comprehensive stroke workup (e.g., carotid imaging, echocardiogram, cardiac rhythm monitoring, blood tests for risk factors)",
+        "Consider CT sinuses if ENT deems necessary for chronic rhino-sinusitis"
+      ],
+      "follow_up_timeline": "Urgent clinical review and admission for stroke management and workup."
+    },
+    "patient_explanation": "Your MRI scan shows that you've had a recent small stroke in a vital area at the base of your brain and the top of your spinal cord. This finding helps explain any new symptoms you might be experiencing. The scan also shows some common age-related changes in your brain, including some mild shrinkage and signs of long-term wear and tear on the small blood vessels. Additionally, there's evidence of chronic inflammation in your right sinus.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "A subacute infarct requires urgent clinical assessment and initiation of secondary prevention to minimize further neurological damage and prevent recurrence."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0015\\pid_0015_response.json"
+}

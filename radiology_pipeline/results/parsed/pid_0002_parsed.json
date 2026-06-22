@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0002",
+  "parsed": {
+    "persona_id": "PT-002",
+    "clinical_presentation": [
+      "Cognitive impairment (e.g., memory loss, executive dysfunction)",
+      "Behavioral or personality changes",
+      "Headaches",
+      "Potential focal neurological deficits (e.g., seizures, language difficulties due to temporal lobe compression)",
+      "Nasal congestion or facial pain (due to rhino-sinusitis)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Neurodegenerative disorder",
+        "justification": "Widespread cerebral atrophy, including frontal, parieto-occipital, and corpus callosum, is highly suggestive of an underlying neurodegenerative process."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Arachnoid cyst (symptomatic vs. incidental)",
+        "justification": "A well-defined, CSF-intensity extra-axial cyst compressing the temporal lobe is characteristic of an arachnoid cyst, which can be symptomatic or an incidental finding."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+        "justification": "The combination of cerebral atrophy and exvacuo dilatation and elevation of the lateral ventricles warrants consideration of NPH in the differential, despite the 'exvacuo' description."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Neurosurgeon (for surgical opinion on arachnoid cyst if symptomatic)",
+        "ENT specialist (for rhino-sinusitis)"
+      ],
+      "further_investigations": [
+        "Comprehensive neurological and cognitive assessment",
+        "Blood work (to rule out reversible causes of cognitive decline)",
+        "Consideration of CSF studies (if NPH is suspected)",
+        "Follow-up MRI (to monitor cyst and atrophy progression if clinically indicated)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up with relevant specialists to establish a definitive diagnosis and management strategy."
+    },
+    "patient_explanation": "Your brain scan shows two main findings. Firstly, there's some general shrinkage of your brain tissue, particularly in the front and back parts, and also a structure connecting the two halves of your brain. This is called cerebral atrophy, and it means the fluid spaces within your brain appear a bit larger than usual. Secondly, there's a fluid-filled sac, called an arachnoid cyst, on the surface of your brain in the left temporal area. It's pressing slightly on the brain tissue there, but it's not causing a dangerous amount of pressure or shifting your brain. We also noted some mild inflammation in your sinuses.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The imaging findings indicate chronic changes (atrophy) and a stable-appearing arachnoid cyst without acute features like midline shift or edema, warranting routine specialist review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0002\\pid_0002_response.json"
+}

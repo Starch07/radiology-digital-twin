@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0005",
+  "parsed": {
+    "persona_id": "pid_0005",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Facial pressure/pain",
+      "Headache",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Rhinosinusitis",
+        "justification": "The imaging findings directly describe subtle mucosal thickening of the ethmoidal and maxillary sinuses with bilateral engorgement of the nasal turbinates, explicitly indicative of background rhinosinusitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Allergic rhinitis commonly presents with mucosal thickening and turbinate engorgement, which can predispose to or mimic the findings of rhinosinusitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Upper Respiratory Tract Infection (URTI)",
+        "justification": "Viral URTIs frequently cause inflammatory changes in the paranasal sinuses and nasal turbinates, consistent with the described subtle findings."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Ear, Nose, and Throat (ENT) specialist (if rhinosinusitis symptoms are persistent or severe)"
+      ],
+      "further_investigations": [
+        "Clinical assessment of rhinosinusitis symptoms and impact on quality of life"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care for symptom management and monitoring of rhinosinusitis."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain looks completely normal, which is excellent news. We did notice some mild inflammation in the lining of your nose and the air-filled spaces around your nose, called sinuses. This is a common finding, often seen with things like a cold or allergies, and is called rhinosinusitis. It's not related to your brain, but it's something we can discuss with your doctor if you're having symptoms like a stuffy nose or headaches.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the sinus findings are subtle and indicative of background rhinosinusitis, which typically does not require urgent intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0005\\pid_0005_response.json"
+}

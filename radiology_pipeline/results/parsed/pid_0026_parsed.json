@@ -1,0 +1,51 @@
+{
+  "pid": "pid_0026",
+  "parsed": {
+    "persona_id": "pid_0026",
+    "clinical_presentation": [
+      "Cognitive decline (e.g., memory impairment, executive dysfunction)",
+      "Gait disturbance or balance issues",
+      "Nasal congestion",
+      "Facial pressure or pain",
+      "Headache"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Vascular Cognitive Impairment",
+        "justification": "The presence of incipient cerebral microangiopathy (Fazekas grade 1) and prominent perivascular spaces strongly suggests a vascular contribution to cognitive changes."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Age-related Cognitive Decline/Dementia",
+        "justification": "Generalized cerebral atrophy is a common finding in various forms of dementia and age-related cognitive decline in a 66-year-old."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+        "justification": "Generalized prominence of ventricles and sulci along with mild periventricular CSF seepage could be consistent with features seen in NPH, though not explicitly diagnosed."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurology",
+        "Otolaryngology (ENT)"
+      ],
+      "further_investigations": [
+        "Neuropsychological assessment",
+        "Blood pressure monitoring and management",
+        "Vascular risk factor assessment (e.g., lipids, glucose)",
+        "Consider CT sinuses if rhinosinusitis symptoms are significant"
+      ],
+      "follow_up_timeline": "Routine outpatient review within weeks to months for symptom assessment and management of chronic conditions."
+    },
+    "patient_explanation": "Your MRI scan shows some common changes that can happen with age. We see that your brain has a bit more space around it than usual, which is called cerebral atrophy. There are also some very small changes in the tiny blood vessels within your brain, which we call incipient cerebral microangiopathy. This is a mild finding (Fazekas grade 1) and means the smallest blood vessels might not be working perfectly. Additionally, the scan shows some inflammation in your sinuses, which are the air-filled spaces around your nose.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings describe chronic conditions (cerebral atrophy, incipient microangiopathy, background rhinosinusitis) that do not require immediate intervention, and no urgent recommendations were specified."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0026\\pid_0026_response.json"
+}

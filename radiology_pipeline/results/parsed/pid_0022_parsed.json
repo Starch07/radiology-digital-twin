@@ -1,0 +1,51 @@
+{
+  "pid": "pid_0022",
+  "parsed": {
+    "persona_id": "pid_0022",
+    "clinical_presentation": [
+      "Headaches",
+      "Right-sided weakness or numbness",
+      "Speech difficulties (aphasia/dysarthria)",
+      "Dizziness or lightheadedness",
+      "Nasal congestion or facial pain"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Treated intracranial aneurysm",
+        "justification": "The report explicitly identifies a saccular aneurysm of the left ICA with a functional endovascular coil, supported by coiled signal void areas and no blood flow."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Cerebral arterial stenosis or hypoplasia",
+        "justification": "The report notes a relative reduction in calibre of the left ICA and MCA, indicating a narrowing of these major cerebral arteries."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "History of hydrocephalus",
+        "justification": "The presence of a functional VP shunt in-situ with relative reduction in calibre of the ipsilateral ventricle indicates a past diagnosis and ongoing management of hydrocephalus."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurosurgeon or Interventional Neuroradiologist",
+        "Neurologist",
+        "ENT specialist (if rhinosinusitis is symptomatic)"
+      ],
+      "further_investigations": [
+        "Follow-up MRA/CTA of the brain to monitor aneurysm stability and vessel calibre",
+        "Cerebral perfusion imaging (e.g., CT perfusion, MRI perfusion) to assess the functional impact of reduced ICA/MCA calibre",
+        "Clinical neurological assessment to correlate symptoms with imaging findings"
+      ],
+      "follow_up_timeline": "Routine follow-up, typically within 3-6 months, for re-evaluation of vascular findings and clinical status."
+    },
+    "patient_explanation": "Your MRI scan shows that you have a treated brain aneurysm on the left side, which looks stable and is not currently bleeding. We also observed that the main blood vessels supplying the left side of your brain are somewhat narrower than those on the right, which we will need to keep an eye on. There's also a tube, called a shunt, on the right side of your brain that appears to be working correctly to manage fluid. Finally, we noted some mild inflammation in your sinuses.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The aneurysm is coiled and stable, the VP shunt is functional, and there are no acute findings such as hemorrhage or acute ischemia identified in the report."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0022\\pid_0022_response.json"
+}

@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0068",
+  "parsed": {
+    "persona_id": "PT-068",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Engorgement of inferior nasal turbinates is a common finding in allergic rhinitis, especially in a 10-year-old patient."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Infectious Rhinitis (e.g., viral upper respiratory infection)",
+        "justification": "Turbinate engorgement can also be caused by viral infections, commonly known as the common cold."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Non-allergic Rhinitis",
+        "justification": "This type of rhinitis can also cause turbinate engorgement and nasal symptoms without an allergic trigger."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "None specified by the report; symptomatic management for rhinitis if clinically indicated.",
+      "specialist_referrals": [
+        "Primary care physician for ongoing management of rhinitis",
+        "Consider ENT specialist if symptoms are severe or persistent",
+        "Consider allergist if allergic rhinitis is suspected"
+      ],
+      "further_investigations": [
+        "Allergy testing (if allergic rhinitis suspected)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician as needed for rhinitis symptoms; no specific follow-up for brain imaging is indicated."
+    },
+    "patient_explanation": "Your brain MRI scan showed that your brain is completely normal. We did notice some swelling inside your nose, which is a common finding and usually means you might have a cold or allergies, also known as rhinitis. This is not related to your brain and is generally nothing to worry about.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the only finding is rhinitis, which typically requires routine outpatient review for management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0068\\pid_0068_response.json"
+}

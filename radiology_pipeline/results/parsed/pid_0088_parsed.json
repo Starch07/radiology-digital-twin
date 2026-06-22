@@ -1,0 +1,53 @@
+{
+  "pid": "pid_0088",
+  "parsed": {
+    "persona_id": "pid_0088",
+    "clinical_presentation": [
+      "Right-sided sensory deficits (e.g., numbness, tingling)",
+      "Right-sided motor weakness (e.g., mild hemiparesis)",
+      "Language difficulties (e.g., expressive or receptive aphasia)",
+      "Headache",
+      "Nasal congestion or facial pressure"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Ischemic Stroke (Infarct)",
+        "justification": "The imaging findings of T1/FLAIR hypointensity, T2 hyperintensity, and adjacent edema without enhancement are characteristic of an acute or subacute infarct."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Low-grade glioma",
+        "justification": "These tumors can present with T2 hyperintensity and edema without significant post-contrast enhancement."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Demyelinating lesion",
+        "justification": "Acute demyelinating plaques can show T2 hyperintensity and edema, sometimes without enhancement in early stages."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Initiate urgent workup for stroke etiology and risk factor management.",
+      "specialist_referrals": [
+        "Neurologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Vascular imaging (e.g., CTA/MRA of head and neck)",
+        "Cardiac workup (e.g., ECG, echocardiogram)",
+        "Blood tests (e.g., lipid panel, HbA1c, inflammatory markers)"
+      ],
+      "follow_up_timeline": "Close follow-up with neurology for stroke management and secondary prevention, and ENT for rhinosinusitis."
+    },
+    "patient_explanation": "Your MRI scan shows a small area in the left side of your brain that appears to have been affected by a temporary lack of blood flow, similar to a small stroke. There's also some mild swelling around this area. This is located in a part of the brain that helps with sensation and movement. Additionally, the scan shows some inflammation and thickening in your sinuses, which is a common finding.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of a cortical infarct with adjacent edema indicates a recent cerebrovascular event requiring urgent clinical assessment and initiation of workup to prevent recurrence."
+    },
+    "red_flags": [
+      "Small cortical infarct",
+      "Adjacent area of edema"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0088\\pid_0088_response.json"
+}

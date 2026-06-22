@@ -1,0 +1,46 @@
+{
+  "pid": "pid_0055",
+  "parsed": {
+    "persona_id": "PT-055",
+    "clinical_presentation": [
+      "Diplopia (double vision)",
+      "Esotropia (inward turning of the eye)",
+      "Nasal congestion",
+      "Runny nose",
+      "Right-sided facial pressure or pain"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Idiopathic Sixth Cranial Nerve Palsy",
+        "justification": "The MRI brain is normal, with no structural lesion identified along the sixth cranial nerve, making an idiopathic or microvascular cause plausible for a clinically suspected palsy."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Rhinitis with Nasal Polyp",
+        "justification": "The imaging clearly demonstrates a non-enhancing right maxillary polyp and bilateral rhinitis, which are definite pathological findings."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Other non-structural causes of Sixth Cranial Nerve Palsy",
+        "justification": "Functional deficits of the sixth cranial nerve can occur due to inflammatory or post-viral etiologies not visible on MRI."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [],
+      "follow_up_timeline": "Within days, as guided by neurologic assessment."
+    },
+    "patient_explanation": "Your brain MRI scan shows that your brain itself is healthy, with no signs of stroke, bleeding, tumors, or other major problems. We specifically looked at the nerve that helps move your eye, and while it's very tiny and hard to see perfectly, there's no obvious damage or pressure on it. This means that if you're having issues with your eye movement or double vision, it's likely not due to a major structural problem in your brain. However, the scan did show a small, non-concerning growth (a polyp) in your right cheek sinus and some general swelling in your nose, which is often seen with allergies or colds. These sinus findings are separate from your brain and eye nerve issue.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "While the brain MRI is normal, a potential sixth cranial nerve palsy requires semi-urgent neurological assessment to determine the cause and guide management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0055\\pid_0055_response.json"
+}

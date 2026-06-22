@@ -1,0 +1,50 @@
+{
+  "pid": "pid_0080",
+  "parsed": {
+    "persona_id": "pid_0080",
+    "clinical_presentation": [
+      "Cognitive decline (e.g., memory, executive function issues)",
+      "Gait disturbance or balance issues",
+      "Headaches",
+      "Nasal congestion or facial pressure",
+      "Mood changes or depression"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Vascular Dementia",
+        "justification": "Cerebral microangiopathy (Fazekas grade 2) and mild cerebral atrophy are strong indicators of cerebrovascular disease impacting cognitive function in an elderly patient."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Mixed Dementia (Alzheimer's disease with cerebrovascular disease)",
+        "justification": "Mild cerebral atrophy is consistent with Alzheimer's, and significant microangiopathy suggests a vascular component, making mixed dementia a common diagnosis in this age group."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+        "justification": "Mild dilatation of lateral ventricles and peri-ventricular CSF seepage, though not classic NPH, warrants consideration as a treatable cause of cognitive and gait issues in an elderly patient."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurology (for evaluation of cerebral microangiopathy, atrophy, and potential cognitive decline)",
+        "ENT (for evaluation and management of rhinosinusitis)"
+      ],
+      "further_investigations": [
+        "Cognitive assessment (e.g., neuropsychological testing)",
+        "Cardiovascular risk factor assessment and management (e.g., blood pressure, lipids, diabetes)",
+        "Consider CSF dynamics study if NPH is clinically suspected"
+      ],
+      "follow_up_timeline": "Routine, ongoing management of chronic conditions."
+    },
+    "patient_explanation": "Your MRI shows some common age-related changes in your brain. We see small areas of wear and tear in the brain's white matter, which we call cerebral microangiopathy. This is often related to small blood vessel health and can sometimes affect memory or thinking. There's also a mild degree of brain shrinkage, which is also common with age. We also noted some inflammation in your sinuses, which is a common finding. Finally, there's a small, harmless fatty lump on your scalp. These findings are generally not urgent but warrant further discussion with your doctor.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are chronic and non-acute, indicating conditions that require routine outpatient management rather than urgent intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0080\\pid_0080_response.json"
+}

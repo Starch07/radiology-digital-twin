@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0100",
+  "parsed": {
+    "persona_id": "pid_0100",
+    "clinical_presentation": [
+      "Nasal congestion/obstruction",
+      "Facial pain/pressure",
+      "Headache",
+      "Post-nasal drip",
+      "Epistaxis"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Rhinosinusitis",
+        "justification": "The report explicitly notes 'Background Rhinosinusitis,' mucosal thickening of ethmoidal sinuses, and bilateral engorgement of nasal turbinates."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Maxillary Sinus Retention Cysts",
+        "justification": "The report clearly identifies 'Non-enhancing T1 hypointense and T2 hyperintense collection consistent with retention cysts noted in the floor of both maxillary sinuses.'"
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Post-surgical changes of the nasal cavity",
+        "justification": "The report mentions 'erosion of the postero-superior aspect of the nasal septum as well as the right middle nasal turbinate ? cause ? post surgical,' directly suggesting this possibility."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "CT scan of paranasal sinuses"
+      ],
+      "follow_up_timeline": "Routine outpatient review with ENT specialist"
+    },
+    "patient_explanation": "Your brain MRI scan shows that your brain itself looks completely normal, and we didn't find anything concerning there. However, the scan did show some changes in your nose and sinuses. It looks like you have some inflammation in your sinuses, which is called rhinosinusitis. We also found some small, fluid-filled sacs, called retention cysts, in the bottom of your cheekbone sinuses, which are quite common and usually don't cause problems. Additionally, there are some structural changes in your nose, possibly from a past surgery or ongoing inflammation.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the sinus findings are consistent with chronic, non-urgent conditions like rhinosinusitis and retention cysts."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0100\\pid_0100_response.json"
+}

@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0013",
+  "parsed": {
+    "persona_id": "pid_0013",
+    "clinical_presentation": [
+      "Headache",
+      "Cognitive impairment",
+      "Gait disturbance",
+      "Focal neurological deficits (e.g., weakness, speech difficulties)",
+      "Nasal congestion"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Left MCA saccular aneurysm",
+        "justification": "MR angiography confirms a saccular dilatation arising from the left MCA just distal to its bifurcation, measuring 1.4cm x 0.9cm."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic small vessel ischemic changes",
+        "justification": "Multifocal areas of T1 hypo-intense and T2-FLAIR hyperintense sub-centimeter lesions seen within the deep parietal white matter bilaterally are consistent with chronic small vessel ischemic changes."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Rhinitis",
+        "justification": "There is engorgement of the inferior nasal turbinate's in keeping with rhinitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Prompt referral for neurosurgical evaluation of the aneurysm.",
+      "specialist_referrals": [
+        "Neurosurgery",
+        "Neurology",
+        "ENT (if rhinitis is symptomatic)"
+      ],
+      "further_investigations": [
+        "Digital Subtraction Angiography (DSA) or high-resolution CTA/MRA for detailed aneurysm characterization",
+        "Blood pressure monitoring and management",
+        "Lipid profile and diabetes screening",
+        "Cognitive assessment"
+      ],
+      "follow_up_timeline": "Urgent neurosurgical consultation within days to weeks for definitive management planning of the aneurysm. Routine follow-up for chronic small vessel disease and rhinitis as needed."
+    },
+    "patient_explanation": "The MRI shows a bulge in a blood vessel on the left side of your brain, which is called an aneurysm. It's about 1.4 centimeters in size and needs to be carefully evaluated by a specialist. We also see some small, common changes in the brain's white matter, which are usually due to minor, long-standing issues with small blood vessels. Lastly, there's some swelling in your nose, consistent with common nasal inflammation.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "The presence of a large (1.4cm) unruptured MCA aneurysm requires prompt clinical evaluation to assess rupture risk and management options."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0013\\pid_0013_response.json"
+}

@@ -1,0 +1,51 @@
+{
+  "pid": "pid_0038",
+  "parsed": {
+    "persona_id": "pid_0038",
+    "clinical_presentation": [
+      "Motor weakness or clumsiness",
+      "Sensory disturbances (e.g., numbness, tingling)",
+      "Cognitive changes (e.g., memory, executive function issues)",
+      "Nasal congestion",
+      "Runny nose"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Multifocal subacute lacunar infarcts",
+        "justification": "This is the explicit radiological impression, supported by T1/T2-FLAIR changes and DWI restriction."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Small vessel ischemic disease",
+        "justification": "Multifocal lacunar infarcts are characteristic findings of underlying chronic small vessel disease."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Embolic strokes of undetermined source (ESUS)",
+        "justification": "Multifocal infarcts can result from embolic phenomena, requiring investigation for a cardiac or other embolic source."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "null",
+      "specialist_referrals": [
+        "Neurologist",
+        "Cardiologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Comprehensive stroke workup (e.g., blood tests for risk factors, ECG, Holter monitor, Carotid Doppler, Echocardiogram)",
+        "Blood pressure monitoring",
+        "Consider MRA/CTA of brain/neck vessels"
+      ],
+      "follow_up_timeline": "Prompt outpatient follow-up within days to weeks for comprehensive workup and secondary prevention."
+    },
+    "patient_explanation": "The MRI scan of your brain showed several small areas where the blood flow was temporarily blocked, causing minor damage. These events appear to have happened recently, but not acutely. We also noticed some swelling inside your nose, which is a common finding. We need to investigate why these small blockages occurred to prevent any future issues.",
+    "triage_priority": {
+      "rating": 3,
+      "justification": "Multifocal subacute infarcts in a 41-year-old require prompt investigation to identify the underlying cause and initiate secondary prevention, even if the acute event has passed."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0038\\pid_0038_response.json"
+}

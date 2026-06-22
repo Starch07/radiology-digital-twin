@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0020",
+  "parsed": {
+    "persona_id": "pid_0020",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Headache",
+      "Facial pressure/pain",
+      "Cough"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Viral Rhinosinusitis",
+        "justification": "Mucosal thickening and turbinate engorgement are typical findings in viral upper respiratory infections, which are the most common cause of rhinosinusitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Bacterial Rhinosinusitis",
+        "justification": "The imaging findings of mucosal thickening and turbinate engorgement are non-specific and can also be present in bacterial sinusitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic Rhinitis with secondary Sinusitis",
+        "justification": "Bilateral engorgement of nasal turbinates and mucosal thickening can be associated with allergic inflammation, predisposing to sinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Ear, Nose, and Throat (ENT) specialist (if symptoms are persistent or recurrent)"
+      ],
+      "further_investigations": [
+        "Clinical assessment of rhinosinusitis symptoms (duration, severity)",
+        "Allergy testing (if allergic rhinitis is suspected)",
+        "Nasal endoscopy (if symptoms persist despite initial management)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician for symptom management; ENT referral if symptoms persist or worsen."
+    },
+    "patient_explanation": "Your brain scan looks completely normal, which is excellent news and means there are no serious problems with your brain. However, the scan did show some swelling and extra fluid in the lining of your nose and the air pockets around your nose, which are called sinuses. This is a common condition known as rhinosinusitis, similar to a cold or sinus infection.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the rhinosinusitis findings do not indicate an acute emergency or severe complication requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0020\\pid_0020_response.json"
+}

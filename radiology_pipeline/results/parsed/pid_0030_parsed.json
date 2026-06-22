@@ -1,0 +1,51 @@
+{
+  "pid": "pid_0030",
+  "parsed": {
+    "persona_id": "PT-030",
+    "clinical_presentation": [
+      "Memory impairment",
+      "Cognitive decline",
+      "Gait disturbance",
+      "Balance problems",
+      "Urinary incontinence"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Alzheimer's Disease",
+        "justification": "The radiological impression explicitly states 'Brain atrophy (likely Senile)' in a 78-year-old, which is highly consistent with Alzheimer's pathology."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+        "justification": "The findings of mild-to-moderate ventricular dilatation and mild transependymal seepage of CSF are characteristic imaging features of NPH."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Age-related cognitive impairment",
+        "justification": "Generalized brain atrophy is a common finding in the elderly and can be associated with various forms of age-related cognitive decline, even without a specific neurodegenerative diagnosis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "Geriatrician",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Comprehensive cognitive assessment (e.g., MMSE, MoCA, neuropsychological testing)",
+        "Blood tests (e.g., B12, thyroid function, electrolytes, renal/liver function)",
+        "Lumbar puncture (for NPH workup and CSF biomarkers if indicated)"
+      ],
+      "follow_up_timeline": "Outpatient review within weeks to months for comprehensive assessment and management planning."
+    },
+    "patient_explanation": "Your MRI scan shows that your brain has naturally shrunk a bit, which is common for someone your age, and the fluid-filled spaces within your brain are a little larger. We also see a small amount of fluid around these spaces. These changes are often associated with aging and can sometimes affect memory or balance. Importantly, there are no tumors or bleeding. We also noted some mild inflammation in your sinuses.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings suggest chronic, age-related changes and do not indicate an acute, life-threatening condition requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0030\\pid_0030_response.json"
+}

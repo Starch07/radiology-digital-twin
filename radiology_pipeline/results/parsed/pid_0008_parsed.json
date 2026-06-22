@@ -1,0 +1,56 @@
+{
+  "pid": "pid_0008",
+  "parsed": {
+    "persona_id": "pid_0008",
+    "clinical_presentation": [
+      "Right-sided weakness (hemiparesis)",
+      "Right-sided sensory loss (hemianesthesia)",
+      "Difficulty with coordination on the right side (ataxic hemiparesis)",
+      "Slurred speech (dysarthria)",
+      "Balance disturbances"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Lacunar Infarct",
+        "justification": "The lesion's wedge shape, T1 isointensity, T2/FLAIR hyperintensity, and DWI restriction are classic for an acute/subacute ischemic event, as stated in the radiological impression."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Demyelinating Lesion",
+        "justification": "Some acute demyelinating plaques can show restricted diffusion, though the wedge-shaped morphology in the internal capsule is less typical."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Atypical Inflammatory/Infectious Lesion",
+        "justification": "Certain inflammatory processes or early cerebritis could present with a small, restricted lesion, but usually with other features like enhancement or surrounding edema not mentioned."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Urgent clinical assessment to correlate imaging findings with symptoms, determine stroke onset time, and initiate acute stroke management protocols including blood pressure and glucose control.",
+      "specialist_referrals": [
+        "Neurologist",
+        "Cardiologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Comprehensive blood work (including lipids, HbA1c, thrombophilia screen if indicated)",
+        "ECG",
+        "Holter monitoring",
+        "Echocardiogram",
+        "Carotid Doppler ultrasound",
+        "MRA brain/neck"
+      ],
+      "follow_up_timeline": "Immediate neurological assessment, followed by ongoing outpatient follow-up for secondary stroke prevention and ENT management for chronic sinusitis."
+    },
+    "patient_explanation": "The MRI scan shows a small area in a crucial part of your brain, called the internal capsule, where the blood supply was briefly interrupted, causing a tiny stroke. This area is important for sending messages between your brain and body, so it might explain any new weakness or changes in sensation you've experienced. We also noted some changes in your nose and sinuses, likely from previous surgery and ongoing inflammation, which is a separate finding that an ENT specialist can review.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of a new lacunar infarct with DWI restriction indicates an acute or subacute stroke requiring urgent clinical evaluation for symptom correlation, etiology, and initiation of secondary prevention."
+    },
+    "red_flags": [
+      "Acute/subacute lacunar infarct with DWI restriction"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0008\\pid_0008_response.json"
+}

@@ -1,0 +1,47 @@
+{
+  "pid": "pid_0003",
+  "parsed": {
+    "persona_id": "pid_0003",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose",
+      "Sneezing",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Mega cisterna magna (developmental variant)",
+        "justification": "The report explicitly states this is a 'likely developmental variant' with no mass effect or vermian anomaly."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Congenital hypoplasia of distal left vertebral artery",
+        "justification": "This is a stated possibility for the non-visualization of the distal left vertebral artery, representing a stable, developmental anomaly."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Distal occlusion of left vertebral artery",
+        "justification": "This is the other stated possibility for the non-visualization, implying a potential vascular event that requires clinical correlation."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Clinical evaluation to correlate with non-visualization of distal left vertebral artery"
+      ],
+      "follow_up_timeline": "Routine outpatient review"
+    },
+    "patient_explanation": "Your MRI scan showed a few things. Firstly, a fluid space at the back of your brain, called the cisterna magna, is a bit larger than average. This is a common variation in brain anatomy and is not causing any pressure or problems. Secondly, one of the blood vessels supplying your brain, the left vertebral artery, appears to be either smaller than usual from birth or has a blockage in a small segment. The other brain arteries look normal. This finding needs to be discussed with your doctor to see if it's causing any symptoms. Lastly, there's some swelling in your nose, which is consistent with rhinitis, like allergies or a cold.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings include a likely developmental variant and a vascular anomaly requiring clinical correlation, but no acute mass effect or urgent features are identified."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0003\\pid_0003_response.json"
+}

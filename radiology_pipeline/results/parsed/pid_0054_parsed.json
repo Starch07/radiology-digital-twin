@@ -1,0 +1,49 @@
+{
+  "pid": "pid_0054",
+  "parsed": {
+    "persona_id": "pid_0054",
+    "clinical_presentation": [
+      "Nasal congestion or obstruction",
+      "Facial pain or pressure",
+      "Headache",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Rhinosinusitis (acute or chronic)",
+        "justification": "The radiological impression explicitly states 'Background rhinosinusitis' and the findings include mucosal thickening and turbinate engorgement."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Engorgement of nasal turbinates and mucosal thickening are consistent with allergic inflammation, which can predispose to or co-exist with rhinosinusitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Viral Upper Respiratory Infection (URI)",
+        "justification": "Viral URIs commonly cause transient mucosal thickening and turbinate engorgement, which can mimic or lead to acute rhinosinusitis."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT (Ear, Nose, Throat) specialist"
+      ],
+      "further_investigations": [
+        "Clinical history and examination by ENT",
+        "Nasal endoscopy",
+        "Allergy testing (if indicated)"
+      ],
+      "follow_up_timeline": "Routine outpatient review within weeks to months, depending on symptom severity and chronicity."
+    },
+    "patient_explanation": "Your brain MRI is normal, which is excellent news; we found no issues with your brain itself. However, the scan did show some inflammation and swelling in your sinuses, particularly in your right maxillary sinus and both ethmoid sinuses, along with some swelling inside your nose. There's also a small, harmless cyst in your left maxillary sinus. These findings are consistent with a common condition called rhinosinusitis, which often causes symptoms like nasal congestion, facial pressure, or headaches.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the sinus findings indicate rhinosinusitis without acute complications requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0054\\pid_0054_response.json"
+}

@@ -1,0 +1,52 @@
+{
+  "pid": "pid_0052",
+  "parsed": {
+    "persona_id": "PT-052",
+    "clinical_presentation": [
+      "Cognitive impairment (e.g., memory loss, executive dysfunction)",
+      "Motor weakness or paresis (e.g., hemiparesis)",
+      "Sensory deficits (e.g., numbness, altered sensation)",
+      "Gait and balance disturbances",
+      "Speech or language difficulties (e.g., aphasia)"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Vascular Dementia",
+        "justification": "The presence of multiple chronic ischemic infarcts, severe cerebral microangiopathy (Fazekas grade 3), and cerebral atrophy are strong indicators of vascular cognitive impairment."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic Cerebrovascular Disease",
+        "justification": "The report details multiple chronic ischemic infarcts in various locations and severe cerebral microangiopathy, all consistent with long-standing cerebrovascular disease."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Mixed Dementia (Vascular and Alzheimer's type)",
+        "justification": "The combination of significant vascular pathology (infarcts, microangiopathy) and generalized cerebral atrophy raises the possibility of a mixed etiology for cognitive decline."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurology (for comprehensive stroke risk assessment and management of cerebrovascular disease)",
+        "Geriatric Medicine (for assessment of cognitive impairment and overall functional status)",
+        "Cardiology (for evaluation and management of cardiovascular risk factors)"
+      ],
+      "further_investigations": [
+        "Neuropsychological assessment (to quantify cognitive deficits)",
+        "Vascular risk factor assessment (e.g., blood pressure monitoring, lipid profile, HbA1c)",
+        "ECG and possibly Holter monitoring (to rule out atrial fibrillation)",
+        "Carotid duplex ultrasound (to assess for carotid artery stenosis)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up, likely within 4-6 weeks for initial specialist consultations and workup."
+    },
+    "patient_explanation": "Your brain scan shows that you've had several small strokes in the past, which are old and not new. These are in different parts of your brain, including the front, side, and deeper areas. We also see signs of wear and tear in the tiny blood vessels of your brain, which is quite common, and some general shrinkage of the brain tissue. These changes are often related to how well your blood vessels are working over time. While these are not acute problems, they can sometimes affect memory, thinking, movement, or sensation. We will discuss these findings further and plan for any necessary follow-up.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "All findings are chronic, indicating no acute neurological emergency, but require routine outpatient management for cerebrovascular disease and cognitive assessment."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0052\\pid_0052_response.json"
+}

@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0050",
+  "parsed": {
+    "persona_id": "pid_0050",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Facial pressure/pain",
+      "Headache",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Rhinosinusitis",
+        "justification": "The report explicitly states 'Background Rhinosinusitis' and describes classic imaging features such as mucosal thickening, dependent fluid in the maxillary sinus, and bilateral engorgement of nasal turbinates."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "Chronic allergic inflammation can lead to mucosal thickening and turbinate engorgement, often predisposing to or co-existing with sinusitis."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Upper Respiratory Tract Infection (URTI)",
+        "justification": "Viral URTIs commonly cause inflammation and fluid accumulation in the nasal passages and sinuses, presenting with similar imaging findings."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Allergy testing (if clinically indicated)",
+        "Nasal endoscopy (if clinically indicated)",
+        "CT sinuses (if chronic/recurrent symptoms persist)"
+      ],
+      "follow_up_timeline": "Routine outpatient review for management of rhinosinusitis."
+    },
+    "patient_explanation": "Your brain scan showed that your brain is completely normal and healthy, which is excellent news. We didn't find anything concerning there. However, the scan also showed some inflammation and fluid in the air pockets around your nose, called sinuses, and swelling inside your nose. This is a common condition known as sinusitis, which can cause symptoms like a stuffy nose, facial pressure, or headaches.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the rhinosinusitis findings do not indicate an acute emergency or urgent complication requiring immediate intervention."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0050\\pid_0050_response.json"
+}

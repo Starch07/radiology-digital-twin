@@ -1,0 +1,51 @@
+{
+  "pid": "pid_0090",
+  "parsed": {
+    "persona_id": "pid_0090",
+    "clinical_presentation": [
+      "Headache",
+      "Gait disturbance",
+      "Cognitive impairment (e.g., memory issues)",
+      "Nasal congestion/rhinorrhea",
+      "Urinary incontinence"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Normal Pressure Hydrocephalus (NPH)",
+        "justification": "The imaging findings of mild communicating hydrocephalus with periventricular seepage are characteristic of NPH, a common cause of hydrocephalus in this age group."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Small Vessel Ischemic Disease",
+        "justification": "The presence of a 'small right periventricular parietal white matter lesion - likely a small ischemic focus' directly indicates underlying small vessel cerebrovascular pathology."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Hydrocephalus secondary to prior insult (e.g., post-hemorrhagic, post-inflammatory)",
+        "justification": "Communicating hydrocephalus can result from impaired CSF absorption due to a prior event like subarachnoid hemorrhage or meningitis, even without acute signs on the current scan."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist",
+        "ENT specialist"
+      ],
+      "further_investigations": [
+        "Clinical neurological assessment (including detailed cognitive and gait evaluation)",
+        "Lumbar puncture (e.g., tap test, CSF dynamics study) to assess for NPH",
+        "Blood tests for vascular risk factors (e.g., lipids, HbA1c, blood pressure monitoring)",
+        "Allergy testing and/or nasal endoscopy for rhinitis"
+      ],
+      "follow_up_timeline": "Outpatient review within weeks to assess symptoms and plan further workup."
+    },
+    "patient_explanation": "Your MRI scan shows a mild increase in the fluid that normally surrounds and cushions your brain. This fluid, called cerebrospinal fluid, appears to be draining a bit slowly, causing a slight buildup around the edges of these fluid spaces. We also found a very small spot in your brain that looks like a tiny area where the blood flow might have been reduced in the past. This is a common finding and often doesn't cause significant problems. Lastly, the scan shows some inflammation inside your nose, consistent with rhinitis or allergies. Importantly, there are no signs of bleeding, a tumor, or anything acutely dangerous that needs immediate attention.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are abnormal but indicate a chronic, non-acute process without signs of immediate danger or rapid progression, warranting routine outpatient review."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0090\\pid_0090_response.json"
+}

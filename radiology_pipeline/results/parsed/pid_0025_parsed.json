@@ -1,0 +1,43 @@
+{
+  "pid": "pid_0025",
+  "parsed": {
+    "persona_id": "pid_0025",
+    "clinical_presentation": [
+      "Cognitive decline (e.g., memory impairment, executive dysfunction)",
+      "Gait disturbance or balance issues",
+      "Mood changes (e.g., apathy, depression)",
+      "Headaches (potentially related to rhinosinusitis)",
+      "Fatigue"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Early microangiopathy",
+        "justification": "Bilateral mild peri-ventricular hyperintensities are explicitly stated as suggestive of early microangiopathy."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Age-related cerebral atrophy",
+        "justification": "Prominence of cerebral sulci, basal cisterns, and ventricles are consistent with age-related volume loss, as noted in the impression."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Multiple Sclerosis",
+        "justification": "The report includes 'KIV multiple sclerosis' as some lesions radiate away from the lateral ventricles, a pattern sometimes seen in MS."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [],
+      "further_investigations": [],
+      "follow_up_timeline": "None specified in the report."
+    },
+    "patient_explanation": "Your brain scan shows some changes that are common with age, including a mild amount of brain shrinkage and some small areas of change in the white matter, which can be related to the health of tiny blood vessels. While some patterns can sometimes be seen in conditions like multiple sclerosis, these findings are more typical for age-related changes and small vessel issues. We also noted some common sinus congestion.",
+    "triage_priority": {
+      "rating": 1,
+      "justification": "The findings are described as mild and age-related, with no acute or urgent pathologies identified, and no specific recommendations for immediate action."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0025\\pid_0025_response.json"
+}

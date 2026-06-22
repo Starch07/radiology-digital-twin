@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0035",
+  "parsed": {
+    "persona_id": "pid_0035",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Rhinorrhea (runny nose)",
+      "Sneezing",
+      "Post-nasal drip",
+      "Facial pressure or discomfort"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "A very common cause of nasal turbinate engorgement, consistent with the imaging finding of rhinitis."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Vasomotor Rhinitis",
+        "justification": "Another common form of non-allergic rhinitis that can cause similar turbinate engorgement without an allergic trigger."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Infectious Rhinitis (e.g., viral)",
+        "justification": "Acute or subacute infections can lead to turbinate engorgement, though often with more acute onset and resolution."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "null",
+      "specialist_referrals": [
+        "ENT (Ear, Nose, Throat) specialist for evaluation and management of chronic rhinitis"
+      ],
+      "further_investigations": [
+        "Allergy testing (if clinically indicated to identify specific allergens)",
+        "Nasal endoscopy (by ENT to assess nasal passages and turbinates in detail)"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care or ENT for rhinitis management, as clinically appropriate based on symptom severity and response to initial treatment."
+    },
+    "patient_explanation": "Your brain MRI scan showed that everything inside your head, including your brain, looks completely normal. We didn't find any serious problems like tumors, bleeding, or other significant brain abnormalities. This is excellent news. The scan did, however, show some swelling in the lining of your nose, which is a common condition called rhinitis. This finding is not related to your brain but can cause symptoms like a stuffy or runny nose, and we can discuss options for managing these symptoms.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is normal, and the only abnormal finding (rhinitis) is not an acute or life-threatening condition, warranting routine outpatient review for management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0035\\pid_0035_response.json"
+}

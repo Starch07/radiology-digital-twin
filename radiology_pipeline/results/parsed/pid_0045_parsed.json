@@ -1,0 +1,58 @@
+{
+  "pid": "pid_0045",
+  "parsed": {
+    "persona_id": "pid_0045",
+    "clinical_presentation": [
+      "Left-sided visual field deficits (e.g., homonymous hemianopia)",
+      "Left-sided sensory deficits (e.g., numbness, paresthesia)",
+      "Left-sided spatial neglect or inattention",
+      "Headache",
+      "Potentially left-sided motor weakness"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Ischemic Stroke",
+        "justification": "The MRI findings of a wedge-shaped lesion with T1 hypointensity, T2/FLAIR hyperintensity, and restricted diffusion on DWI are characteristic of acute infarction."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Demyelinating Lesion (e.g., ADEM)",
+        "justification": "Large acute demyelinating lesions can present with T2/FLAIR hyperintensity and sometimes restricted diffusion, though the wedge-shaped morphology is less typical."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Highly cellular tumor (e.g., lymphoma, high-grade glioma)",
+        "justification": "Certain highly cellular tumors can exhibit restricted diffusion and T2/FLAIR hyperintensity, but the wedge-shaped morphology is less characteristic of a primary tumor."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Activate stroke protocol, urgent neurological assessment, stabilize patient, and consider acute stroke interventions (e.g., thrombolysis/thrombectomy if within the therapeutic window).",
+      "specialist_referrals": [
+        "Neurology",
+        "Stroke team",
+        "Rehabilitation services (Physical Therapy, Occupational Therapy, Speech-Language Pathology)",
+        "ENT (for non-acute issues related to the maxillary polyp and rhinitis)"
+      ],
+      "further_investigations": [
+        "CTA/MRA brain and neck (to identify vessel occlusion/stenosis)",
+        "Carotid duplex ultrasound",
+        "Echocardiogram (to assess for cardioembolic source)",
+        "Full stroke blood workup (e.g., lipids, HbA1c, coagulation profile)",
+        "Possibly CT sinuses (if ENT deems necessary for polyp/rhinitis)"
+      ],
+      "follow_up_timeline": "Immediate inpatient admission to a stroke unit for acute management and rehabilitation, followed by long-term outpatient follow-up for secondary stroke prevention and ongoing rehabilitation. ENT follow-up for the maxillary polyp and rhinitis would be separate and less urgent."
+    },
+    "patient_explanation": "Your MRI scan shows that you've had a stroke, which is a blockage of blood flow to a part of your brain. Specifically, a significant area in the back right side of your brain, called the parieto-occipital lobe, has been affected. This area is important for things like vision and sensation, and the findings suggest this happened recently. This explains why you might be experiencing symptoms on the left side of your body. Separately, the scan also showed a small benign growth in your right sinus and some inflammation in your nasal passages, which are not related to the stroke.",
+    "triage_priority": {
+      "rating": 5,
+      "justification": "An acute large cerebral infarct requires immediate medical intervention to minimize brain damage, prevent complications, and improve patient outcomes."
+    },
+    "red_flags": [
+      "Acute large cerebral infarct",
+      "Restricted diffusion on DWI (confirms acute ischemia)",
+      "Mass effect (effacement of adjacent sulci and mild compression of the ipsilateral lateral ventricle)"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0045\\pid_0045_response.json"
+}

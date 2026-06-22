@@ -1,0 +1,55 @@
+{
+  "pid": "pid_0082",
+  "parsed": {
+    "persona_id": "pid_0082",
+    "clinical_presentation": [
+      "Right-sided motor weakness (e.g., hemiparesis)",
+      "Speech difficulties (e.g., dysarthria)",
+      "Balance or gait disturbances",
+      "Cognitive changes (e.g., executive dysfunction)",
+      "Headaches"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute/Subacute Ischemic Stroke",
+        "justification": "The gyriform cortical T2/FLAIR hyperintensities with restricted diffusion and mild enhancement are highly characteristic of acute or subacute cortical infarction."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Chronic Lacunar Infarcts",
+        "justification": "The CSF-like lesions in the left basal ganglia and head of the right caudate nucleus without restricted diffusion are characteristic of chronic lacunar infarcts."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "MELAS Syndrome",
+        "justification": "This mitochondrial disorder can cause recurrent stroke-like episodes with gyriform cortical lesions and restricted diffusion, mimicking ischemic stroke."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist (for stroke evaluation and secondary prevention)",
+        "Cardiologist (for cardiac source evaluation)",
+        "Vascular specialist (if carotid/vertebral artery disease suspected)"
+      ],
+      "further_investigations": [
+        "Comprehensive blood work (CBC, electrolytes, renal/liver function, glucose, HbA1c, lipid panel, inflammatory markers)",
+        "ECG and Holter monitoring",
+        "Carotid Doppler ultrasound",
+        "Echocardiogram (Transthoracic +/- Transesophageal)",
+        "MRA/CTA of brain and neck vessels"
+      ],
+      "follow_up_timeline": "Urgent outpatient review with a neurologist within days for comprehensive stroke workup and secondary prevention."
+    },
+    "patient_explanation": "Your MRI scan shows a few small areas in your brain where the blood flow was reduced at some point in the past, which we call 'chronic infarcts'. These are stable and likely old. More recently, we also found a very small, fresh area of reduced blood flow in a part of your brain that helps control movement. This is a mild stroke. We need to do further tests to understand why these changes occurred and to help prevent any future problems. We also noted some inflammation in your sinuses, which is a separate finding.",
+    "triage_priority": {
+      "rating": 4,
+      "justification": "The presence of a mild acute/subacute ischemic cortical infarction (indicated by restricted diffusion) necessitates urgent clinical review and workup to identify the cause and initiate secondary prevention strategies."
+    },
+    "red_flags": [
+      "Restricted diffusion in the left fronto-parietal cortical region, indicating an acute or subacute ischemic infarction."
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0082\\pid_0082_response.json"
+}

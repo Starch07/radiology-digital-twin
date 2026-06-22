@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0041",
+  "parsed": {
+    "persona_id": "pid_0041",
+    "clinical_presentation": [
+      "Nasal congestion",
+      "Runny nose (rhinorrhea)",
+      "Sneezing",
+      "Itchy nose",
+      "Post-nasal drip"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Allergic Rhinitis",
+        "justification": "It is a very common cause of bilateral inferior nasal turbinate engorgement and rhinitis symptoms."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Non-allergic Rhinitis (Vasomotor Rhinitis)",
+        "justification": "This condition can cause chronic nasal congestion and turbinate engorgement without an allergic trigger."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Acute Viral Rhinitis",
+        "justification": "A common self-limiting infection that causes nasal turbinate engorgement and rhinitis symptoms."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT specialist)"
+      ],
+      "further_investigations": [
+        "Allergy testing",
+        "Nasal endoscopy"
+      ],
+      "follow_up_timeline": "Routine follow-up with primary care physician or ENT specialist as needed for symptom management."
+    },
+    "patient_explanation": "Your brain MRI scan showed no problems with your brain itself; everything looked normal there. However, the scan did show that the tissues inside your nose, specifically the lower parts called turbinates, are swollen. This swelling is consistent with a condition called rhinitis, which is a common cause of nasal congestion and other cold-like symptoms.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain study is normal, and the rhinitis finding is not acute or life-threatening, warranting routine outpatient management."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0041\\pid_0041_response.json"
+}

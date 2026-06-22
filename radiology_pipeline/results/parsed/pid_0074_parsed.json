@@ -1,0 +1,50 @@
+{
+  "pid": "pid_0074",
+  "parsed": {
+    "persona_id": "pid_0074",
+    "clinical_presentation": [
+      "Post-traumatic seizures",
+      "History of traumatic brain injury",
+      "Cognitive or behavioral changes (related to frontal lobe damage)",
+      "Headaches (common post-TBI)",
+      "Nasal congestion or rhinitis symptoms"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic post-traumatic encephalomalacia and gliosis",
+        "justification": "The radiological impression explicitly states 'likely chronic post-traumatic sequelae, correlating with the patient's history of traumatic brain injury and post-traumatic seizures,' supported by skull irregularity."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Remote ischemic stroke",
+        "justification": "Chronic volume loss, gliotic, and encephalomalacic changes can result from a remote ischemic event, though the history of trauma is a more direct explanation here."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Remote intracranial hemorrhage",
+        "justification": "Resolved intracranial hemorrhage can lead to chronic gliotic and encephalomalacic changes, but the explicit history of TBI and skull irregularity make trauma a more specific cause."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Neurologist (for seizure management and TBI sequelae)",
+        "Neuropsychologist (for cognitive/behavioral assessment related to frontal lobe injury)",
+        "ENT specialist (if rhinitis symptoms are persistent or severe)"
+      ],
+      "further_investigations": [
+        "EEG (to evaluate seizure activity)",
+        "Neuropsychological assessment (to quantify cognitive and behavioral deficits)"
+      ],
+      "follow_up_timeline": "Routine outpatient follow-up with relevant specialists to manage chronic conditions and symptoms."
+    },
+    "patient_explanation": "Your brain scan shows some old changes in the front part of your brain on the right side. It looks like an old injury, consistent with a past head trauma, which has caused some scarring and shrinkage in that area. This is likely related to your history of head injury and the seizures you've experienced. We also see some changes in the bone over that area and some swelling in your right sinus, which also points to an old injury. Importantly, there's no new bleeding, swelling, or urgent problems identified right now. We also noted some swelling in your nose, which is common with allergies or irritation.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The findings are described as chronic post-traumatic sequelae with no acute intracranial pathology requiring immediate intervention, and no recommendations for urgent action were specified."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0074\\pid_0074_response.json"
+}

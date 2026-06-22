@@ -1,0 +1,48 @@
+{
+  "pid": "pid_0009",
+  "parsed": {
+    "persona_id": "pid_0009",
+    "clinical_presentation": [
+      "Nasal congestion or obstruction",
+      "Facial pain or pressure (especially maxillary and frontal areas)",
+      "Headache",
+      "Post-nasal drip",
+      "Reduced sense of smell"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Acute Bacterial Rhinosinusitis",
+        "justification": "The presence of significant mucosal thickening and mild collection within the maxillary sinuses strongly suggests a bacterial infection."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Acute Viral Rhinosinusitis",
+        "justification": "Viral infections are a common cause of rhinosinusitis, presenting with mucosal thickening and turbinate engorgement, though typically less severe collection."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Allergic Rhinitis with secondary inflammation",
+        "justification": "Bilateral engorgement of nasal turbinates and mucosal thickening are characteristic of allergic rhinitis, which can predispose to or mimic sinusitis symptoms."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": null,
+      "specialist_referrals": [
+        "Otolaryngologist (ENT)"
+      ],
+      "further_investigations": [
+        "Nasal endoscopy (by ENT)",
+        "Allergy testing"
+      ],
+      "follow_up_timeline": "Routine outpatient review within weeks, especially after specialist referral for management of severe rhinosinusitis."
+    },
+    "patient_explanation": "Your brain MRI shows that your brain itself looks healthy and normal. We found a very small, harmless fluid-filled spot, called a perivascular cyst, which is a common finding and nothing to worry about. The main finding is that the lining of your sinuses (the air-filled spaces in your face) is very swollen and thick, especially in your cheeks and forehead, and there's some fluid build-up. This is what we call severe rhinosinusitis, and it's likely causing your nasal and facial symptoms.",
+    "triage_priority": {
+      "rating": 2,
+      "justification": "The brain MRI is otherwise normal, and while the rhinosinusitis is severe, there are no acute intracranial complications or urgent findings noted."
+    },
+    "red_flags": "None identified"
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0009\\pid_0009_response.json"
+}

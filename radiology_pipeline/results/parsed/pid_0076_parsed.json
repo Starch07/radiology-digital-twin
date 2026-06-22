@@ -1,0 +1,55 @@
+{
+  "pid": "pid_0076",
+  "parsed": {
+    "persona_id": "pid_0076",
+    "clinical_presentation": [
+      "Severe headache",
+      "Altered level of consciousness (e.g., drowsiness, confusion)",
+      "Nausea and vomiting",
+      "Visual disturbances (e.g., blurred vision, diplopia)",
+      "Motor weakness or other focal neurological deficits"
+    ],
+    "differential_diagnoses": [
+      {
+        "rank": 1,
+        "diagnosis": "Chronic Subdural Hematoma",
+        "justification": "The bilateral fronto-parietal-occipital subdural fluid collection with mass effect and tonsillar herniation is highly consistent with a chronic subdural hematoma, which often presents with CSF-like signal intensity on MRI."
+      },
+      {
+        "rank": 2,
+        "diagnosis": "Subdural Hygroma",
+        "justification": "A subdural hygroma, often post-traumatic or spontaneous, can also present as a bilateral subdural fluid collection with similar signal characteristics and cause significant mass effect and herniation."
+      },
+      {
+        "rank": 3,
+        "diagnosis": "Spontaneous Intracranial Hypotension",
+        "justification": "This condition can lead to diffuse subdural fluid collections (hygromas or hematomas) due to CSF leakage, resulting in brain sag, mass effect, and tonsillar herniation."
+      }
+    ],
+    "management_plan": {
+      "immediate_actions": "Urgent neurosurgical consultation and potential immediate surgical intervention to relieve intracranial pressure and decompress the brainstem.",
+      "specialist_referrals": [
+        "Neurosurgery",
+        "Neurology"
+      ],
+      "further_investigations": [
+        "Detailed neurological examination",
+        "Review of patient history (e.g., trauma, anticoagulant use, symptoms of CSF leak)",
+        "Blood tests (e.g., coagulation profile, full blood count, electrolytes)"
+      ],
+      "follow_up_timeline": "Immediate post-intervention monitoring in an intensive care unit, followed by ongoing inpatient care and rehabilitation as needed."
+    },
+    "patient_explanation": "Your brain scan shows that there is a collection of fluid on both sides of your brain, under the outer covering. This fluid is pressing significantly on your brain, causing it to be squeezed. This pressure is quite severe and has caused a critical part of your brain at the bottom to be pushed downwards, which is a serious condition that requires immediate medical attention.",
+    "triage_priority": {
+      "rating": 5,
+      "justification": "Cerebellar tonsil herniation (coning) is a life-threatening condition requiring immediate neurosurgical intervention to prevent irreversible brain damage or death."
+    },
+    "red_flags": [
+      "Significant effacement of the cerebral sulci",
+      "Effacement of the fourth ventricle",
+      "Herniation of the cerebellar tonsil through the foramen magnum by about 6mm (coning)",
+      "Mass effect"
+    ]
+  },
+  "source_file": "text_simulation\\radiology_simulation_output\\pid_0076\\pid_0076_response.json"
+}
