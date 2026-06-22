@@ -1,0 +1,101 @@
+pid,triage_priority,n_diagnoses,primary_diagnosis,red_flag_detected,mp_completeness,quality_score,parse_status
+pid_0019,5,3,Acute Ischemic Stroke,Yes,100,90,ok
+pid_0023,5,3,Acute Ischemic Stroke (Thalamic Infarct),Yes,100,100,ok
+pid_0045,5,3,Acute Ischemic Stroke,Yes,100,90,ok
+pid_0076,5,3,Chronic Subdural Hematoma,Yes,100,90,ok
+pid_0095,5,3,Meningioma,Yes,100,100,ok
+pid_0004,4,3,Vascular Dementia,Yes,100,100,ok
+pid_0006,4,3,Vertebrobasilar insufficiency,Yes,100,100,ok
+pid_0008,4,3,Lacunar Infarct,Yes,100,100,ok
+pid_0015,4,3,Subacute infarct involving the medulla oblongata and proximal cervical spinal cord,No,100,100,ok
+pid_0017,4,3,Metastasis,Yes,100,100,ok
+pid_0021,4,3,Metastatic brain lesions,Yes,100,100,ok
+pid_0028,4,3,Paraneoplastic encephalopathy,Yes,0,80,ok
+pid_0042,4,3,Acute Infarcts,Yes,100,100,ok
+pid_0062,4,3,Left cerebellar ischemic infarct,Yes,100,100,ok
+pid_0066,4,3,Ischemic Stroke (of various etiologies),No,100,100,ok
+pid_0069,4,3,Osmotic Demyelination Syndrome,Yes,100,90,ok
+pid_0082,4,3,Acute/Subacute Ischemic Stroke,Yes,75,95,ok
+pid_0083,4,3,Ischemic cortical infarction,Yes,100,100,ok
+pid_0087,4,3,Acute Ischemic Stroke,No,100,100,ok
+pid_0088,4,3,Ischemic Stroke (Infarct),Yes,100,100,ok
+pid_0092,4,3,Meningioma,Yes,100,100,ok
+pid_0093,4,3,Metastatic involvement from prior breast carcinoma,Yes,100,100,ok
+pid_0011,3,3,Cerebral small vessels ischaemic disease,No,75,95,ok
+pid_0013,3,3,Left MCA saccular aneurysm,No,100,100,ok
+pid_0027,3,3,Cerebral Small Vessel Disease (CSVD),No,100,100,ok
+pid_0029,3,3,Hypertension (Systemic Hypertension),No,75,95,ok
+pid_0033,3,3,Subacute Ischemic Stroke,No,100,100,ok
+pid_0036,3,3,Ischemic Infarcts,Yes,75,95,ok
+pid_0038,3,3,Multifocal subacute lacunar infarcts,No,100,100,ok
+pid_0048,3,3,Cerebral Small Vessel Disease (CSVD),Yes,100,100,ok
+pid_0053,3,3,Metastasis,Yes,100,100,ok
+pid_0055,3,3,Idiopathic Sixth Cranial Nerve Palsy,No,50,90,ok
+pid_0084,3,3,Information not available,No,25,75,ok
+pid_0099,3,3,Functional Neurological Disorder,Yes,100,90,ok
+pid_0001,2,3,Early Cerebral Microangiopathy (Fazekas Grade 1),No,75,95,ok
+pid_0002,2,3,Neurodegenerative disorder,No,75,95,ok
+pid_0003,2,3,Mega cisterna magna (developmental variant),No,75,95,ok
+pid_0005,2,3,Rhinosinusitis,No,75,95,ok
+pid_0009,2,3,Acute Bacterial Rhinosinusitis,No,75,95,ok
+pid_0010,2,3,Inflammatory polyp,No,75,85,ok
+pid_0012,2,3,Allergic Rhinitis,No,100,100,ok
+pid_0016,2,3,Acute Rhinosinusitis,No,100,100,ok
+pid_0020,2,3,Acute Viral Rhinosinusitis,No,75,95,ok
+pid_0022,2,3,Treated intracranial aneurysm,No,75,95,ok
+pid_0024,2,3,Chronic Rhinosinusitis,No,100,100,ok
+pid_0026,2,3,Vascular Cognitive Impairment,No,75,95,ok
+pid_0030,2,3,Alzheimer's Disease,No,75,85,ok
+pid_0031,2,3,Vascular Cognitive Impairment/Dementia,No,75,95,ok
+pid_0032,2,3,Allergic Rhinitis,No,75,95,ok
+pid_0034,2,3,Cervical spondylosis with radiculopathy,No,50,90,ok
+pid_0035,2,3,Allergic Rhinitis,No,100,100,ok
+pid_0037,2,3,Adenoidal hypertrophy,No,75,85,ok
+pid_0039,2,3,Early-onset neurodegenerative disorder,No,100,100,ok
+pid_0040,2,3,Chronic mesial temporal sclerosis,No,75,95,ok
+pid_0041,2,3,Allergic Rhinitis,No,75,85,ok
+pid_0043,2,3,Allergic Rhinitis,No,75,95,ok
+pid_0044,2,3,Allergic Rhinitis,No,100,90,ok
+pid_0046,2,3,Cerebral Small Vessel Disease (CSVD),No,75,95,ok
+pid_0047,2,3,Vascular Dementia,No,75,85,ok
+pid_0049,2,3,Rasmussen encephalitis,No,75,95,ok
+pid_0050,2,3,Rhinosinusitis,No,75,95,ok
+pid_0051,2,3,Allergic Rhinitis,No,75,95,ok
+pid_0052,2,3,Vascular Dementia,No,75,95,ok
+pid_0054,2,3,Rhinosinusitis (acute or chronic),No,75,85,ok
+pid_0056,2,3,Acute Rhinosinusitis,No,75,95,ok
+pid_0057,2,3,Chronic Small Vessel Ischemic Disease,No,75,95,ok
+pid_0058,2,3,Rhinitis,No,75,75,ok
+pid_0059,2,3,Chronic Rhinosinusitis with Nasal Polyps,No,75,85,ok
+pid_0061,2,3,Acute/Chronic Rhinosinusitis,No,75,95,ok
+pid_0063,2,3,Acute Rhinosinusitis,No,75,95,ok
+pid_0064,2,3,Primary Headache Disorder,Yes,100,100,ok
+pid_0065,2,3,Parafalcine Meningioma,No,75,95,ok
+pid_0067,2,3,Chronic Rhinosinusitis,No,75,85,ok
+pid_0068,2,3,Allergic Rhinitis,No,100,90,ok
+pid_0070,2,3,Chronic small vessel disease (FAZEKAS grade 1),No,75,95,ok
+pid_0071,2,3,Acute Rhinosinusitis,No,75,95,ok
+pid_0072,2,3,Hypertensive small vessel disease,No,75,95,ok
+pid_0073,2,3,Cerebral microvascular ischemic foci,No,75,85,ok
+pid_0074,2,3,Chronic post-traumatic encephalomalacia and gliosis,No,75,95,ok
+pid_0075,2,3,Chronic Rhinosinusitis with Nasal Polyps,No,75,85,ok
+pid_0077,2,3,Chronic Rhinitis,No,75,95,ok
+pid_0078,2,3,Subacute to chronic small vessel ischemic changes,No,75,85,ok
+pid_0079,2,3,Primary Headache Disorder,No,75,75,ok
+pid_0080,2,3,Vascular Dementia,No,75,85,ok
+pid_0081,2,3,Acoustic schwannoma,No,75,95,ok
+pid_0085,2,3,Allergic Rhinitis,No,75,95,ok
+pid_0086,2,3,Acute Rhinosinusitis,No,75,95,ok
+pid_0089,2,3,Rhinosinusitis,No,75,95,ok
+pid_0090,2,3,Normal Pressure Hydrocephalus (NPH),No,75,95,ok
+pid_0091,2,3,Chronic Rhinosinusitis,No,75,85,ok
+pid_0094,2,3,Allergic Rhinitis,No,75,95,ok
+pid_0097,2,3,Allergic Rhinitis,No,75,85,ok
+pid_0098,2,3,Chronic allergic fungal sinusitis,No,75,85,ok
+pid_0100,2,3,Chronic Rhinosinusitis,No,75,95,ok
+pid_0007,1,3,Perivascular space,No,25,85,ok
+pid_0014,1,3,Musculoskeletal chest pain,Yes,25,65,ok
+pid_0018,1,3,Rhinitis,No,100,90,ok
+pid_0025,1,3,Early microangiopathy,No,25,85,ok
+pid_0060,1,3,Paranasal sinuses retention cysts,No,50,90,ok
+pid_0096,1,3,"Primary Headache Disorder (e.g., Migraine, Tension-type headache)",No,75,95,ok
