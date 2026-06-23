@@ -48,15 +48,33 @@ html, body, [data-testid="stAppViewContainer"] {
     color: #0b0f14 !important; font-weight: 700; border: none;
     border-radius: 6px; padding: 0.55rem 1.4rem;
 }
+
+/* ─── FIXED CODE FOR THE SIDEBAR TOGGLE ─── */
 footer {visibility: hidden;}
-#MainMenu {visibility: hidden;}
-header {visibility: hidden;}
-[data-testid="collapsedControl"] {display: flex !important; visibility: visible !important;}
+
+/* Keep the header container structural but transparent so the reopen button works */
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    color: var(--text) !important;
+}
+
+/* Force the reopen arrow icon to be visible and match your accent color */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    color: var(--accent) !important;
+}
+
+/* Hide the main menu hamburger, toolbar, and decoration lines cleanly */
+[data-testid="stToolbar"], #MainMenu, .stDeployButton, #stDecoration {
+    display: none !important;
+    visibility: hidden !important;
+}
+
 section[data-testid="stSidebar"] {min-width: 250px !important;}
 div[data-testid="stSidebarCollapseButton"] {display: flex !important;}
-.stDeployButton {display: none !important;}
-#stDecoration {display: none !important;}
-div[data-testid="stToolbar"] {display: none !important;}
+/* ───────────────────────────────────────── */
+
 </style>
 """, unsafe_allow_html=True)
 
