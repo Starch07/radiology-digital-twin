@@ -49,27 +49,21 @@ html, body, [data-testid="stAppViewContainer"] {
     border-radius: 6px; padding: 0.55rem 1.4rem;
 }
 
-/* ─── SIDEBAR TOGGLE RECOVERY ─── */
-footer {visibility: hidden;}
+/* ─── SAFE SIDEBAR TOGGLE SPECS ─── */
+/* We leave the main 'header' alone so the arrow button never breaks or disappears! */
+footer {visibility: hidden !important;}
 
-header[data-testid="stHeader"] {
-    background: transparent !important;
-    color: var(--text) !important;
-}
+/* We ONLY hide the specific top items we don't want to see */
+.stDeployButton {display: none !important;}
+[data-testid="stToolbar"] {display: none !important;}
+#stDecoration {display: none !important;}
 
-[data-testid="collapsedControl"] {
-    display: flex !important;
-    visibility: visible !important;
+/* We style the arrow toggle to stand out beautifully against your dark theme */
+[data-testid="collapsedControl"] button {
     color: var(--accent) !important;
+    background-color: var(--surface) !important;
+    border: 1px solid var(--border) !important;
 }
-
-[data-testid="stToolbar"], #MainMenu, .stDeployButton, #stDecoration {
-    display: none !important;
-    visibility: hidden !important;
-}
-
-section[data-testid="stSidebar"] {min-width: 250px !important;}
-div[data-testid="stSidebarCollapseButton"] {display: flex !important;}
 </style>
 """, unsafe_allow_html=True)
 
