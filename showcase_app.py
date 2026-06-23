@@ -49,23 +49,20 @@ html, body, [data-testid="stAppViewContainer"] {
     border-radius: 6px; padding: 0.55rem 1.4rem;
 }
 
-/* ─── FIXED CODE FOR THE SIDEBAR TOGGLE ─── */
+/* ─── SIDEBAR TOGGLE RECOVERY ─── */
 footer {visibility: hidden;}
 
-/* Keep the header container structural but transparent so the reopen button works */
 header[data-testid="stHeader"] {
     background: transparent !important;
     color: var(--text) !important;
 }
 
-/* Force the reopen arrow icon to be visible and match your accent color */
 [data-testid="collapsedControl"] {
     display: flex !important;
     visibility: visible !important;
     color: var(--accent) !important;
 }
 
-/* Hide the main menu hamburger, toolbar, and decoration lines cleanly */
 [data-testid="stToolbar"], #MainMenu, .stDeployButton, #stDecoration {
     display: none !important;
     visibility: hidden !important;
@@ -73,8 +70,6 @@ header[data-testid="stHeader"] {
 
 section[data-testid="stSidebar"] {min-width: 250px !important;}
 div[data-testid="stSidebarCollapseButton"] {display: flex !important;}
-/* ───────────────────────────────────────── */
-
 </style>
 """, unsafe_allow_html=True)
 
@@ -207,7 +202,6 @@ elif page == "📊 Results Dashboard":
     st.markdown("*AI-powered analysis of 100 brain MRI radiology reports*")
     st.markdown("---")
 
-    # Show key stats even without dashboard file
     c1,c2,c3,c4 = st.columns(4)
     for col,(num,label,color) in zip([c1,c2,c3,c4],[
         ("100","Total Patients","#00d4aa"),
@@ -223,7 +217,6 @@ elif page == "📊 Results Dashboard":
 
     st.markdown("")
 
-    # Triage distribution
     st.markdown("### 📊 Triage Priority Distribution")
     st.markdown("""
     <div class="section-card">
@@ -281,7 +274,6 @@ elif page == "🔬 Model Evaluation":
 
     st.markdown("")
 
-    # Metrics table - always shows
     st.markdown("### 📋 Detailed Evaluation Metrics")
     import pandas as pd
     metrics_df = pd.DataFrame({
@@ -330,7 +322,6 @@ elif page == "🔬 Model Evaluation":
     </div>
     """, unsafe_allow_html=True)
 
-    # Show eval plots if available
     eval_plots = [
         ("Performance Dashboard", f"{EVAL_DIR}/eval1_performance_dashboard.png"),
         ("Performance Radar",     f"{EVAL_DIR}/eval2_performance_radar.png"),
@@ -380,22 +371,6 @@ elif page == "📈 Enhanced Visualizations":
           <b style="color:#00d4aa">ℹ️ About the visualizations</b><br><br>
           This project generated <b style="color:#e2e8f0">21 publication-quality visualizations</b>
           including 13 static figures and 8 animated GIFs.<br><br>
-          The visualizations include:<br>
-          • Clinical Command Centre Dashboard (6-panel overview)<br>
-          • Diagnosis Landscape (proportional & breakdown charts)<br>
-          • Priority × Diagnosis Heatmap<br>
-          • Referral Sunburst (polar chart)<br>
-          • Severity Spectrum Bubble Chart<br>
-          • Investigation Complexity Waterfall<br>
-          • Patient Journey Alluvial Diagram<br>
-          • Correlation Matrix of clinical metrics<br>
-          • Investigation Arsenal by Priority<br>
-          • Triage Justification Word Cloud<br>
-          • Referral Co-occurrence Network<br>
-          • Complexity Radar per Priority<br>
-          • Follow-up Urgency Spectrum<br><br>
-          <b style="color:#e2e8f0">8 Animations:</b> Triage Tally, Red Flag Wave, Referral Build-Up,
-          Acuity Timeline, Morphing Radar, Network Growth, Investigation Race, Priority Grid Pulse<br><br>
           <i style="color:#64748b">Note: Images are stored locally. Run the app locally to view all visualizations.</i>
         </div>
         </div>
@@ -406,7 +381,6 @@ elif page == "📈 Enhanced Visualizations":
             for name in unavailable.keys():
                 st.markdown(f"• {name}")
 
-    # Animations section
     st.markdown("---")
     st.markdown("### 🎬 Animations")
     anim_options = {
@@ -450,25 +424,7 @@ elif page == "🧠 RadPersona App":
     """, unsafe_allow_html=True)
 
     st.markdown("### 🚀 Try the RadPersona App")
-    st.info("Run locally with: `streamlit run app.py` — or the full app is integrated in this repository.")
-
-    # Embed the actual app functionality
-    try:
-        import pdfplumber, io, zipfile, csv
-        from datetime import datetime
-
-        st.markdown("#### Upload Radiology PDF Reports")
-        uploaded_files = st.file_uploader(
-            "Upload PDF radiology reports",
-            type=["pdf"],
-            accept_multiple_files=True,
-            key="pdf_uploader"
-        )
-        if uploaded_files:
-            st.success(f"✅ {len(uploaded_files)} file(s) uploaded successfully!")
-            st.info("Full processing available when running locally with app.py")
-    except ImportError:
-        st.warning("PDF processing libraries not available in this deployment.")
+    st.info("Run locally with: `streamlit run app.py`")
 
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -492,45 +448,5 @@ elif page == "📋 About & Methods":
         <b style="color:#e2e8f0">Framework:</b> Radiology Digital Twin Pipeline<br>
         <b style="color:#e2e8f0">Year:</b> 2026
       </div>
-    </div>
-
-    <div class="section-card" style="margin-top:1rem">
-      <div style="font-size:1rem;font-weight:700;color:#e2e8f0;margin-bottom:0.75rem">🔧 Pipeline Stages</div>
-      <div style="font-size:0.875rem;color:#94a3b8;line-height:2">
-        <b style="color:#00d4aa">Stage 1</b> · RadPersona App — PDF extraction & anonymization<br>
-        <b style="color:#00d4aa">Stage 2</b> · Persona Preparation — PID mapping & organization<br>
-        <b style="color:#00d4aa">Stage 3</b> · Question Generation — 6 clinical domain questions<br>
-        <b style="color:#00d4aa">Stage 4</b> · Simulation Input — Persona + questions combined<br>
-        <b style="color:#00d4aa">Stage 5</b> · LLM Simulation — Gemini AI clinical assessment<br>
-        <b style="color:#00d4aa">Stage 6</b> · Postprocessing — Results compilation & visualization
-      </div>
-    </div>
-
-    <div class="section-card" style="margin-top:1rem">
-      <div style="font-size:1rem;font-weight:700;color:#e2e8f0;margin-bottom:0.75rem">🛠️ Technologies Used</div>
-      <div style="font-size:0.875rem;color:#94a3b8;line-height:2">
-        Python &nbsp;·&nbsp; Streamlit &nbsp;·&nbsp; Google Gemini AI &nbsp;·&nbsp;
-        PDFPlumber &nbsp;·&nbsp; Matplotlib &nbsp;·&nbsp; NumPy &nbsp;·&nbsp; Pandas
-      </div>
-    </div>
-
-    <div class="section-card" style="margin-top:1rem">
-      <div style="font-size:1rem;font-weight:700;color:#e2e8f0;margin-bottom:0.75rem">📊 Model Performance Summary</div>
-      <div style="font-size:0.875rem;color:#94a3b8;line-height:2">
-        <b style="color:#e2e8f0">Overall Score:</b> <b style="color:#00d4aa">89.4/100</b><br>
-        <b style="color:#e2e8f0">Parse Rate:</b> 100% — All 100 patients successfully processed<br>
-        <b style="color:#e2e8f0">Response Quality:</b> 93.1/100 — 78% rated Excellent<br>
-        <b style="color:#e2e8f0">Clinical Plausibility:</b> 90% — Clinically sound AI reasoning<br>
-        <b style="color:#e2e8f0">DD Completeness:</b> 100% — All patients received ranked diagnoses
-      </div>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown("---")
-    st.markdown("""
-    <div style="text-align:center;font-size:0.8rem;color:#475569;font-family:'DM Mono',monospace">
-      Federal University of Technology Minna &nbsp;·&nbsp;
-      School of Physical Sciences &nbsp;·&nbsp;
-      Department of Physics © 2026
     </div>
     """, unsafe_allow_html=True)
